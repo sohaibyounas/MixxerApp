@@ -1,42 +1,58 @@
-.hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
-    height: 50%;
-    /* background-position: center;
-    background-repeat: no-repeat; */
+.fimg{
+    /* Set the background image */
+  background-image: url('./images/2.jpg');
+  /* Set the background image to cover the entire page */
+  background-size: cover;
+  /* Fix the background image */
+  background-attachment: fixed;
+}
+
+.divider{
+    background-color: gray;
+    margin: 0;
+    padding-top: 2px;
+    color: black;
+    width: 100%;
+    height: 10px;
+}
+
+.menuimg {
+    /* Set the background image */
+    background-image: url('./images/3.jpg');
+    /* Set the background image to cover the entire page */
     background-size: cover;
-    position: relative;
+    /* Fix the background image */
+    background-attachment: fixed;
   }
 
-.container img{
-    width: 1000px;
-    height: 250px;
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    background-size: cover;
-}
-
-.line{
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(150, 150, 165);
-    color: aliceblue;
+  .overlay{
+    position: absolute;
+    top: 20px;
+    left: 60px;
     width: 100%;
-    height: 20px;
-}
-/* 
-.image{
- background-attachment: fixed;
- background-position:center; 
-} */
- 
-.text{
-    font-size: 24px;
-    text-align: left;
-    color: black;
-    /* margin-bottom: 5px;   */
-}
-/* .container{
+    height: 100%;
     display: flex;
-    text-align: center;
-    justify-content: center;
-} */
+    justify-content: left;
+    align-items: top;
+    color: #fff; /* change the text color as needed */
+    font-size: 24px; /* change the font size as needed */
+  }
+
+  .fimg, .menuimg {
+    position: relative; /* add this to make the overlay absolute */
+  }
+  
+  .nav-item a{
+    text-decoration: none;
+    text-align: right;
+    color: rgb(194, 36, 36);
+    position: relative;
+    top: 20px;
+    /* left: 60px; */
+    width: 100%;
+    height: 100%;
+    display: flex; */
+    justify-content: left;
+    align-items: top;
+
+  }
