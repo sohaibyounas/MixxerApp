@@ -3,45 +3,53 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mixer App</title>
+    <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <!-- 1st img div -->
+     <div class="fimg">
+    <img src="./images/2.jpg"  alt="image" width="100%"  height="30%">
 
-    <!-- 1st image div -->
-    <div class="container">
-        <img src="./images/4.jpg" alt="Wallpaper">
+    </div>
+
+    <!-- 2nd div for divider-->
+     <div class="divider"> </div>
+
+    <!--3rd Div for Menu -->
+    <div class="menuimg">
+      <img src="./images/3.jpg"  alt="image" width="100%"  height="30%">
+      <div class="overlay">
+        <h1><b><i>MIXER</b></i></h1>
       </div>
-
-      <!-- 2nd seperation div -->
-      <div class="line"> </div> 
-
-      <!-- 3rd Menu div -->
+      <!-- Menu -->
       <div class="container">
-        <img src="./images/5.jpg" alt="Wallpaper">
-      <div class="nav">
-          
-        <div class="text">
-            <h1>MIXER</h1>
-        </div>
+        <div class="navbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
 
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
           </ul>
         </div>
-       </div>
+
+      </div>
+
+
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
