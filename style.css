@@ -3,91 +3,68 @@
     margin: 0;
 }
 
-.fimg{
-    /* Set the background image */
-  /* background-image: url('./images/2.jpg'); */
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  display: block;
-}
-
-.divider{
-    background-color: rgb(21, 21, 21);
-    margin: 0;
-    padding-top: 2px;
+.bgimg{
+    position: relative;
     width: 100%;
-    height: 10px;
-}
-
-.mimg {
-    /* Set the background image */
-    background-image: url('./images/3.jpg');
+    height: 100%;
+    background-image: url(./images/bg.png);
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
-  }
-
-  .overlay{
-    position: absolute;
-    top: 20px;
-    left: 60px;
-    color: #cb5b5b; 
-    float: left;
+    background-repeat: no-repeat;
 }
 
-.overlay2 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width:100%;
-    height: 10%;
-    position: absolute;
-  }
-
-.overlay img{
-    width: 20%;
-    height: 10%;
-    top: 20px;
-}
-
-.mimg {
-    position: relative; /* add this to make the overlay absolute */
-  }
-  
-  .navbar {
+.nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #6c1b1b;
-    padding: 10px;
-    top: 20;
+    width: 80%;
+    padding-top: 40px;
     /* position: relative; */
+    /* margin-bottom: 20px; */
+    gap: 30px;
 }
 
-.nav-links{
-    list-style-type: none;
+.logo{
+    background-image: url(./images/whitelogo.png);
+    background-position:center;
+    background-size: cover;
+}
+
+/* .nav-link {
+    position: absolute;
+    width: 100%;
     display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-links{
-    margin-left: 20px;
-}
-
-.nav-links a{
+    justify-content: space-between;
+    align-items: center;
+} */
+.nav-link li a{
     text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{
-    display: flexbox;
+    display: flex;
+    justify-content: left;
     align-items: center;
-    justify-content: center;
-    float: right;
-    flex-direction: row;
-    align-items: flex-end;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
 
+.playstore{
+    background-image: url(./images/appstore.png);
+    background-image: url(./images/playstore.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
 }
