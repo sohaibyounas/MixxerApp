@@ -51,3 +51,15 @@
     font-weight: lighter;
     font-family: 'SF Pro Display', sans-serif;
 }
+
+.btn{
+    border-radius: 8px;
+    padding: 1%;
+    background-color: #7E6C54;
+    color: white;
+    border-radius: 1px solid white;
+}
+
+.btn:hover{
+    color: white;
+}
