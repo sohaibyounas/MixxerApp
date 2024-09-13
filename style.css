@@ -43,11 +43,10 @@
     font-weight: bold;
     font-family: 'SF Pro Display', sans-serif;
     color: white;
-    font-weight: bold;
 }
 .container p{
     color: white;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: lighter;
     font-family: 'SF Pro Display', sans-serif;
 }
@@ -62,4 +61,10 @@
 
 .btn:hover{
     color: white;
+}
+
+.store img{
+    
+    width: 200px;
+    height: 80px;
 }
