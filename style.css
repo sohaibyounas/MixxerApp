@@ -35,3 +35,19 @@
     margin-right: 10px;
     font-weight: normal;
 }
+
+.container h1{
+    width: 80%;
+    /* margin-top: 40px; */
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'SF Pro Display', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.container p{
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'SF Pro Display', sans-serif;
+}
