@@ -29,6 +29,10 @@
     text-decoration: none;
     color: white;
     font-size: 18px;
+    font-weight: bold;
     font-family: 'SF Pro Display', sans-serif;
-    list-style-type: none !important;
 }
+
+/* .nav-link ul{
+    list-style-type: none !important;
+} */
