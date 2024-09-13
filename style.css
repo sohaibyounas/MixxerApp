@@ -31,8 +31,7 @@
     font-size: 18px;
     font-weight: bold;
     font-family: 'SF Pro Display', sans-serif;
+    padding: 5px;
+    margin-right: 10px;
+    font-weight: normal;
 }
-
-/* .nav-link ul{
-    list-style-type: none !important;
-} */
