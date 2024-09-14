@@ -1,10 +1,20 @@
+@font-face{
+    font-family: sf-prodisplay-regular;
+    src: url(./Font/SFPRODISPLAYREGULAR.OTF);
+}
+
+@font-face{
+    font-family: sf-prodisplay-medium;
+    src: url(./Font/SFPRODISPLAYMEDIUM.OTF);
+}
+
 *{
     padding: 0;
     margin: 0;
 }
-.div{
+/* .div{
     height: 100vh;
-}
+} */
 
 .bg-img{
     position: relative;
@@ -28,9 +38,6 @@
     align-items: center;
     text-decoration: none;
     color: white;
-    font-size: 18px;
-    font-weight: bold;
-    font-family: 'SF Pro Display', sans-serif;
     padding: 5px;
     margin-right: 10px;
     font-weight: normal;
@@ -38,25 +45,26 @@
 
 .container h1{
     width: 80%;
-    /* margin-top: 40px; */
     font-size: 48px;
     font-weight: bold;
-    font-family: 'SF Pro Display', sans-serif;
+    font-family: ;
     color: white;
 }
 .container p{
     color: white;
     font-size: 24px;
     font-weight: lighter;
-    font-family: 'SF Pro Display', sans-serif;
+    font-family: 'sf-prodisplay-medium';
 }
 
-.btn{
-    border-radius: 8px;
-    padding: 1%;
+.container .btn{
+    border-radius: 12px;
+    padding: 8px 18px;
     background-color: #7E6C54;
     color: white;
-    border-radius: 1px solid white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'sf-prodisplay-medium';
 }
 
 .btn:hover{
@@ -64,7 +72,5 @@
 }
 
 .store img{
-    
     width: 200px;
-    height: 80px;
 }
