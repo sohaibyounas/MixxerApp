@@ -14,7 +14,7 @@
 }
 /* .div{
     height: 100vh;
-} */
+} */ 
 
 .bg-img{
     position: relative;
@@ -44,10 +44,10 @@
 }
 
 .container h1{
-    width: 80%;
+    /* width: 80%; */
     font-size: 48px;
     font-weight: bold;
-    font-family: ;
+    font-family: 'sf-prodisplay-medium';
     color: white;
 }
 .container p{
