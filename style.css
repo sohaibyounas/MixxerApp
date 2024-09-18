@@ -105,3 +105,13 @@
 .c2 .im{
     padding-top: 10px;
 }
+
+.c2 .new{
+    position: relative;
+
+}
+
+.c2 .ne{
+    position: absolute;
+    float: left;
+}
