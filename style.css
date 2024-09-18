@@ -77,13 +77,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    column-count: 12;
+}
+.about-section .row{
+    width: 100%;
 }
 
 .about-section .c1{
    float: left;
    justify-content: space-around;
    align-items: center;
+   column-count: 6;
 }
 
 .c1 img{
@@ -105,4 +109,5 @@
 }
 .about-section .c2 {
     float: left; 
+    column-count: 6;
  }
