@@ -77,9 +77,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    column-count: 12;
-}
-.about-section .row{
     width: 100%;
 }
 
@@ -87,13 +84,11 @@
    float: left;
    justify-content: space-around;
    align-items: center;
-   column-count: 6;
 }
 
 .c1 img{
-    padding-top: 20px;
+    padding-top: 50px;
     padding-left: 80px;
-
 }
 
 .atext{
@@ -104,10 +99,9 @@
 .c1 p{
     padding-top: 5px;
     width: 404px;
-    height: 330px;
-    
+    height: 330px;    
 }
-.about-section .c2 {
-    float: left; 
-    column-count: 6;
- }
+
+.c2 .im{
+    padding-top: 40px;
+}
