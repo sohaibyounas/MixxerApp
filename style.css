@@ -77,7 +77,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
 }
 
 .about-section .c1{
@@ -108,7 +108,7 @@
 
 .c2 .new{
     position: relative;
-
+    padding-right: 0;
 }
 
 .c2 .ne{
