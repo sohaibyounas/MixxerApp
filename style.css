@@ -80,12 +80,6 @@
     width: 90%;
 }
 
-.about-section .c1{
-   float: left;
-   justify-content: space-around;
-   align-items: center;
-}
-
 .c1 img{
     padding-top: 50px;
     padding-left: 80px;
@@ -96,10 +90,10 @@
     padding-top: 50px;
 }
 
-.c1 p{
+.atext .c1 p{
     padding-top: 5px;
     width: 404px;
-    height: 330px;    
+    height: 330px;
 }
 
 .c2 .im{
@@ -107,11 +101,21 @@
 }
 
 .c2 .new{
-    position: relative;
+    /* position: relative; */
     padding-right: 0;
+    padding-top: 50px;
 }
 
 .c2 .ne{
-    position: absolute;
+    /* position: absolute; */
     float: left;
+    padding-top: 45px;
+    width: 300px;
 }
+
+
+
+/* clip path */
+/* .clpi-path:polygon{
+    100% 0, 100% 83%, 35% 100%, 0% 100%, 0 51%, 0% 0%
+} */
