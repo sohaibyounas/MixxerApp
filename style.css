@@ -1,121 +1,132 @@
-@font-face{
+@font-face {
     font-family: sf-prodisplay-regular;
-    src: url(./Font/SFPRODISPLAYREGULAR.OTF);
+    src: url(sf-pro-display-cufonfonts/SFPRODISPLAYREGULAR.OTF);
 }
 
-@font-face{
+@font-face {
     font-family: sf-prodisplay-medium;
-    src: url(./Font/SFPRODISPLAYMEDIUM.OTF);
+    src: url(sf-pro-display-cufonfonts/SFPRODISPLAYMEDIUM.OTF);
+}
+
+@font-face {
+    font-family: MADE Tommy Soft;
+    src: url(MADETommySoftRegularPERSONALUSE.otf);
 }
 
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
-.bg-img{
-    position: relative;
+.bgimg img{
     width: 100%;
-    height: 100%;
-    background-image: url(./images/bg.png);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    height: auto;
+}
+
+.logo{
+    width: 200px;
+
+}
+.link{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    float: right;
+    
 }
 
 .logo img{
+    top: 0;
+    position: absolute !important;
     width: 200px;
+    margin-top: 20px;
+
+} 
+
+ .navbar{
+    top: 0;
+    z-index: 1;
+    float: right;
+}
+.nav{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    position: absolute;
+    top: 0;
 }
 
-.nav-link li a{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    padding: 5px;
-    margin-right: 10px;
-    font-weight: normal;
-}
+.nav img{
+    width: 200px; 
+} 
 
-.area h1{
-    font-size: 48px;
-    font-weight: bold;
-    font-family: 'sf-prodisplay-medium';
-    color: white;
-}
-.area p{
-    color: white;
-    font-size: 24px;
-    font-weight: lighter;
-    font-family: 'sf-prodisplay-medium';
-}
-
-.area .btn{
-    border-radius: 12px;
-    padding: 8px 18px;
-    background-color: #7E6C54;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    font-family: 'sf-prodisplay-medium';
-}
-
-.btn:hover{
-    color: white;
+.text{
+    position: absolute;
+    top: 100px;
 }
 
 .store img{
     width: 200px;
 }
 
-/* about section */
-
-.about-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
+.btn{
+    border-radius: 22px;
+    color: white;
+    background-color: #7E6C54;
+    padding: 6px 8px;
+    border-color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-.c1 img{
+.btn:hover{
+    color: rgb(255, 255, 255);
+}
+ 
+.text h1{
+    width: 782px;
+    color: white;
+}
+.text p{
+    width: 606px;
+    color: white;
+}
+
+.c1 img {
     padding-top: 50px;
-    padding-left: 80px;
 }
 
-.atext{
-    padding-left: 80px;
-    padding-top: 50px;
+.aboutbgimg{
+    background-image: url(./Images/ab-bg.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.atext .c1 p{
-    padding-top: 5px;
+.txt{
+    margin-top: 20px;
+}
+
+.txt h3{
+    font-family: 'MADE Tommy Soft';
+    width: 397px;
+    height: 45px;
+}
+
+.txt p{
+    font-family: 'MADE Tommy Soft';
     width: 404px;
     height: 330px;
 }
 
-.c2 .im{
-    padding-top: 10px;
+.about{
+    padding-left: 50px;
 }
 
-.c2 .new{
-    /* position: relative; */
-    padding-right: 0;
-    padding-top: 50px;
+.about img2{
+    padding-top: 40px;
 }
 
-.c2 .ne{
-    /* position: absolute; */
-    float: left;
-    padding-top: 45px;
-    width: 300px;
+.about img3{
+    padding-top: 70px;
 }
-
-
-
-/* clip path */
-/* .clpi-path:polygon{
-    100% 0, 100% 83%, 35% 100%, 0% 100%, 0 51%, 0% 0%
-} */

@@ -1,121 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mixer App</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- main -->
-    <div class="div">
-      <div class="bg-img">
-        <!-- bgimage here -->
+      crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <!-- bgimage -->
+            <div class="bgimg position-relative" >
+              <img src="./Images/bg.png" alt="bgimg">
+ <!-- Logo & Navbar -->
+              <div class="container">
+                <div class="nav gap-lg-5 mt-4">    
+                  <img src="./Images/whitelogo.png" alt="Mixer"/>
 
-        <div class="container">
-          <div class="main">
-            <div class="nav d-flex justify-content-between align-items-center">
-              <!-- Logo and Navbar  -->
-              <div class="logo">
-                <img src="./images/whitelogo.png" alt="Mixer" />
-              </div>
-
-              <!--navbar  -->
-              <div class="navbar">
-                <ul
-                  class="nav-link d-flex align-items-center gap-5 list-unstyled mt-md-3" >
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Features</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">FAQ's</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <!-- Text Area -->
-        <div class="container mt-5">
-          <div class="area">
-            <h1>Ready to amplify your social life?</h1>
-            <p>
-              Experience the next level of social networking with Mixxer.<br />
-              Download Mixxer now and let the adventure begin!
-            </p>
-            <button class="btn">Download the App</button>
-
-            <div class="store pt-5 pb-xl-5">
-              <img src="./images/playstore.png" alt="Playstore" /><br />
-              <img src="./images/appstore.png" alt="AppleStore" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- bg img end here -->
-
-      <!-- About Section start -->
-      <div class="container">
-        <div class="row">
-          <div class="about-section">
-            <div class="col-md-6">
-              <div class="c1">
-                <img src="./images/about-img1.png" width="438px" />
-                <div class="atext">
-                  <h3>About Mixer</h3>
-                  <p>
-                    Mixxer is a vibrant social app designed to enhance your
-                    social life by making it easy to plan and organize
-                    one-on-one and small group outings with friends or new
-                    acquaintances. Founded by the dynamic husband and wife duo,
-                    Dallas and Charity Locke, Mixxer is based in the heart of
-                    Houston, Texas. Dallas brings his expertise in automation
-                    engineering, while Charity's background in Marketing
-                    Analytics adds a strategic edge to the company.
-                  </p>
+                    <ul class="menu gap-3 d-flex mt-3 list-unstyled text-decoration-none ms-5 ">
+                      <li><a href="#home"     class="ne text-decoration-none text-white">Home</a></li>
+                      <li><a href="#features" class="ne text-decoration-none text-white">Features</a></li>
+                      <li><a href="#faq's"    class="ne text-decoration-none text-white">FAQ's</a></li>
+                      <li><a href="#contact"  class="ne text-decoration-none text-white">Contact</a></li>
+                    </ul>
                 </div>
-              </div>
-            </div>
-            <!-- col2 images -->
-            <div class="col-md-6">
-              <div class="c2">
-                <img
-                  src="./images/about-img2.png"
-                  alt="gtug"
-                  width="524px"
-                  class="im"
-                />
-                <div class="d-flex align-items-center gap-3">
-                  <img
-                    src="./images/about-img3.png"
-                    alt="68688"
-                    width="283px"
-                    class="new"
-                  />
-                  <img
-                    src="./images/about-img4.png"
-                    alt=""
-                    width="379px"
-                    class="ne"
-                  />
+              </div> 
+
+<!-- text area -->
+               <div class="container">
+                <div class="text mt-5">
+                  <h1>Ready to amplify your social life?</h1>
+                  <p>Experience the next level of social networking with Mixxer.
+                    Download Mixxer now and let the adventure begin!</p>
+                    <button type="button" class="btn">Download the App</button><br>
+                    <div class="store ">
+                      <img src="./Images/playstore.png" alt="playstore"> <br>
+                      <img src="./Images/appstore.png" alt="applestote">
+                    </div>
                 </div>
+               </div>
+<!-- About  -->
+               <div class="aboutbgimg">
+               <div class="container">
+                <div class="row">
+                  <div class="c1 col-md-4">
+                    <img src="./Images/about-img1.png" alt="About" >
+                    <div class="txt">
+                    <h3>About Mixer</h3>
+                    <p>Mixxer is a vibrant social app designed to enhance your social life by making it easy to plan and organize one-on-one and small group outings with friends or new acquaintances. Founded by the dynamic husband and wife duo, Dallas and Charity Locke, Mixxer is based in the heart of Houston, Texas. Dallas brings his expertise in automation engineering, while Charity's background in Marketing Analytics adds a strategic edge to the company.</p>
+                  </div>
+                  </div>
+<!-- c2 images -->
+                  <div class="col-md-8">
+                    <div class="about">
+                      <img src="./Images/about-img2.png" alt="about" class="img1" style="width:524px; height:309px;">
+                      <div class="d-flex align-items-center gap-3">
+                        <img src="./Images/about-img3.png" alt="about" class="img2" style="width:283px; height:261px;">
+                        <img src="./Images/about-img4.png" alt="about" class="img3" style="width:379px; height:421px;">
+                      </div> 
+                    </div> 
+                  </div>
+
+                </div>
+
+               </div>
               </div>
+               
+
             </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- main end here -->
-    </div>
-
+<!-- bgimg end -->
+    
+    <script src="https://kit.fontawesome.com/a68e403577.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-  </script>
-  </body>
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
 </html>
