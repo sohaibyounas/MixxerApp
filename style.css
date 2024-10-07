@@ -123,10 +123,16 @@
     padding-left: 50px;
 }
 
-.about img2{
-    padding-top: 40px;
+.ctn{
+    padding-top: 150px;
 }
 
-.about img3{
-    padding-top: 70px;
+.stext{
+    font-family: sf-prodisplay-medium;
+    color: #473D2F;
+    padding-top: 150px;
+}
+
+.stext p{
+    padding-top: 30px;
 }
