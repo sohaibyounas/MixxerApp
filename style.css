@@ -170,6 +170,7 @@
 }
 
 .eimg img{
+    float: right;
     width: 1000px;
     height: 1000px;
     /* padding-bottom: 500px; */
