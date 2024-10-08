@@ -137,3 +137,40 @@
     padding-top: 30px;
     padding-left: 27px;
 }
+
+.bg-img{
+    background-image: url(./Images/export-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.essentials{
+    position: relative;
+    padding-left: 300px;
+    padding-top: 50px;
+    color: white;
+    font-size: 48px;
+    font-family: 'MADE Tommy Soft';
+}
+
+.etxt{
+    position: absolute;
+}
+
+.etext1 img{
+    width: 232px;
+    height: 4px;
+}
+
+.etext1 p{
+    width: 482px;
+}
+
+.eimg img{
+    width: 1000px;
+    height: 1000px;
+    /* padding-bottom: 500px; */
+}
