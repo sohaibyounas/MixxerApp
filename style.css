@@ -167,15 +167,13 @@
 }
 
 .etext1 p{
-    width: 482px;
+    width: 400px;
 }
 
 .eimg img{
-    float: right;
-    padding-right: 200px;
-    width: 1000px;
-    height: 1000px;
-    /* padding-bottom: 500px; */
+    width: 850px;
+    height: 800px;
+    padding: 55px 0px 0px 250px
 }
 
 .rect{
