@@ -8,10 +8,10 @@
     src: url(./Font/SFPRODISPLAYMEDIUM.OTF);
 }
 
-/* @font-face {
+@font-face {
     font-family: MADE-Tommy-Soft;
     src: url(./Font/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf);
-} */
+}
 
 @font-face {
     font-family: MADE-Tommy-Soft;
@@ -21,11 +21,6 @@
 @font-face {
     font-family: MADE-Tommy-Soft-light;
     src: url(./Font/made_tommy_soft/MADE\ Tommy\ Soft\ Light\ PERSONAL\ USE.otf);
-}
-
-@font-face {
-    font-family: MADE-Tommy-Soft-medium;
-    src: url(./Font/made_tommy_soft/MADE\ Tommy\ Soft\ Medium\ PERSONAL\ USE.otf);
 }
 
 *{
@@ -124,18 +119,17 @@
 }
 
 .txt h3{
-    font-family: MADE-Tommy-Soft;
+    font-family: MADE Tommy Soft;
     width: 397px;
     height: 45px;
 }
 
 .txt p{
-    font-family: MADE-Tommy-Soft;
+    font-family: MADE-Tommy-Soft-light;
     width: 404px;
     height: 330px;
     padding-right: 65px;
     text-align: justify;
-    color: #655f5f;
 }
 
 .about{
@@ -147,7 +141,7 @@
 }
 
 .stext h1{
-    font-family: MADE-Tommy-Soft;
+    font-family: sf-prodisplay-medium;
     color: #473D2F;
     padding-top: 150px;
 }
@@ -155,8 +149,6 @@
 .stext p{
     padding: 10px 0px 0px 27px;
     text-align: justify;
-    color: #342d23;
-    font-family: MADE-Tommy-Soft;
 }
 
 
@@ -276,8 +268,7 @@
 
 .social p{
     font-size: 20px;
-    font-family: MADE-Tommy-Soft-medium;
-    color: #342d23;
+    font-family: MADE-Tommy-Soft;
     text-align: justify;
     padding: 10px 260px 10px 260px;
 }
@@ -298,8 +289,8 @@
 .ctxt p{
     padding-right: 90px;
     font-size: 16px;
-    font-family: MADE-Tommy-Soft;
-    text-align: justify;
+     font-family: MADE-Tommy-Soft-light;
+     text-align: justify;
 }
 
 /* c1 text */
@@ -319,7 +310,7 @@
 }
 .s1 p{
     font-size: 16px;
-    font-family: MADE-Tommy-Soft;
+    font-family: MADE-Tommy-Soft-light;
     text-align: justify;
 }
 
@@ -338,7 +329,7 @@
 .s2 p{
     padding-top: 7px;
     font-size: 16px;
-    font-family: MADE-Tommy-Soft;
+    font-family: MADE-Tommy-Soft-light;
     text-align: justify;
 } 
 
@@ -348,15 +339,15 @@
 }
 
 .ce3 h2{
-    padding: 10px 0px 0px 5px;
+    padding: 10px 0px 0px 10px;
     color: #988265;
-    font-size: 16px;
+    font-size: 14px;
     font-family: MADE-Tommy-Soft;
 }
 
 .s3 p{
     font-size: 16px;
-    font-family: MADE-Tommy-Soft;
+    font-family: MADE-Tommy-Soft-light;
     text-align: justify;
 }
 
@@ -374,6 +365,6 @@
 
 .s4 p{
     font-size: 16px;
-    font-family: MADE-Tommy-Soft;
+    font-family: MADE-Tommy-Soft-light;
     text-align: justify;
 }
