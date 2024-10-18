@@ -8,10 +8,10 @@
     src: url(./Font/SFPRODISPLAYMEDIUM.OTF);
 }
 
-@font-face {
+/* @font-face {
     font-family: MADE-Tommy-Soft;
     src: url(./Font/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf);
-}
+} */
 
 @font-face {
     font-family: MADE-Tommy-Soft;
@@ -21,6 +21,11 @@
 @font-face {
     font-family: MADE-Tommy-Soft-light;
     src: url(./Font/made_tommy_soft/MADE\ Tommy\ Soft\ Light\ PERSONAL\ USE.otf);
+}
+
+@font-face {
+    font-family: MADE-Tommy-Soft-medium;
+    src: url(./Font/made_tommy_soft/MADE\ Tommy\ Soft\ Medium\ PERSONAL\ USE.otf);
 }
 
 *{
@@ -119,17 +124,18 @@
 }
 
 .txt h3{
-    font-family: MADE Tommy Soft;
+    font-family: MADE-Tommy-Soft;
     width: 397px;
     height: 45px;
 }
 
 .txt p{
-    font-family: MADE-Tommy-Soft-light;
+    font-family: MADE-Tommy-Soft;
     width: 404px;
     height: 330px;
     padding-right: 65px;
     text-align: justify;
+    color: #655f5f;
 }
 
 .about{
@@ -141,7 +147,7 @@
 }
 
 .stext h1{
-    font-family: sf-prodisplay-medium;
+    font-family: MADE-Tommy-Soft;
     color: #473D2F;
     padding-top: 150px;
 }
@@ -149,6 +155,8 @@
 .stext p{
     padding: 10px 0px 0px 27px;
     text-align: justify;
+    color: #342d23;
+    font-family: MADE-Tommy-Soft;
 }
 
 
@@ -268,7 +276,8 @@
 
 .social p{
     font-size: 20px;
-    font-family: MADE-Tommy-Soft-light;
+    font-family: MADE-Tommy-Soft-medium;
+    color: #342d23;
     text-align: justify;
     padding: 10px 260px 10px 260px;
 }
