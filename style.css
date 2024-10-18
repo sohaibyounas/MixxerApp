@@ -7,6 +7,10 @@
     font-family: sf-prodisplay-medium;
     src: url(./Font/SFPRODISPLAYMEDIUM.OTF);
 }
+@font-face {
+    font-family: sf-prodisplay-bold;
+    src: url(./Font/SFPRODISPLAYBOLD.OTF);
+}
 
 @font-face {
     font-family: MADE-Tommy-Soft;
@@ -35,14 +39,11 @@
 
 .logo{
     width: 200px;
-
 }
-.link{
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    float: right;
-    
+
+.menu li a{
+    font-family: sf-prodisplay-bold;
+    font-size: 18px;
 }
 
 .logo img{
@@ -50,10 +51,9 @@
     position: absolute !important;
     width: 200px;
     margin-top: 20px;
-
 } 
 
- .navbar{
+.navbar{
     top: 0;
     z-index: 1;
     float: right;
