@@ -1,16 +1,26 @@
 @font-face {
     font-family: sf-prodisplay-regular;
-    src: url(sf-pro-display-cufonfonts/SFPRODISPLAYREGULAR.OTF);
+    src: url(./Font/SFPRODISPLAYREGULAR.OTF);
 }
 
 @font-face {
     font-family: sf-prodisplay-medium;
-    src: url(sf-pro-display-cufonfonts/SFPRODISPLAYMEDIUM.OTF);
+    src: url(./Font/SFPRODISPLAYMEDIUM.OTF);
 }
 
 @font-face {
-    font-family: MADE Tommy Soft;
-    src: url(MADETommySoftRegularPERSONALUSE.otf);
+    font-family: MADE-Tommy-Soft;
+    src: url(./Font/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf);
+}
+
+@font-face {
+    font-family: MADE-Tommy-Soft;
+    src: url(./Font/made_tommy_soft/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf);
+}
+
+@font-face {
+    font-family: MADE-Tommy-Soft-light;
+    src: url(./Font/made_tommy_soft/MADE\ Tommy\ Soft\ Light\ PERSONAL\ USE.otf);
 }
 
 *{
@@ -90,13 +100,14 @@
 .text p{
     width: 606px;
     color: white;
+    text-align: justify;
 }
 
 .c1 img {
     padding-top: 50px;
 }
 
-.aboutbgimg{
+.about-bgimg{
     background-image: url(./Images/ab-bg.png);
     background-position:center;
     background-repeat: no-repeat;
@@ -108,15 +119,17 @@
 }
 
 .txt h3{
-    font-family: 'MADE Tommy Soft';
+    font-family: MADE Tommy Soft;
     width: 397px;
     height: 45px;
 }
 
 .txt p{
-    font-family: 'MADE Tommy Soft';
+    font-family: MADE-Tommy-Soft-light;
     width: 404px;
     height: 330px;
+    padding-right: 65px;
+    text-align: justify;
 }
 
 .about{
@@ -127,18 +140,24 @@
     padding-top: 150px;
 }
 
-.stext{
+.stext h1{
     font-family: sf-prodisplay-medium;
     color: #473D2F;
     padding-top: 150px;
 }
 
 .stext p{
-    padding-top: 30px;
-    padding-left: 27px;
+    padding: 10px 0px 0px 27px;
+    text-align: justify;
 }
 
+
 /* essentials */
+.etext{
+    font-size: 48px;
+    font-family: MADE-Tommy-Soft-light;
+}
+
 .e-img{
     background-image: url(./Images/export-bg.png);
     background-size: cover;
@@ -151,15 +170,14 @@
     position: relative;
     padding-top: 50px;
     color: white;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .etxt{
-    position: absolute;
+    padding-left: 10px;
     padding-top: 100px;
     font-size: 48px;
-    font-family: 'MADE Tommy Soft';
+    font-family: MADE-Tommy-Soft;
 }
 
 /* essential image */
@@ -170,99 +188,183 @@
     margin: auto;
 }
 
-/* essential texts */
+/* essential texts 1 */
+.etxt1{
+    position: absolute;
+    top: 250px; 
+    width: 34%;
+}
+
 .fm{
     border-bottom: 3px solid #f0ad4e;
 }
 
-.etxt h2 {
+.etxt1 h3 {
     font-size: 28px;
-    font-family: 'MADE Tommy Soft';
+    font-family: MADE-Tommy-Soft;
 }
 
-.etxt p {
+.etxt1 p {
+    text-align: justify;
     font-size: 20px;
-    font-family: 'MADE Tommy Soft';
+    font-family: MADE-Tommy-Soft;
 }
 
-
-/* .etext1 h3 span{
-    border-bottom: 3px solid #f0ad4e ;
+/* essential texts 2 */
+.etxt2{
+    position: absolute;
+    top: 600px; 
+    width: 37%;
+    padding-right: 20px;
 }
 
-.etext1 p{
-    width: 400px;
+.fm{
+    border-bottom: 3px solid #f0ad4e;
 }
 
-.eimg img{
-    width: 850px;
-    margin: auto;
+.etxt2 h3 {
+    font-size: 28px;
+    font-family: MADE-Tommy-Soft;
 }
 
-.rect{
-    padding-top: 200px;
+.etxt2 p {
+    text-align: justify;
+    font-size: 18px;
+    font-family: MADE-Tommy-Soft;
 }
 
-.stxt{
-    justify-content: center;
-    text-align: center;
-    padding-top: 60px;
+/* essential texts 3 */
+.etxt3{
+    position: absolute;
+    top: 385px; 
+    width: 32%;
+    float: right;
+    right: 0;
 }
 
-.stxt h2{
+.fm{
+    border-bottom: 3px solid #f0ad4e;
+}
+
+.etxt3 h3 {
+    font-size: 27px;
+    font-family: MADE-Tommy-Soft;
+}
+
+.etxt3 p {
+    padding-right: 20px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: MADE-Tommy-Soft;
+}
+
+/* Socializing */
+.social h2{
     font-size: 36px;
-    font-family: 'MADE Tommy Soft';
-}
-
-.stxt p{
-    width: 801px;
-    height: 90px;
+    font-family: MADE-Tommy-Soft;
     text-align: center;
-    padding-left: 350px;
-    font-size: 20px;
-    font-family: 'MADE Tommy Soft';
+    padding: 65px 50px 10px 100px;
 }
 
-.dmg img{
+.social p{
+    font-size: 20px;
+    font-family: MADE-Tommy-Soft;
+    text-align: justify;
+    padding: 10px 260px 10px 260px;
+}
+/* connected ease area */
+.ce{
+    padding: 0px 35px 0px 0px;
+}
+
+.ctxt{
     padding-top: 100px;
-    float: left;
-    width: 450px;
 }
-
-.c{
-    padding-top: 200px;
-
-}
-
-.c h2{
-    color: rgb(34, 31, 31);
+.ctext h2{
+    text-align: justify;
     font-size: 36px;
-    font-family: 'MADE Tommy Soft';
+    font-family: MADE-Tommy-Soft;
 }
 
-.c p{
-    color: rgb(101, 95, 95);
+.ctxt p{
+    padding-right: 90px;
     font-size: 16px;
-    font-family: 'MADE Tommy Soft';
+     font-family: MADE-Tommy-Soft-light;
+     text-align: justify;
 }
 
-.eimg1{
-    width: 32px;
-}
-.c1 h2{
-    color: rgb(34, 31, 31);
-    font-size: 36px;
-    font-family: 'MADE Tommy Soft';
+/* c1 text */
+.ce1{
+    padding-top: 30px; 
 }
 
-.c1 p{
-    color: rgb(101, 95, 95);
+.ce1 img{
+    width: 30px;
+}
+
+.ce1 h2{
+    padding: 12px 0px 0px 10px;
+    color: #988265;
+    font-size: 18px;
+    font-family: MADE-Tommy-Soft;
+}
+.s1 p{
     font-size: 16px;
-    font-family: 'MADE Tommy Soft';
+    font-family: MADE-Tommy-Soft-light;
+    text-align: justify;
 }
 
-.c1 img{
-    float: left;
-    width: 21px;
-    height: 21px;
-} */
+/* c2 text */
+.ce2 img{
+    width: 30px;
+}
+
+.ce2 h2{
+    padding: 30px 0px 0px 10px;
+    color: #988265;
+    font-size: 18px;
+    font-family: MADE-Tommy-Soft;
+}
+
+.s2 p{
+    padding-top: 7px;
+    font-size: 16px;
+    font-family: MADE-Tommy-Soft-light;
+    text-align: justify;
+} 
+
+/* c3 text */
+.ce3 img{
+    width: 30px;
+}
+
+.ce3 h2{
+    padding: 10px 0px 0px 10px;
+    color: #988265;
+    font-size: 14px;
+    font-family: MADE-Tommy-Soft;
+}
+
+.s3 p{
+    font-size: 16px;
+    font-family: MADE-Tommy-Soft-light;
+    text-align: justify;
+}
+
+/* c4 text */
+.ce4 img{
+    width: 30px;
+}
+
+.ce4 h2{
+    padding: 10px 0px 0px 10px;
+    color: #988265;
+    font-size: 14px;
+    font-family: MADE-Tommy-Soft;
+}
+
+.s4 p{
+    font-size: 16px;
+    font-family: MADE-Tommy-Soft-light;
+    text-align: justify;
+}
