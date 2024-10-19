@@ -167,7 +167,12 @@
 .ime
 
 /* essentials */
-.etext{
+/* .etext{
+    font-size: 48px;
+    font-family: MADE-Tommy-Soft-light;
+} */
+
+.essentials h2{
     font-size: 48px;
     font-family: MADE-Tommy-Soft-light;
 }
