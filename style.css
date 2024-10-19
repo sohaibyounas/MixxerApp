@@ -164,17 +164,10 @@
     padding-left: 28px;
 }
 
-.ime
-
 /* essentials */
-/* .etext{
+.etext{
     font-size: 48px;
-    font-family: MADE-Tommy-Soft-light;
-} */
-
-.essentials h2{
-    font-size: 48px;
-    font-family: MADE-Tommy-Soft-light;
+    font-family: MADE-Tommy-Soft-regular;
 }
 
 .e-img{
@@ -193,10 +186,9 @@
 }
 
 .etxt{
-    padding-left: 10px;
-    padding-top: 100px;
+    padding: 100px 0px 0px 10px;
     font-size: 48px;
-    font-family: MADE-Tommy-Soft;
+    font-family: MADE-Tommy-Soft-regular;
 }
 
 /* essential image */
@@ -210,8 +202,9 @@
 /* essential texts 1 */
 .etxt1{
     position: absolute;
-    top: 250px; 
+    top: 240px; 
     width: 34%;
+    margin-left: 30px;
 }
 
 .fm{
@@ -220,21 +213,22 @@
 
 .etxt1 h3 {
     font-size: 28px;
-    font-family: MADE-Tommy-Soft;
+    font-family: MADE-Tommy-Soft-regular;
 }
 
 .etxt1 p {
-    text-align: justify;
+    text-align: start;
     font-size: 20px;
-    font-family: MADE-Tommy-Soft;
+    font-family: MADE-Tommy-Soft-regular;
 }
 
 /* essential texts 2 */
 .etxt2{
     position: absolute;
     top: 600px; 
-    width: 37%;
-    padding-right: 20px;
+    width: 30%;
+    text-align: start;
+    margin-left: 30px;
 }
 
 .fm{
@@ -243,22 +237,23 @@
 
 .etxt2 h3 {
     font-size: 28px;
-    font-family: MADE-Tommy-Soft;
+    font-family: MADE-Tommy-Soft-regular;
 }
 
 .etxt2 p {
-    text-align: justify;
+    text-align: start;
     font-size: 18px;
-    font-family: MADE-Tommy-Soft;
+    font-family: MADE-Tommy-Soft-regular;
 }
 
 /* essential texts 3 */
 .etxt3{
     position: absolute;
-    top: 385px; 
-    width: 32%;
+    top: 425px; 
+    width: 30%;
     float: right;
     right: 0;
+    margin: 0px 10px 0px 20px;
 }
 
 .fm{
@@ -266,31 +261,31 @@
 }
 
 .etxt3 h3 {
-    font-size: 27px;
-    font-family: MADE-Tommy-Soft;
+    font-size: 25px;
+    font-family: MADE-Tommy-Soft-regular;
 }
 
 .etxt3 p {
-    padding-right: 20px;
-    text-align: justify;
-    font-size: 20px;
-    font-family: MADE-Tommy-Soft;
+    text-align: start;
+    font-size: 17px;
+    font-family: MADE-Tommy-Soft-regular;
 }
 
 /* Socializing */
 .social h2{
     font-size: 36px;
-    font-family: MADE-Tommy-Soft;
+    font-family: MADE-Tommy-Soft-regular;
     text-align: center;
     padding: 65px 50px 10px 100px;
 }
 
 .social p{
     font-size: 20px;
-    font-family: MADE-Tommy-Soft;
-    text-align: justify;
+    font-family: MADE-Tommy-Soft-regular;
+    text-align: start;
     padding: 10px 260px 10px 260px;
 }
+
 /* connected ease area */
 .ce{
     padding: 0px 35px 0px 0px;
