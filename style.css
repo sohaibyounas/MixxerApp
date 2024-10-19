@@ -14,18 +14,14 @@
 
 @font-face {
     font-family: MADE-Tommy-Soft;
-    src: url(./Font/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf);
-}
-
-@font-face {
-    font-family: MADE-Tommy-Soft;
     src: url(./Font/made_tommy_soft/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf);
 }
 
 @font-face {
-    font-family: MADE-Tommy-Soft-light;
-    src: url(./Font/made_tommy_soft/MADE\ Tommy\ Soft\ Light\ PERSONAL\ USE.otf);
+    font-family: MADE-Tommy-Soft-regular;
+    src: url(./Font/made_tommy_soft/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf);
 }
+/*while page  */
 
 *{
     padding: 0px;
@@ -109,6 +105,8 @@
     text-align: justify;
 }
 
+/* About Mixer */
+
 .about-bgimg{
     background-image: url(./Images/ab-bg.png);
     background-position:center;
@@ -121,38 +119,52 @@
 }
 
 .txt h3{
-    font-family: MADE Tommy Soft;
+    color: #22201e;
+    font-family: MADE-Tommy-Soft;
     width: 397px;
     height: 45px;
 }
 
 .txt p{
-    font-family: MADE-Tommy-Soft-light;
+    font-family: MADE-Tommy-Soft-regular;
+    color: #655F5F;
     width: 404px;
     height: 330px;
     padding-right: 65px;
-    text-align: justify;
+    text-align: start;
 }
 
 .about{
     padding-left: 50px;
 }
 
+/* Socializing */
 .ctn{
-    padding-top: 150px;
+    padding: 150px 100px 0px 30px;
 }
 
-.stext h1{
-    font-family: sf-prodisplay-medium;
+
+.stext h2{
+    font-family: sf-prodisplay-bold;
     color: #473D2F;
+    font-size: 40px;
     padding-top: 150px;
 }
 
-.stext p{
-    padding: 10px 0px 0px 27px;
-    text-align: justify;
+.headtxt{
+    color: #342D23;
+    font-size: 18px;
+    font-family: MADE-Tommy-Soft-regular;
 }
 
+.head p{
+    color: #342D23;
+    text-align: start;
+    font-size: 16px;
+    padding-left: 28px;
+}
+
+.ime
 
 /* essentials */
 .etext{
