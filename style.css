@@ -102,7 +102,7 @@
 .text p{
     width: 606px;
     color: white;
-    text-align: justify;
+    text-align: start;
 }
 
 /* About Mixer */
@@ -273,6 +273,7 @@
 
 /* Socializing */
 .social h2{
+    color: #221F1F;
     font-size: 36px;
     font-family: MADE-Tommy-Soft-regular;
     text-align: center;
@@ -280,10 +281,11 @@
 }
 
 .social p{
+    color: #655F5F;
     font-size: 20px;
     font-family: MADE-Tommy-Soft-regular;
     text-align: start;
-    padding: 10px 260px 10px 260px;
+    padding: 10px 260px 0px 280px;
 }
 
 /* connected ease area */
@@ -295,16 +297,18 @@
     padding-top: 100px;
 }
 .ctext h2{
-    text-align: justify;
+    text-align: start;
+    color: #221F1F;
     font-size: 36px;
-    font-family: MADE-Tommy-Soft;
+    font-family: MADE-Tommy-Soft-regular;
 }
 
 .ctxt p{
     padding-right: 90px;
     font-size: 16px;
-     font-family: MADE-Tommy-Soft-light;
-     text-align: justify;
+    color: #655F5F;
+    text-align: start;
+    font-family: MADE-Tommy-Soft-regular;
 }
 
 /* c1 text */
@@ -320,31 +324,35 @@
     padding: 12px 0px 0px 10px;
     color: #988265;
     font-size: 18px;
-    font-family: MADE-Tommy-Soft;
+    text-align: start;
+    font-family: MADE-Tommy-Soft-regular;
 }
 .s1 p{
+    color: #655F5F;
     font-size: 16px;
-    font-family: MADE-Tommy-Soft-light;
-    text-align: justify;
+    text-align: start;
+    font-family: MADE-Tommy-Soft-regular;
 }
 
 /* c2 text */
 .ce2 img{
     width: 30px;
+    padding-top: 18px;
 }
 
 .ce2 h2{
     padding: 30px 0px 0px 10px;
     color: #988265;
     font-size: 18px;
-    font-family: MADE-Tommy-Soft;
+    font-family: MADE-Tommy-Soft-regular;
 }
 
 .s2 p{
+    color: #655F5F;
     padding-top: 7px;
     font-size: 16px;
-    font-family: MADE-Tommy-Soft-light;
-    text-align: justify;
+    text-align: start;
+    font-family: MADE-Tommy-Soft-regular;
 } 
 
 /* c3 text */
@@ -355,14 +363,15 @@
 .ce3 h2{
     padding: 10px 0px 0px 10px;
     color: #988265;
-    font-size: 14px;
-    font-family: MADE-Tommy-Soft;
+    font-size: 15px;
+    font-family: MADE-Tommy-Soft-regular;
 }
 
 .s3 p{
+    color: #655F5F;
     font-size: 16px;
-    font-family: MADE-Tommy-Soft-light;
-    text-align: justify;
+    text-align: start;
+    font-family: MADE-Tommy-Soft-regular;
 }
 
 /* c4 text */
@@ -374,11 +383,12 @@
     padding: 10px 0px 0px 10px;
     color: #988265;
     font-size: 14px;
-    font-family: MADE-Tommy-Soft;
+    font-family: MADE-Tommy-Soft-regular;
 }
 
 .s4 p{
+    color: #655F5F;
     font-size: 16px;
-    font-family: MADE-Tommy-Soft-light;
-    text-align: justify;
+    text-align: start;
+    font-family: MADE-Tommy-Soft-regular;
 }
