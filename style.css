@@ -266,6 +266,7 @@
 }
 
 .etxt3 p {
+    padding-left: 5px;
     text-align: start;
     font-size: 17px;
     font-family: MADE-Tommy-Soft-regular;
@@ -349,7 +350,7 @@
 
 .s2 p{
     color: #655F5F;
-    padding-top: 7px;
+    padding-top: 3px;
     font-size: 16px;
     text-align: start;
     font-family: MADE-Tommy-Soft-regular;
@@ -361,9 +362,9 @@
 }
 
 .ce3 h2{
-    padding: 10px 0px 0px 10px;
+    padding: 10px 0px 0px 5px;
     color: #988265;
-    font-size: 15px;
+    font-size: 16px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
@@ -371,6 +372,7 @@
     color: #655F5F;
     font-size: 16px;
     text-align: start;
+    padding-top: 4px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
@@ -382,7 +384,7 @@
 .ce4 h2{
     padding: 10px 0px 0px 10px;
     color: #988265;
-    font-size: 14px;
+    font-size: 16px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
