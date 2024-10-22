@@ -396,6 +396,122 @@
 }
 
 /* perfect mixxer */
-/* .disc{
-    width: ;
-} */
+.ptext{
+    padding-top: 300px;
+}
+.ptext h2{
+    color: #221F1F;
+    font-size: 36px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+.ptext p{
+    color: #655F5F;
+    font-size: 16px;
+    text-align: start;
+    font-family: MADE-Tommy-Soft-regular;
+    padding: 20px 50px 0px 0px;
+}
+
+/* c1 text */
+.icn{
+    width: 30px !important;
+}
+
+.c1 h2{
+    color: #988265;
+    font-size: 18px;
+    font-family: MADE-Tommy-Soft-regular;
+    padding: 15px 0px 10px 16px ;
+}
+
+.p1 p{
+    color: #655F5F;
+    font-size: 14px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+/* c2 text */
+.c2 h2{
+    color: #988265;
+    font-size: 18px;
+    font-family: MADE-Tommy-Soft-regular;
+    padding: 15px 0px 10px 16px ;
+}
+
+.p2 p{
+    color: #655F5F;
+    font-size: 14px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+/* c3 text */
+
+.c3 h2{
+    color: #988265;
+    font-size: 18px;
+    font-family: MADE-Tommy-Soft-regular;
+    padding: 15px 0px 10px 16px ;
+}
+
+.p3 p{
+    color: #655F5F;
+    font-size: 14px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+/* c3 text */
+.c4 h2{
+    color: #988265;
+    font-size: 18px;
+    font-family: MADE-Tommy-Soft-regular;
+    padding: 15px 0px 10px 16px;
+}
+
+.p4 p{
+    color: #655F5F;
+    font-size: 14px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+/* image */
+.disc{
+    padding-top: 210px;
+}
+
+/* Loop */
+.loop{
+    padding: 300px 0px 0px 30px;
+}
+
+.loop h2{
+    color: #221F1F;
+    font-size: 36px;
+    font-family: MADE-Tommy-Soft-regular;
+    padding: 15px 0px 10px 0px;
+}
+
+.loop p{
+    color: #655F5F;
+    font-size: 16px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+/* loop 1 text */
+.lt h2{
+    color: #988265;
+    font-size: 18px;
+    font-family: MADE-Tommy-Soft-regular;
+    padding: 15px 0px 10px 16px;
+}
+
+.lt p{
+    color: #655F5F;
+    font-size: 14px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+.lp1{
+    color: #655F5F;
+    font-size: 16px;
+    font-family: MADE-Tommy-Soft-regular;
+}
