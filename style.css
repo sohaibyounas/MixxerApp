@@ -114,6 +114,14 @@
     background-size: cover;
 }
 
+.abimg{
+    width: 370px !important;
+}
+
+.img1{
+    width: 600px !important;
+    padding-left: 30px;
+}
 .txt{
     margin-top: 20px;
 }
@@ -160,12 +168,15 @@
 .head p{
     color: #342D23;
     text-align: start;
-    font-size: 16px;
-    padding-left: 28px;
+    font-size: 15px;
+    padding-left: 35px;
+    font-family: MADE-Tommy-Soft-regular;
 }
 
 /* essentials */
-.etext{
+.essentials h2{
+    padding-left: 60px;
+    text-transform: uppercase;
     font-size: 48px;
     font-family: MADE-Tommy-Soft-regular;
 }
@@ -183,12 +194,6 @@
     padding-top: 50px;
     color: white;
     text-align: center; 
-}
-
-.etxt{
-    padding: 100px 0px 0px 10px;
-    font-size: 48px;
-    font-family: MADE-Tommy-Soft-regular;
 }
 
 /* essential image */
@@ -212,6 +217,7 @@
 }
 
 .etxt1 h3 {
+    text-align: start;
     font-size: 28px;
     font-family: MADE-Tommy-Soft-regular;
 }
@@ -236,6 +242,7 @@
 }
 
 .etxt2 h3 {
+    text-align: start;
     font-size: 28px;
     font-family: MADE-Tommy-Soft-regular;
 }
@@ -261,6 +268,7 @@
 }
 
 .etxt3 h3 {
+    text-align: start;
     font-size: 25px;
     font-family: MADE-Tommy-Soft-regular;
 }
@@ -283,9 +291,9 @@
 
 .social p{
     color: #655F5F;
-    font-size: 20px;
+    font-size: 18px;
     font-family: MADE-Tommy-Soft-regular;
-    text-align: start;
+    text-align: center;
     padding: 10px 260px 0px 280px;
 }
 
@@ -305,7 +313,7 @@
 }
 
 .ctxt p{
-    padding-right: 90px;
+    padding-right: 38px;
     font-size: 16px;
     color: #655F5F;
     text-align: start;
