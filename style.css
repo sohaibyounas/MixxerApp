@@ -137,6 +137,7 @@
 
 .txt{
     margin-top: 20px;
+    padding-bottom: 60px;
 }
 
 .txt h3{
@@ -160,7 +161,7 @@
 
 /* Socializing */
 .ctn{
-    padding: 150px 100px 0px 30px;
+    padding: 150px 100px 120px 30px;
 }
 
 
@@ -300,7 +301,7 @@
     font-weight: bold;
     font-family: MADE-Tommy-Soft-regular;
     text-align: center;
-    padding: 65px 50px 10px 100px;
+    padding: 80px 50px 10px 100px;
 }
 
 .social p{
@@ -320,6 +321,7 @@
     padding-top: 100px;
 }
 .ctxt h2{
+    padding-top: 40px;
     font-weight: bold;
     text-align: start;
     color: #221F1F;
@@ -434,7 +436,7 @@
     font-size: 16px;
     text-align: start;
     font-family: MADE-Tommy-Soft-regular;
-    padding: 20px 50px 0px 0px;
+    padding: 20px 50px 25px 0px;
 }
 
 /* c1 text */
@@ -520,13 +522,14 @@
     color: #655F5F;
     font-size: 16px;
     font-family: MADE-Tommy-Soft-regular;
+    padding-bottom: 25px;
 }
 /* loop 1 text */
 .lt h2{
     color: #988265;
     font-size: 18px;
     font-family: MADE-Tommy-Soft-regular;
-    padding: 15px 0px 10px 16px;
+    padding: 15px 0px 10px 10px;
 }
 
 .lp1 p{
@@ -620,5 +623,45 @@
 
 /* discover 4 image */
 .himg{
-    padding-left: 40px;
+    padding: 0px 0px 2px 40px;
+
+}
+
+/* Get Started Mixxer */
+.bg-color{
+    background-color: #EEEAE5 ;
+    margin: 0px 90px 0px 90px;
+}
+
+.mtxt h2{
+    padding-top: 120px;
+    color: #221F1F;
+    font-size: 35.2px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+.mtxt p{
+    padding-top: 10px;
+    color: #221F1F;
+    font-size: 22px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+.mix{
+    color: #988265;
+    font-size: 22px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+.str{
+    padding-top: 95px;
+    width: 150px;
+    gap: 10px;
+}
+
+.sp{
+    color: #6C5C48;
+    font-size: 17.6px;
+    padding-top: 10px;
+    font-family: MADE-Tommy-Soft-regular;
 }
