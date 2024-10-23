@@ -108,37 +108,49 @@
 /* About Mixer */
 
 .about-bgimg{
+    /* padding-top: 20px; */
     background-image: url(./Images/ab-bg.png);
-    background-position:center;
-    background-repeat: no-repeat;
+    /* background-position:center;   */
+    /* background-repeat: no-repeat; */
     background-size: cover;
 }
 
 .abimg{
     width: 370px !important;
+    padding-top: 85px;
 }
 
 .img1{
     width: 600px !important;
     padding-left: 30px;
 }
+
+.img2{
+    padding-top: 40px;
+    width: 283px !important;
+}
+
+.img3{
+    width: 340px !important; 
+    padding-top: 25px;
+}
+
 .txt{
     margin-top: 20px;
 }
 
 .txt h3{
+    padding-top: 60px;
     color: #22201e;
     font-family: MADE-Tommy-Soft;
     width: 397px;
-    height: 45px;
 }
 
 .txt p{
     font-family: MADE-Tommy-Soft-regular;
     color: #655F5F;
     width: 404px;
-    height: 330px;
-    padding-right: 65px;
+    padding: 20px 65px 0px 0px ;
     text-align: start;
 }
 
