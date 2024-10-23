@@ -423,6 +423,7 @@
     padding-top: 300px;
 }
 .ptext h2{
+    font-weight: bold;
     color: #221F1F;
     font-size: 36px;
     font-family: MADE-Tommy-Soft-regular;
@@ -499,15 +500,16 @@
 
 /* image */
 .disc{
-    padding-top: 210px;
+    padding: 210px 40px 0px 0px;
 }
 
 /* Loop */
 .loop{
-    padding: 300px 0px 0px 30px;
+    padding: 300px 0px 0px 0px;
 }
 
 .loop h2{
+    font-weight: bold;
     color: #221F1F;
     font-size: 36px;
     font-family: MADE-Tommy-Soft-regular;
@@ -555,9 +557,66 @@
 }
 
 /* Social Hub */
+.htext{
+    padding: 100px 0px 30px 0px;
+}
+
 .htext h2{
+    color: #221F1F;
+    font-size: 36px;
+    text-align: start;
+    font-weight: bold;
+    font-family: MADE-Tommy-Soft-regular;
+    padding: 15px 0px 10px 0px;
+}
+
+.htext p{
+    text-align: start;
+    color: #655F5F;
+    font-size: 16px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+/* hub text 1 */
+.ht h2{
     color: #988265;
     font-size: 18px;
     font-family: MADE-Tommy-Soft-regular;
     padding: 15px 0px 10px 16px;
+}
+
+.ht p{
+    text-align: start;
+    color: #655F5F;
+    font-size: 14px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+/* hub text 2 */
+.ht p{
+    text-align: start;
+    color: #655F5F;
+    font-size: 14px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+/* hub text 3 */
+.ht p{
+    text-align: start;
+    color: #655F5F;
+    font-size: 14px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+/* hub text 4 */
+.ht p{
+    text-align: start;
+    color: #655F5F;
+    font-size: 14px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+/* discover 4 image */
+.himg{
+    padding-left: 40px;
 }
