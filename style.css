@@ -449,7 +449,7 @@
 
 .p2 p{
     color: #655F5F;
-    font-size: 14px;
+    font-size: 16px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
@@ -464,7 +464,7 @@
 
 .p3 p{
     color: #655F5F;
-    font-size: 14px;
+    font-size: 13.5px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
@@ -478,7 +478,7 @@
 
 .p4 p{
     color: #655F5F;
-    font-size: 14px;
+    font-size: 17px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
@@ -512,14 +512,31 @@
     padding: 15px 0px 10px 16px;
 }
 
-.lt p{
+.lp1 p{
     color: #655F5F;
-    font-size: 14px;
+    font-size: 13px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
-.lp1{
+/* loop 2 text */
+ .lp2 p{
     color: #655F5F;
-    font-size: 16px;
+    font-size: 14.5px;
     font-family: MADE-Tommy-Soft-regular;
 }
+
+/* loop 3 text */
+.lp3 p{
+    color: #655F5F;
+    font-size: 13px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+/* loop 4 text */
+.lp4 p{
+    color: #655F5F;
+    font-size: 13.5px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+/* Social Hub */
