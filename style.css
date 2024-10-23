@@ -175,9 +175,10 @@
 
 /* essentials */
 .essentials h2{
-    padding-left: 60px;
+    padding: 20px 0px 0px 60px;
     text-transform: uppercase;
     font-size: 48px;
+    font-weight: bold;
     font-family: MADE-Tommy-Soft-regular;
 }
 
@@ -207,7 +208,7 @@
 /* essential texts 1 */
 .etxt1{
     position: absolute;
-    top: 260px; 
+    top: 280px; 
     width: 34%;
     margin-left: 30px;
 }
@@ -284,6 +285,7 @@
 .social h2{
     color: #221F1F;
     font-size: 36px;
+    font-weight: bold;
     font-family: MADE-Tommy-Soft-regular;
     text-align: center;
     padding: 65px 50px 10px 100px;
@@ -305,7 +307,8 @@
 .ctxt{
     padding-top: 100px;
 }
-.ctext h2{
+.ctxt h2{
+    font-weight: bold;
     text-align: start;
     color: #221F1F;
     font-size: 36px;
@@ -540,3 +543,9 @@
 }
 
 /* Social Hub */
+.htext h2{
+    color: #988265;
+    font-size: 18px;
+    font-family: MADE-Tommy-Soft-regular;
+    padding: 15px 0px 10px 16px;
+}
