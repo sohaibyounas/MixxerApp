@@ -578,30 +578,32 @@
 }
 
 /* hub text 1 */
-.ht h2{
+.hb h2{
     color: #988265;
     font-size: 18px;
     font-family: MADE-Tommy-Soft-regular;
-    padding: 15px 0px 10px 16px;
+    padding: 15px 0px 10px 10px;
 }
 
-.ht p{
+.ht1 p{
     text-align: start;
     color: #655F5F;
     font-size: 14px;
+    padding-bottom: 50px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
 /* hub text 2 */
-.ht p{
+.ht2 p{
     text-align: start;
     color: #655F5F;
     font-size: 14px;
+    padding-bottom: 50px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
 /* hub text 3 */
-.ht p{
+.ht3 p{
     text-align: start;
     color: #655F5F;
     font-size: 14px;
@@ -609,7 +611,7 @@
 }
 
 /* hub text 4 */
-.ht p{
+.ht4 p{
     text-align: start;
     color: #655F5F;
     font-size: 14px;
