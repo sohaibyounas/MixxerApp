@@ -298,7 +298,7 @@
 .social h2{
     color: #221F1F;
     font-size: 36px;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-family: MADE-Tommy-Soft-regular;
     text-align: center;
     padding: 80px 50px 10px 100px;
@@ -314,15 +314,15 @@
 
 /* connected ease area */
 .ce{
-    padding: 0px 35px 0px 0px;
+    padding: 0px 40px 0px 0px;
 }
 
 .ctxt{
-    padding-top: 100px;
+    padding-top: 90px;
 }
 .ctxt h2{
     padding-top: 40px;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-align: start;
     color: #221F1F;
     font-size: 36px;
@@ -422,7 +422,7 @@
 
 /* perfect mixxer */
 .ptext{
-    padding-top: 300px;
+    padding-top: 180px;
 }
 .ptext h2{
     font-weight: bold;
@@ -502,20 +502,23 @@
 
 /* image */
 .disc{
-    padding: 210px 40px 0px 0px;
+    padding: 115px 40px 0px 0px;
 }
 
 /* Loop */
+.desc{
+    padding: 85px 40px 0px 0px;
+}
 .loop{
-    padding: 300px 0px 0px 0px;
+    padding: 225px 0px 0px 0px;
 }
 
 .loop h2{
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #221F1F;
     font-size: 36px;
     font-family: MADE-Tommy-Soft-regular;
-    padding: 15px 0px 10px 0px;
+    padding: 0px 0px 10px 0px;
 }
 
 .loop p{
@@ -568,7 +571,7 @@
     color: #221F1F;
     font-size: 36px;
     text-align: start;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-family: MADE-Tommy-Soft-regular;
     padding: 15px 0px 10px 0px;
 }
@@ -623,7 +626,7 @@
 
 /* discover 4 image */
 .himg{
-    padding: 0px 0px 2px 40px;
+    padding: 65px 0px 2px 40px;
 
 }
 
@@ -663,5 +666,14 @@
     color: #6C5C48;
     font-size: 17.6px;
     padding-top: 10px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+/* FAQ's */
+.faq h2{
+    color: #221F1F;
+    font-size: 36px;
+    padding-top: 10px;
+    text-align: center;
     font-family: MADE-Tommy-Soft-regular;
 }
