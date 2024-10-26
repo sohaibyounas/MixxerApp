@@ -678,3 +678,48 @@
     font-family: MADE-Tommy-Soft-regular;
 }
 
+/* text divs */
+.texts{
+    padding-top: 40px;
+    gap: 30px;
+}
+
+/* text divs #1 */
+.one{
+    background-color: #EEEAE5;
+    color: #000000;
+    padding: 5px 17px 5px 13px;
+    margin: 15px 0px 15px 20px;
+    font-size: 20px;
+    border-radius: 6px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+.div1{
+    border: 2px solid #DDD5CC;
+}
+
+.dtxt1 h2{
+    color: #221F1F;
+    font-size: 16px;
+    text-align: start;
+    font-family: MADE-Tommy-Soft-regular;
+    padding: 16px 7px 0px 8px;
+}
+
+.dimg{
+    width: 50px !important;
+    padding-right: 20px;
+}
+
+/* div2  */
+.div2{
+    border: 2px solid #DDD5CC;
+}
+.dtxt2 h2{
+    color: #221F1F;
+    font-size: 16px;
+    text-align: start;
+    font-family: MADE-Tommy-Soft-regular;
+    padding: 25px 68px 0px 8px;
+}
