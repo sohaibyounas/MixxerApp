@@ -695,8 +695,9 @@
     font-family: MADE-Tommy-Soft-regular;
 }
 
-.div1{
+.dtxt1{
     border: 2px solid #DDD5CC;
+    margin-bottom: 20px;
 }
 
 .dtxt1 h2{
@@ -712,9 +713,66 @@
     padding-right: 20px;
 }
 
-/* div2  */
-.div2{
+.dgap{
+    gap: 20px;
+}
+
+/* div3  */
+.dtxt3{
     border: 2px solid #DDD5CC;
+    margin-bottom: 20px;
+}
+.dtxt3 h2{
+    color: #221F1F;
+    font-size: 16px;
+    text-align: start;
+    font-family: MADE-Tommy-Soft-regular;
+    padding: 25px 227px 0px 8px;
+}
+
+/* div5  */
+.dtxt5{
+    border: 2px solid #DDD5CC;
+    margin-bottom: 20px;
+}
+.dtxt5 h2{
+    color: #221F1F;
+    font-size: 16px;
+    text-align: start;
+    font-family: MADE-Tommy-Soft-regular;
+    padding: 25px 98px 0px 8px;
+}
+
+/* div7  */
+.dtxt7{
+    border: 2px solid #DDD5CC;
+    margin-bottom: 20px;
+}
+.dtxt7 h2{
+    color: #221F1F;
+    font-size: 16px;
+    text-align: start;
+    font-family: MADE-Tommy-Soft-regular;
+    padding: 25px 33px 0px 8px;
+}
+
+/* div9  */
+.dtxt9{
+    border: 2px solid #DDD5CC;
+    margin-bottom: 20px;
+}
+.dtxt9 h2{
+    color: #221F1F;
+    font-size: 16px;
+    text-align: start;
+    font-family: MADE-Tommy-Soft-regular;
+    padding: 25px 143px 0px 8px;
+}
+
+/* div2  */
+.dtxt2{
+    border: 2px solid #DDD5CC;
+    margin-bottom: 20px;
 }
 .dtxt2 h2{
     color: #221F1F;
@@ -722,4 +780,54 @@
     text-align: start;
     font-family: MADE-Tommy-Soft-regular;
     padding: 25px 68px 0px 8px;
+}
+
+/* div4  */
+.dtxt4{
+    border: 2px solid #DDD5CC;
+    margin-bottom: 20px;
+}
+.dtxt4 h2{
+    color: #221F1F;
+    font-size: 16px;
+    text-align: start;
+    font-family: MADE-Tommy-Soft-regular;
+    padding: 25px 172px 0px 8px;
+}
+/* div6  */
+.dtxt6{
+    border: 2px solid #DDD5CC;
+    margin-bottom: 20px;
+}
+.dtxt6 h2{
+    color: #221F1F;
+    font-size: 16px;
+    text-align: start;
+    font-family: MADE-Tommy-Soft-regular;
+    padding: 25px 43px 0px 8px;
+}
+/* div8  */
+.dtxt8{
+    border: 2px solid #DDD5CC;
+    margin-bottom: 20px;
+}
+.dtxt8 h2{
+    color: #221F1F;
+    font-size: 16px;
+    text-align: start;
+    font-family: MADE-Tommy-Soft-regular;
+    padding: 25px 137px 0px 8px;
+}
+
+/* div10  */
+.dtxt10{
+    border: 2px solid #DDD5CC;
+    margin-bottom: 20px;
+}
+.dtxt10 h2{
+    color: #221F1F;
+    font-size: 16px;
+    text-align: start;
+    font-family: MADE-Tommy-Soft-regular;
+    padding: 25px 15px 0px 8px;
 }
