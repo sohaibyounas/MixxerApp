@@ -636,6 +636,15 @@
     margin: 0px 90px 0px 90px;
 }
 
+.get img{
+    width: 500px;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .mtxt h2{
     padding-top: 120px;
     color: #221F1F;
@@ -657,9 +666,12 @@
 }
 
 .str{
-    padding-top: 95px;
-    width: 150px;
+    padding-top: 60px;
     gap: 10px;
+}
+
+.str img{
+    width: 180px;
 }
 
 .sp{
@@ -673,14 +685,14 @@
 .faq h2{
     color: #221F1F;
     font-size: 36px;
-    padding-top: 250px;
+    padding-top: 120px;
     text-align: center;
     font-family: MADE-Tommy-Soft-regular;
 }
 
 /* text divs */
 .texts{
-    padding-top: 40px;
+    padding: 40px 0px 80px 0px;
     gap: 30px;
 }
 
@@ -830,4 +842,67 @@
     text-align: start;
     font-family: MADE-Tommy-Soft-regular;
     padding: 25px 15px 0px 8px;
+}
+
+/* assistance need */
+.fassist{
+    background-image: url(./images/contact-bg.png);
+    background-size: cover;
+}
+
+.ftext{
+    padding: 150px 0px 0px 100px;
+}
+.ftext h2{
+    color: #221F1F;
+    font-size: 36px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+.ftext p{
+    padding-top: 20px;
+    color: #655F5F;
+    font-size: 14px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+/* form */
+.form{
+    padding: 30px 0px 0px 60px;
+}
+
+.form-label{
+    color: #15150E;
+    font-size: 12px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+.form-control{
+    color: #908B8B;
+    font-size: 12px;
+    font-family: MADE-Tommy-Soft-regular;
+    height: 48px;
+}
+
+.bttn{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #7E6C54;
+    color: white;
+    font-size: 16px;
+    font-family: sf-prodisplay-bold;
+}
+
+.buton{
+    padding: 30px 0px 95px 0px;
+}
+
+.dimge{
+    padding: 140px 0px 0px 50px;
+}
+
+/* footer */
+.fimg{
+    padding-top: 30px;
 }
