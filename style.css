@@ -735,8 +735,14 @@
     font-family: MADE-Tommy-Soft-regular;
 }
 
+.accordion-item {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
 /* faq1 */
 .fp{
+    color: #7E6C54;
     padding: 15px 0px 0px 10px;
     font-size: 16px;
     font-family: MADE-Tommy-Soft-regular;
@@ -750,9 +756,43 @@
     font-family: MADE-Tommy-Soft-regular;
 }
 
+/* faq3 */
+.fp3{
+    padding: 0;
+    margin: 0;
+    color: #221F1F;
+    font-size: 13.5px;
+    font-family: MADE-Tommy-Soft-regular;
+}
 
-/* faq2 */
+/* faq5 */
+.fp5{
+    padding: 0;
+    margin: 0;
+    color: #221F1F;
+    font-size: 13.5px;
+    font-family: MADE-Tommy-Soft-regular;
+}
 
+/* faq7 */
+.fp7{
+    padding: 0;
+    margin: 0;
+    color: #221F1F;
+    font-size: 13.5px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+/* faq9 */
+.fp9{
+    padding: 0;
+    margin: 0;
+    color: #221F1F;
+    font-size: 13.5px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+/*  */
 
 .fimg{
     width: 30px !important;
@@ -768,6 +808,7 @@
     padding: 150px 0px 0px 60px;
 }
 .ftext h2{
+    padding-top: 80px;
     color: #221F1F;
     font-size: 36px;
     font-family: MADE-Tommy-Soft-regular;
@@ -776,26 +817,25 @@
 .ftext p{
     padding-top: 20px;
     color: #655F5F;
-    font-size: 14px;
+    font-size: 15px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
 /* form */
 .form{
-    padding: 30px 0px 0px 60px;
+    padding: 20px 0px 0px 60px;
 }
 
 .form-label{
-    color: #15150E;
+    color: #221f1f;
     font-size: 12px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
 .form-control{
     color: #908B8B;
-    font-size: 12px;
+    font-size: 14px;
     font-family: MADE-Tommy-Soft-regular;
-    height: 48px;
 }
 
 .bttn{
@@ -813,7 +853,7 @@
 }
 
 .dimge{
-    padding: 140px 0px 0px 50px;
+    padding: 150px 0px 0px 50px;
 }
 
 /* footer */
