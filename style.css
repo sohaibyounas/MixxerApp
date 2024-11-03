@@ -779,6 +779,8 @@
 .fassist{
     background-image: url(./images/contact-bg.png);
     background-size: cover;
+    margin: 0;
+    padding:0;
 }
 
 .ftext{
@@ -787,7 +789,7 @@
 .ftext h2{
     padding-top: 80px;
     color: #221F1F;
-    font-size: 36px;
+    font-size: 32px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
@@ -805,14 +807,26 @@
 
 .form-label{
     color: #221f1f;
-    font-size: 12px;
+    font-size: 13px;
     font-family: MADE-Tommy-Soft-regular;
+    padding-left: 3px;
+    margin-bottom: 0.2rem;
 }
 
 .form-control{
+    border-radius: 10px;
     color: #908B8B;
-    font-size: 14px;
+    font-size: 15px;
+    text-align: start;
     font-family: MADE-Tommy-Soft-regular;
+}
+
+.txarea{
+    padding-bottom: 70px;
+}
+
+.itxt{
+    padding-bottom: 10px;
 }
 
 .bttn{
@@ -822,6 +836,7 @@
     background-color: #7E6C54;
     color: white;
     font-size: 16px;
+    font-weight: bold;
     font-family: sf-prodisplay-bold;
 }
 
