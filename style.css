@@ -736,6 +736,7 @@
 }
 
 .accordion-item {
+    width: 100%;
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, .125);
 }
@@ -748,20 +749,12 @@
     font-family: MADE-Tommy-Soft-regular;
 }
 
-.fp1{
-    padding: 0;
-    margin: 0;
-    color: #221F1F;
-    font-size: 13.5px;
-    font-family: MADE-Tommy-Soft-regular;
-}
-
 /* faq3 */
 .fp3{
     padding: 0;
     margin: 0;
     color: #221F1F;
-    font-size: 13.5px;
+    font-size: 16px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
@@ -770,29 +763,13 @@
     padding: 0;
     margin: 0;
     color: #221F1F;
-    font-size: 14px;
+    font-size: 15px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
-/* faq7 */
-.fp7{
-    padding: 0;
-    margin: 0;
-    color: #221F1F;
-    font-size: 13.5px;
-    font-family: MADE-Tommy-Soft-regular;
+.fnw{
+    height: 80px;
 }
-
-/* faq9 */
-.fp9{
-    padding: 0;
-    margin: 0;
-    color: #221F1F;
-    font-size: 13.5px;
-    font-family: MADE-Tommy-Soft-regular;
-}
-
-/*  */
 
 .fimg{
     width: 30px !important;
