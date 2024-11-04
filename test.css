@@ -77,7 +77,7 @@
 }
 
 .btn{
-    border-radius: 27px;
+    border-radius: 22px;
     color: white;
     background-color: #7E6C54;
     padding: 8px 16px;
@@ -691,13 +691,10 @@
 }
 
 /* text divs #1 */
-/* .fqbdr{
-    border-radius: 10px;
-} */
 .count{
     background-color: #EEEAE5;
     color: #000000;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 17px 7px 13px;
     font-size: 20px;
     border-radius: 6px;
     font-family: MADE-Tommy-Soft-regular;
@@ -740,8 +737,8 @@
 
 .accordion-item {
     width: 100%;
-    border: 1px solid #DFDFDF;
-    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
 }
 
 /* faq1 */
@@ -782,6 +779,9 @@
 .fassist{
     background-image: url(./images/contact-bg.png);
     background-size: cover;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 
 .ftext{
@@ -850,3 +850,36 @@
 }
 
 /* footer */
+.bgfoter{
+    background-image: url(./images/footer-bg.png) !important;
+    background-size: cover !important;
+}
+
+.fimg{
+    width: 250px !important;
+    padding: 50px 20px 20px 30px;
+}
+
+.ftrp{
+    color: #473D2F;
+    font-size: 13px;
+    font-family: MADE-Tommy-Soft-regular;
+    padding-left: 24px;
+    text-align: start;
+}
+
+.ftrp1{
+    color: #655F5F;
+    font-size: 12px;
+    font-family: MADE-Tommy-Soft-regular;
+    padding-left: 24px;
+    text-align: start;
+}
+
+.ltx{
+    color: #0B0A0A;
+    font-size: 30px;
+    font-family: MADE-Tommy-Soft-regular;
+    padding-top: 50px;
+}
+
