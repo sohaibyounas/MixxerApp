@@ -864,31 +864,22 @@
     padding: 50px 0px 5px 80px;
 }
 
-.fcp1{
-    padding: 30px 0px 0px 80px;
-    color: #473D2F;
-    font-size: 16px;
+.fl{
+    width: 215px;
+    padding-bottom: 25px;
+}
+
+.fli{
     text-align: start;
-    font-family: MADE-Tommy-Soft-regular;
-}
-
-.fcp2{
-    padding: 20px 0px 0px 80px;
     color: #473D2F;
-    font-size: 16px;
-    text-align: start;
+    font-size: 14px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
-/* col2 */
-.fc2 h2{
-    color: #2F2E2E;
-    padding: 50px 0px 10px 70px;
-    font-size: 28px;
+.fli1{
+    padding-top: 20px;
+    color: #655F5F;
+    font-size: 14px;
     font-family: MADE-Tommy-Soft-regular;
-
 }
 
-.line{
-    padding-top: 10px;
-}
