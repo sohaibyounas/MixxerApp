@@ -855,7 +855,7 @@
     background-image: url(./images/footer-bg.png);
     background-size: cover;
     padding-top: 50px;
-    margin: 100px 0px;
+    margin-top: 100px;
 }
 
 /* col1 */
@@ -882,4 +882,43 @@
     font-size: 14px;
     font-family: MADE-Tommy-Soft-regular;
 }
+
+.h5{
+    color: #0B0A0A;
+    font-size: 28px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+.fh img{
+    width: 125px;
+}
+
+.flnk{
+    color: #0B0A0A;
+    font-size: 20px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+.uimg{
+    width: 25px !important;
+    padding-right: 10px;
+}
+
+.flnk1{
+    color: #0B0A0A;
+    font-size: 17px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+.flnk12{
+    color: #0B0A0A;
+    font-size: 14px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+.flimg{
+    width: 30px !important;
+    padding-right: 10px;
+}
+
 
