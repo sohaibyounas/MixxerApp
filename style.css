@@ -954,6 +954,11 @@
     font-family: MADE-Tommy-Soft-regular;
 }
 
+.uimg1{
+    width: 25px !important;
+    padding: 0px 10px 10px 0px;
+}
+
 /* Touch */
 .touch{
     padding-left: 70px;
@@ -961,6 +966,11 @@
 
 .flimg{
     width: 30px !important;
+    padding-right: 10px;
+}
+
+.uimg2{
+    width: 35px !important;
     padding-right: 10px;
 }
 
