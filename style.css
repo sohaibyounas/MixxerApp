@@ -858,6 +858,10 @@
     margin-top: 100px;
 }
 
+.mixxer{
+    padding-left: 50px;
+}
+
 /* col1 */
 .fc1 img{
     width: 400px !important;
@@ -865,32 +869,38 @@
 }
 
 .fl{
-    width: 215px;
+    width: 215px !important;
     padding-bottom: 25px;
 }
 
 .fli{
     text-align: start;
     color: #473D2F;
-    font-size: 14px;
+    font-size: 13px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
 .fli1{
     padding-top: 20px;
     color: #655F5F;
-    font-size: 14px;
+    font-size: 13px;
     font-family: MADE-Tommy-Soft-regular;
+}
+
+/* links */
+.links{
+    padding-left: 50px;
 }
 
 .h5{
     color: #0B0A0A;
-    font-size: 28px;
+    font-size: 30px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
 .fh img{
-    width: 125px;
+    padding-top: 10px;
+    width: 100px;
 }
 
 .flnk{
@@ -914,6 +924,39 @@
     color: #0B0A0A;
     font-size: 14px;
     font-family: MADE-Tommy-Soft-regular;
+}
+
+/* Terms */
+.terms{
+    padding-left: 50px;
+}
+
+.terms h5{
+    color: #0B0A0A;
+    font-size: 18px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+.terms img{
+    padding-top: 10px;
+    width: 100px;
+}
+
+.ftlnk{
+    color: #0B0A0A;
+    font-size: 13px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+.ftlnk1{
+    color: #0B0A0A;
+    font-size: 11px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
+/* Touch */
+.touch{
+    padding-left: 70px;
 }
 
 .flimg{
