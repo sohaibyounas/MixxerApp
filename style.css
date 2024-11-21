@@ -789,10 +789,10 @@
 }
 
 .ftext p{
-    width: 90%;
+    width: 86%;
     padding-top: 20px;
     color: #655F5F;
-    font-size: 16px;
+    font-size: 15px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
@@ -859,7 +859,7 @@
 }
 
 .mixxer{
-    padding-left: 50px;
+    padding-left: 80px;
 }
 
 /* col1 */
@@ -889,7 +889,7 @@
 
 /* links */
 .links{
-    padding-left: 50px;
+    padding-left: 75px;
 }
 
 .h5{
@@ -928,7 +928,7 @@
 
 /* Terms */
 .terms{
-    padding-left: 50px;
+    padding-left: 75px;
 }
 
 .terms h5{
@@ -984,4 +984,11 @@
     color: #7A7474;
     font-size: 16px;
     font-family: MADE-Tommy-Soft-regular;
+}
+
+.eml{
+    color: #7A7474;
+    font-size: 16px;
+    font-family: MADE-Tommy-Soft-regular;
+    padding-left: 100px;
 }
