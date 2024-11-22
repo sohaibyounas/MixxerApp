@@ -874,13 +874,16 @@
 }
 
 .fli{
+    width: 250px !important;
+    padding-bottom: 20px;
     text-align: start;
     color: #473D2F;
-    font-size: 13px;
+    font-size: 14px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
 .fli1{
+    width: 280px !important;
     padding-top: 20px;
     color: #655F5F;
     font-size: 13px;
