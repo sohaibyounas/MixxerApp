@@ -860,7 +860,7 @@
 }
 
 .mixxer{
-    padding-left: 80px;
+    padding-left: 50px;
 }
 
 /* col1 */
@@ -893,24 +893,28 @@
 
 /* links */
 .links{
-    padding-left: 75px;
+    padding-left: 65px;
 }
 
-.h5{
+.links h5{
     color: #0B0A0A;
-    font-size: 30px;
+    font-size: 22px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
-.fh img{
-    padding-top: 10px;
-    width: 100px;
+.links img{
+    padding-left: 4px;
+    width: 97px;
 }
 
 .flnk{
     color: #0B0A0A;
     font-size: 20px;
     font-family: MADE-Tommy-Soft-regular;
+}
+
+.flnk img{
+    width: 30px !important;
 }
 
 .uimg{
@@ -931,30 +935,31 @@
 }
 
 /* Terms */
-.terms{
-    padding-left: 75px;
-}
 
 .terms h5{
     color: #0B0A0A;
-    font-size: 18px;
+    font-size: 20px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
 .terms img{
     padding-top: 10px;
-    width: 100px;
+    width: 125px;
 }
 
 .ftlnk{
     color: #0B0A0A;
-    font-size: 13px;
+    font-size: 20px;
     font-family: MADE-Tommy-Soft-regular;
+}
+
+.ftlnk img{
+    width: 27px !important;
 }
 
 .ftlnk1{
     color: #0B0A0A;
-    font-size: 11px;
+    font-size: 19px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
@@ -964,10 +969,15 @@
 }
 
 /* Touch */
-.touch{
-    padding-left: 70px;
+.touch h5{
+    color: #0B0A0A;
+    font-size: 20px;
+    font-family: MADE-Tommy-Soft-regular;
 }
 
+.touch img{
+    width: 160px;
+}
 .flimg{
     width: 30px !important;
     padding-right: 10px;
