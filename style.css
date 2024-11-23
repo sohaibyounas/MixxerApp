@@ -984,8 +984,8 @@
 }
 
 .uimg2{
-    width: 35px !important;
-    padding-right: 10px;
+    width: 30px !important;
+    padding-top: 25px;
 }
 
 .flnk2{
@@ -994,15 +994,16 @@
     font-family: MADE-Tommy-Soft-regular;
 }
 
-.flk{
-    color: #7A7474;
-    font-size: 16px;
+.flnk2 h4{
+    padding: 25px 0px 0px 15px;
+    color: #0B0A0A;
+    font-size: 18px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
-.eml{
+.touch p{
     color: #7A7474;
     font-size: 16px;
     font-family: MADE-Tommy-Soft-regular;
-    padding-left: 100px;
+    padding-left: 45px;
 }
