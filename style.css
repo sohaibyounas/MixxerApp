@@ -901,7 +901,9 @@
     align-items: center;
     color: black;
     margin-right: 15px;
+    text-decoration: none;
   }
+
 .links h5{
     color: #0B0A0A;
     font-size: 22px;
@@ -914,6 +916,7 @@
 }
 
 .flnk{
+    text-decoration: none;
     color: #0B0A0A;
     font-size: 20px;
     font-family: MADE-Tommy-Soft-regular;
@@ -948,12 +951,20 @@
     font-family: MADE-Tommy-Soft-regular;
 }
 
+.trm a:hover {
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    margin-right: 15px;
+  }
+
 .terms img{
     padding-top: 10px;
     width: 125px;
 }
 
 .ftlnk{
+    text-decoration: none;
     color: #0B0A0A;
     font-size: 20px;
     font-family: MADE-Tommy-Soft-regular;
