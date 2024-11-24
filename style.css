@@ -876,7 +876,7 @@
 
 .fli{
     width: 250px !important;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     text-align: start;
     color: #473D2F;
     font-size: 14px;
@@ -896,6 +896,12 @@
     padding-left: 65px;
 }
 
+.lnk a:hover {
+    text-decoration: underline;
+    align-items: center;
+    color: black;
+    margin-right: 15px;
+  }
 .links h5{
     color: #0B0A0A;
     font-size: 22px;
@@ -984,18 +990,10 @@
 }
 
 .uimg2{
-    width: 30px !important;
-    padding-top: 25px;
-}
-
-.flnk2{
-    color: #0B0A0A;
-    font-size: 18px;
-    font-family: MADE-Tommy-Soft-regular;
+    width: 40px !important;
 }
 
 .flnk2 h4{
-    padding: 25px 0px 0px 15px;
     color: #0B0A0A;
     font-size: 18px;
     font-family: MADE-Tommy-Soft-regular;
@@ -1005,5 +1003,9 @@
     color: #7A7474;
     font-size: 16px;
     font-family: MADE-Tommy-Soft-regular;
-    padding-left: 45px;
+}
+
+.ft{
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
 }
