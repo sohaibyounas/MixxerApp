@@ -33,14 +33,27 @@
     height: auto;
 }
 
+/* Navbar */
 .logo{
     width: 200px;
 }
 
-.menu li a{
+.menu {
+    float: right;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.menu a{
     font-family: sf-prodisplay-bold;
     font-size: 18px;
+    text-decoration: none;
+    color: white;
 }
+
+.menu a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
 
 .logo img{
     top: 0;
@@ -51,16 +64,18 @@
 
 .nav{
     display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-    position: absolute;
+    justify-content: flex-end !important;
     top: 0;
+    padding: 10px 20px;
+    z-index: 1000;
+    position: fixed;
 }
 
 .nav img{
     width: 200px; 
 } 
 
+/* text area */
 .text {
     position: absolute;
     top: 100px;
@@ -801,6 +816,17 @@
     padding: 20px 20px 0px 60px;
 }
 
+/* input:invalid { 
+    border: 2px solid red; 
+}
+
+input:valid { 
+    border: 2px solid green; 
+} */
+
+.required{
+    color: green;
+}
 .form-label{
     color: #221f1f;
     font-size: 13px;

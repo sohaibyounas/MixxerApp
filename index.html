@@ -15,26 +15,15 @@
     <img src="./Images/bg.png" alt="bgimg" />
     <!-- Logo & Navbar -->
     <div class="container">
-      <div class="nav gap-lg-5 mt-4">
+      <div class="nav d-flex align-items-center gap-lg-5 mt-4">
         <img src="./Images/whitelogo.png" alt="Mixxer" />
-        <ul class="menu gap-5 d-flex mt-3 list-unstyled text-decoration-none ms-5">
-          <li>
-            <a href="#home" class="ne text-decoration-none text-white">Home</a>
-          </li>
-          <li>
-            <a href="#features" class="ne text-decoration-none text-white">Features</a>
-          </li>
-          <li>
-            <a href="#About" class="ne text-decoration-none text-white">About</a>
-          </li>
-          </li>
-          <li>
-            <a href="#faq's" class="ne text-decoration-none text-white">FAQ's</a>
-          </li>
-          <li>
-            <a href="#contact" class="ne text-decoration-none text-white">Contact</a>
-          </li>
-        </ul>
+        <div class="menu gap-5 d-flex list-unstyled text-decoration-none ms-auto">
+          <a href="#home">Home</a>
+          <a href="#features">Features</a>
+          <a href="#About">About</a>
+          <a href="#faq's">FAQ's</a>
+          <a href="#contact">Contact</a>
+        </div>
       </div>
     </div>
 <!-- bgimg end -->
@@ -684,19 +673,19 @@
 <!--  Form  -->
               <div class="form">
                 <div class="mb-3">
-                  <label for="formGroupExampleInput" class="form-label">Full Name</label>
-                  <input type="text" class="form-control itxt" id="formGroupExampleInput" placeholder="Write Name" style="height: 50px;" >
+                  <label for="formGroupExampleInput" class="form-label">Full Name<span class="required"> *</span></label>
+                  <input type="text" class="form-control itxt" id="formGroupExampleInput" placeholder="Write Name" required style="height: 50px;" >
                 </div>
                 <div class="mb-3">
-                  <label for="formGroupExampleInput2" class="form-label">Email Address</label>
-                  <input type="text" class="form-control itxt" id="formGroupExampleInput2" placeholder="example@email.com" style="height: 50px;" >
+                  <label for="formGroupExampleInput2" class="form-label">Email Address<span class="required"> *</span></label>
+                  <input type="email" class="form-control itxt" id="formGroupExampleInput2" placeholder="example@email.com" minlength="8" style="height: 50px;" >
                 </div>
                 <div>
-                  <label for="formGroupExampleInput3" class="form-label">What do you want to discuss about?</label>
-                  <input type="text" class="form-control txarea" id="formGroupExampleInput2" placeholder="Write here." style="height: 120px;">
+                  <label for="formGroupExampleInput3" class="form-label">What do you want to discuss about? <span class="required"> *</span></label>
+                  <input type="text" class="form-control txarea" id="formGroupExampleInput2" placeholder="Write here." required style="height: 120px;">
                 </div>
                 <div class="buton">
-                <button  type="submit" class="bttn">Contact Us</button>
+                <button type="submit" value="submit" class="bttn">Contact Us</button>
               </div>
               </div>
             </div>
