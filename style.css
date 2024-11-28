@@ -937,9 +937,9 @@ input:valid {
     font-family: MADE-Tommy-Soft-regular;
 }
 
-.links img{
-    padding-left: 4px;
-    width: 97px;
+.lkimg{
+    /* padding-left: 2px !important; */
+    width: 115px !important;
 }
 
 .flnk{
@@ -976,6 +976,10 @@ input:valid {
     color: #0B0A0A;
     font-size: 20px;
     font-family: MADE-Tommy-Soft-regular;
+}
+
+.trm{
+    /* padding-top: 10px; */
 }
 
 .trm a:hover {
