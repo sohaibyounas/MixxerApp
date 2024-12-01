@@ -1035,6 +1035,9 @@ input:valid {
     width: 40px !important;
 }
 
+.flnk2{
+    text-align: start;
+}
 .flnk2 h4{
     color: #0B0A0A;
     font-size: 18px;
@@ -1048,6 +1051,5 @@ input:valid {
 }
 
 .ft{
-    padding: 10px 0px 0px 0px;
     gap: 10px;
 }
