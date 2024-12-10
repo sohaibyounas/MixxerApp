@@ -52,11 +52,6 @@
     margin-left: 20px;
 }
 
-.menu a:hover {
-    background-color: #575757;
-    border-radius: 5px;
-  }
-
 .logo img{
     top: 0;
     position: absolute !important;
@@ -1075,11 +1070,6 @@ input:valid {
     margin-left: 20px;
 }
 
-.fmenu a:hover {
-    background-color: #575757;
-    border-radius: 5px;
-  }
-
 .logo img{
     top: 0;
     position: absolute !important;
@@ -1101,7 +1091,6 @@ input:valid {
 
 /* faq's get started */
 .bg-color1{
-    padding-top: 20px;
     background-color: #EEEAE5 ;
-    margin: 0px 90px 0px 90px;
+    margin: 75px 90px 0px 90px;
 }
