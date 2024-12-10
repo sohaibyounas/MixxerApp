@@ -1053,3 +1053,55 @@ input:valid {
 .ft{
     gap: 10px;
 }
+
+/* faq's page css */
+/* Navbar */
+.logo{
+    width: 200px;
+}
+
+.fmenu {
+    float: right;
+    margin-left: 250px;
+    padding: 0;
+}
+.fmenu a{
+    font-family: sf-prodisplay-bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: #655F5F;
+    float: right;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.fmenu a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
+
+.logo img{
+    top: 0;
+    position: absolute !important;
+    width: 200px;
+    margin-top: 20px;
+} 
+
+.fnav{
+    display: flex !important;
+    justify-content: flex-end !important;
+    top: 0;
+    padding: 10px 10px 20px 92px;
+    z-index: 1000;
+}
+
+.fnav img{
+    width: 200px; 
+}
+
+/* faq's get started */
+.bg-color1{
+    padding-top: 20px;
+    background-color: #EEEAE5 ;
+    margin: 0px 90px 0px 90px;
+}
