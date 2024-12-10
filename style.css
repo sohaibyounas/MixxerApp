@@ -1051,10 +1051,6 @@ input:valid {
 
 /* faq's page css */
 /* Navbar */
-.logo{
-    width: 200px;
-}
-
 .fmenu {
     float: right;
     margin-left: 250px;
@@ -1081,7 +1077,7 @@ input:valid {
     display: flex !important;
     justify-content: flex-end !important;
     top: 0;
-    padding: 10px 10px 20px 92px;
+    padding: 10px 10px 20px 16px;
     z-index: 1000;
 }
 
