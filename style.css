@@ -1089,3 +1089,38 @@ input:valid {
     background-color: #EEEAE5 ;
     margin: 105px 90px 0px 88px;
 }
+
+/* Terms of Services page */
+.tor{
+    margin-top: 100px;
+}
+
+.tr{
+    font-family: MADE-Tommy-Soft-regular;
+    font-size: 18px;
+    color: #221F1F;
+    
+}
+
+.dot{
+    color: #221F1F;
+    font-size: 40px;
+}
+
+.tl{
+    border: 2px solid white;
+    margin-left: 40px;
+}
+
+.rectline{
+    margin-left: 64px;
+}
+
+/* tor details */
+.hd{
+    font-family: MADE-Tommy-Soft-regular;
+    font-size: 36px;
+    color: #221F1F;
+
+}
+
