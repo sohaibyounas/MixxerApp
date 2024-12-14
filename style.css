@@ -1095,32 +1095,55 @@ input:valid {
     margin-top: 100px;
 }
 
-.tr{
+.tl{
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin: 0px 0px 0px 20px; 
+}
+
+.tl ul {
     font-family: MADE-Tommy-Soft-regular;
     font-size: 18px;
     color: #221F1F;
-    
-}
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+  }
 
-.dot{
-    color: #221F1F;
-    font-size: 40px;
-}
-
-.tl{
-    border: 2px solid white;
-    margin-left: 40px;
-}
+.tl li {
+    margin-bottom: 40px;
+  }
 
 .rectline{
     margin-left: 64px;
 }
 
 /* tor details */
-.hd{
+.trm h2{
     font-family: MADE-Tommy-Soft-regular;
-    font-size: 36px;
+    font-size: 34px;
     color: #221F1F;
-
 }
 
+.trp{
+    font-family: MADE-Tommy-Soft-regular;
+    font-size: 18px;
+    color: #4E4949;
+}
+
+.trp1{
+    font-family: MADE-Tommy-Soft-regular;
+    font-size: 17px;
+    color: #4E4949;
+    padding-right: 4px;
+}
+
+.trp2{
+    font-family: MADE-Tommy-Soft-regular;
+    font-size: 15.5px;
+    color: #4E4949;
+    padding-right: 4px;
+}
