@@ -1118,7 +1118,7 @@ input:valid {
   }
 
 .rectline{
-    margin-left: 64px;
+    margin-left: 93px;
 }
 
 /* tor details */
@@ -1148,6 +1148,9 @@ input:valid {
     padding-right: 4px;
 }
 
+
+
+/* eula */
 .elp{
     font-family: MADE-Tommy-Soft-regular;
     font-size: 17.5px;
@@ -1166,4 +1169,14 @@ input:valid {
     font-size: 17px;
     color: #4E4949;
     padding: 0px 4px 0px 10px;
+}
+
+
+.lst li a{
+    text-decoration: none;
+    color: #221F1F;
+}
+
+.rectlinee{
+    margin-left: 64px;
 }
