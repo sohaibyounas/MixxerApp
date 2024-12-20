@@ -651,6 +651,10 @@
     width: 500px;
 }
 
+.mtxt{
+    padding-left: 30px;
+}
+
 .mtxt h2{
     padding-top: 120px;
     color: #221F1F;
@@ -672,7 +676,7 @@
 }
 
 .str{
-    padding-top: 60px;
+    padding: 60px 0px 0px 30px;
     gap: 10px;
 }
 
@@ -683,7 +687,7 @@
 .sp{
     color: #6C5C48;
     font-size: 17.6px;
-    padding-top: 10px;
+    padding-top: 10px 0px 0px 30px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
@@ -789,7 +793,7 @@
 }
 
 .ftext{
-    padding: 175px 0px 0px 60px;
+    padding: 175px 0px 0px 73px;
 }
 .ftext h2{
     width: 75%;
@@ -809,20 +813,12 @@
 
 /* form */
 .form{
-    padding: 20px 20px 0px 60px;
+    padding: 20px 20px 0px 73px;
 }
 
-/* input:invalid { 
-    border: 2px solid red; 
-}
-
-input:valid { 
-    border: 2px solid green; 
-} */
-
-.required{
+/* .required{
     color: green;
-}
+} */
 .form-label{
     color: #221f1f;
     font-size: 13px;
@@ -866,7 +862,7 @@ input:valid {
 
 .dimge{
     width: 95% !important;
-    padding: 150px 30px 0px 50px;
+    padding: 150px 0px 0px;
 }
 
 /* footer */
