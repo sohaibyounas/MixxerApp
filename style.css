@@ -40,14 +40,14 @@
 
 .menu {
     float: right;
-    margin-left: 250px;
+    margin-left: 285px;
     padding: 0;
 }
 .menu a{
     font-family: sf-prodisplay-bold;
     font-size: 18px;
     text-decoration: none;
-    color: white;
+    color: rgb(214, 21, 21);
     float: right;
     margin-left: 20px;
 }
@@ -69,6 +69,7 @@
 
 .nav img{
     width: 200px; 
+    background-color: brown;
 } 
 
 /* text area */
@@ -880,7 +881,7 @@
 }
 
 .mixxer{
-    padding-left: 75px;
+    padding-left: 60px;
 }
 
 /* col1 */
@@ -1021,7 +1022,7 @@
 }
 
 .uimg2{
-    width: 40px !important;
+    width: 36px !important;
 }
 
 .flnk2{
