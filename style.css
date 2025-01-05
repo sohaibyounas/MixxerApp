@@ -21,7 +21,7 @@
     font-family: MADE-Tommy-Soft-regular;
     src: url(./Font/made_tommy_soft/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf);
 }
-/*while page  */
+/* whole page */
 
 *{
     padding: 0px;
@@ -41,88 +41,61 @@
     font-family: sf-prodisplay-bold;
     font-size: 18px;
     text-decoration: none;
-    color: rgb(105, 211, 23);
+    color: rgb(28, 23, 23);
     float: right;
     margin-left: 20px;
 }
 
 .nav img{
-    top: 0;
-    left: 0;
-    position: absolute !important;
     width: 200px;
     margin-top: 20px;
 } 
 
 .nav{
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     top: 0;
     padding: 10px 10px 20px 0px;
     z-index: 1000;
+    width: 90%;
 }
 
 .nav img{
     width: 200px;
-    background-color: yellow;
+    background-color: #f0ad4e;
 } 
 
-/* media queries Navbar*/
+/* collapse navbar */
+.wlogo{
+    width: 40%;
+    height: auto;
+    padding: 5px 25px;
+}
 
-/* Extra small devices (phones, <576px) */
-  @media (max-width: 575px) {
-    .nav {
-        flex-direction: column; 
-        align-items: flex-start;
+.bar{
+    color: #7E6C54;
+}
+
+/* media queries Navbar*/ /* Extra small devices (phones, <576px) */
+ @media (min-width: 767px){ 
+    .navbar{
+        background-color: #7E6C54;
+        padding: 0px;
+
     }
-  
-    .menu {
-        flex-direction: column;
-        align-items: flex-start;
+    .collapse img{
+        align-items: start;
     }
-  
-    .menu a {
-        gap: 5px;
-        font-size: 10px;
-        display: inline-block;
+
+    .collapse a{
+        color: white;
+        text-decoration: none;
     }
-  }
-  
-  /* Small devices (landscape phones, ≥576px and <768px) */
-  @media (max-width: 767px) {
-    /* .menu {
-      gap: 10px; 
+    .wlogo img{
+        width: 200px;
+        padding: 0px 0px 0px 88px;
+      }
     }
-   */
-    .menu a {
-        gap: 10px;
-        font-size: 14px;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-  }
-  
-  /* Medium devices (tablets, ≥768px and <992px) */
-  @media (max-width: 991px) {
-    .menu a {
-      gap: 20px; 
-    }
-  }
-  
-  /* Large devices (desktops, ≥992px and <1200px) */
-  @media (max-width: 1199px) {
-    .menu a {
-      gap: 30px;
-    }
-  }
-  
-  /* Extra large devices (large desktops, ≥1200px) */
-  @media (min-width: 1200px) {
-    .menu {
-      gap: 40px;
-    }
-  }
-/*navbar queries end  */
 
 /* text area */
 .text {
