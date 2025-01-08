@@ -9,35 +9,30 @@
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel="icon" href="./images/icon.png" type="image/x-icon" />
 </head>
-
 <body>
-  <!-- bgimage -->
-  <div class="navbar d-lg-none d-md-none d-sm-block d-block justify-content-between">
-    <div class="container-fluid">
-      <span class="wlogo">
-        <img src="images/whitelogo.png" alt="whitelogo">
-      </span>
-<!-- toggle button for mobile nav -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="bar fa-solid fa-bars"></i>
-    </button>
-<!-- main nav -->
-      <div class="collapse navbar-collapse justify-content-end align-items-center" id="main-nav">
-        <div class="main-nav d-flex flex-column gap-2 justify-content-between list-unstyled text-decoration-none ">
-          <a href="index.html" target="_self">Home</a><hr>
-          <a href="#feature">Features</a><hr>
-          <a href="#abt">About</a><hr>
-          <a href="#faqq">FAQ's</a><hr>
-          <a href="#contact" >Contact</a>
-        </div>
-      </div>
-  </div>
-</div>
+  <!-- collapse navbar -->
   <div class="bgimg position-relative">
-    <img src="./images/bg.png" alt="bgimg" class="img-fluid" /> 
-    <!-- Logo & Navbar(lg) -->
-      <div class="container">
-        <div class="nav d-flex justify-content-between align-items-center gap-lg-4 mt-4 position-fixed ">
+    <img src="./images/bg.png" alt="bgimg"/>
+    <div class="navbar d-lg-none d-md-none d-sm-block d-block justify-content-between position-fixed top-0 w-100">
+        <div class="d-flex justify-content-between navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="./images/whitelogo.png" alt="whitelogo" style="width: 200px;" />
+        <i class="fa-solid fa-bars"></i>
+        </div>      
+  <!-- main nav -->
+        <div class="collapse navbar-collapse justify-content-end align-items-center" id="main-nav">
+          <div class="main-nav d-flex flex-column gap-2 justify-content-between list-unstyled text-decoration-none ">
+            <a href="index.html" target="_self" class="list-unstyled text-decoration-none">Home</a><hr>
+            <a href="#feature" class="list-unstyled text-decoration-none">Features </a><hr>
+            <a href="#abt" class="list-unstyled text-decoration-none">About</a><hr>
+            <a href="#faqq" class="list-unstyled text-decoration-none">FAQ's</a><hr>
+            <a href="#contact" class="list-unstyled text-decoration-none">Contact</a>
+          </div>
+        </div>
+    </div>   
+<!-- lg navbar -->
+    <div class="container">
+      <div class="nav d-lg-block d-md-none d-sm-none  d-none align-items-center gap-4 mt-4 position-fixed ">
+        <div class="d-flex align-items-center justify-content-between">
           <a href="index.html">
             <img src="./images/whitelogo.png" class="img-fluid" alt="Mixxer" />
           </a>
@@ -50,6 +45,7 @@
             </div>
         </div>
       </div>
+    </div>
 <!-- bgimg end -->
 <!-- text area -->
     <div class="container">
@@ -59,9 +55,9 @@
           Experience the next level of social networking with Mixxer. Download
           Mixxer now and let the adventure begin!
         </p>
-        <button type="button" class="btn">Download the App</button><br />
-        <div class="store">
-          <img src="./images/playstore.png" alt="playstore" /><br />
+        <button type="button" class="btn">Download the App</button><br>
+        <div class="store d-flex flex-column">
+          <img src="./images/playstore.png" alt="playstore" /><br>
           <img src="./images/appstore.png" alt="applestote" />
         </div>
       </div>
@@ -167,7 +163,6 @@
       <div class="eim">
         <img src="./images/explore-phone.png" alt="ephone">
       </div>
-
  <!-- text area 1 -->
         <div class="etxt1">
            <h5><span class="fm">Features Mixxer:</span> Curated For You</h5>
@@ -521,7 +516,7 @@
             <h2>Frequently asked questions</h2>
           </div>
 <!-- Faq area -->
-          <div class="d-flex" style="gap: 20px; padding-bottom: 100px;">
+          <div class="d-flex" style="gap: 10px; padding-bottom: 100px;">
 <!-- col 1 -->
           <div class="col-md-6">
             <div class="accordion d-flex flex-column gap-4 " id="accordionExample">

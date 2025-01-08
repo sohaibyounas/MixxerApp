@@ -31,9 +31,19 @@
 .bgimg img{
     width: 100%;
     height: auto;
+    padding: 0;
+    margin: 0;
 }
 
 /* Navbar */
+.navbar img{
+    padding: 0px 0px 0px 50px;
+}
+
+.main-nav {
+    background-color: #7E6C54;
+}
+
 .menu {
     padding: 0;
 }
@@ -41,19 +51,17 @@
     font-family: sf-prodisplay-bold;
     font-size: 18px;
     text-decoration: none;
-    color: rgb(28, 23, 23);
+    color: rgb(255, 255, 255);
     float: right;
     margin-left: 20px;
 }
 
 .nav img{
     width: 200px;
-    margin-top: 20px;
 } 
 
 .nav{
     display: flex;
-    /* justify-content: flex-end; */
     top: 0;
     padding: 10px 10px 20px 0px;
     z-index: 1000;
@@ -62,40 +70,51 @@
 
 .nav img{
     width: 200px;
-    background-color: #f0ad4e;
+    /* background-color: #f0ad4e; */
 } 
-
-/* collapse navbar */
-.wlogo{
-    width: 40%;
-    height: auto;
-    padding: 5px 25px;
-}
 
 .bar{
     color: #7E6C54;
 }
 
-/* media queries Navbar*/ /* Extra small devices (phones, <576px) */
- @media (min-width: 767px){ 
-    .navbar{
+.main-nav a{
+    color: white;
+}
+/* media queries Navbar phones */
+ @media (max-width: 767px){
+    .navbar-collapse{
         background-color: #7E6C54;
-        padding: 0px;
-
-    }
-    .collapse img{
-        align-items: start;
-    }
-
-    .collapse a{
+    } 
+    .navbar-collapse a{
         color: white;
-        text-decoration: none;
+        padding: 10px 0px 0px 55px;
     }
-    .wlogo img{
-        width: 200px;
-        padding: 0px 0px 0px 88px;
-      }
+    .text h1{
+        font-size: 33px !important;
+        font-family: sf-prodisplay-bold !important;
+        letter-spacing: 2px !important;
     }
+    .text p{
+        max-width: 540px;
+        font-size: 18px !important;
+        font-family: sf-prodisplay-regular !important;
+        letter-spacing: 2px !important;
+    }
+    .text{
+        max-width: 540px;
+    }
+    .navbar-toggler{
+        margin-left: 60px;
+        max-width: 580px;
+    }
+    .text button{
+        margin-top: 0px;
+    }
+    .store img{
+        width: 100px !important;
+    }
+ }
+/* media query ends */
 
 /* text area */
 .text {
@@ -133,7 +152,6 @@
 }
  
 .text h1{
-    width: 782px;
     color: white;
 }
 .text p{
@@ -145,10 +163,7 @@
 /* About Mixer */
 
 .about-bgimg{
-    /* padding-top: 20px; */
     background-image: url(./Images/ab-bg.png);
-    /* background-position:center;   */
-    /* background-repeat: no-repeat; */
     background-size: cover;
 }
 
@@ -158,7 +173,7 @@
 }
 
 .img1{
-    width: 600px !important;
+    width: 590px !important;
     padding-left: 30px;
 }
 
@@ -168,7 +183,7 @@
 }
 
 .img3{
-    width: 340px !important; 
+    width: 290px !important; 
     padding-top: 25px;
 }
 
@@ -251,7 +266,7 @@
 .eim{
     padding-top: 60px;
     position: relative;
-    width: 850px;
+    width: 750px;
     margin: auto;
 }
 
@@ -1169,8 +1184,6 @@
     padding-right: 4px;
 }
 
-
-
 /* eula */
 .elp{
     font-family: MADE-Tommy-Soft-regular;
@@ -1191,7 +1204,6 @@
     color: #4E4949;
     padding: 0px 4px 0px 10px;
 }
-
 
 .lst li a{
     text-decoration: none;
