@@ -21,7 +21,6 @@
     font-family: MADE-Tommy-Soft-regular;
     src: url(./Font/made_tommy_soft/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf);
 }
-/* whole page */
 
 *{
     padding: 0px;
@@ -45,12 +44,12 @@
 }
 
 .menu {
-    padding: 0;git
+    padding: 0;
 }
 .menu a{
     font-family: sf-prodisplay-bold;
     font-size: 18px;
-    text-decoration: none;
+    text-decoration:none;
     color: rgb(255, 255, 255);
     float: right;
     margin-left: 20px;
@@ -79,8 +78,9 @@
 .main-nav a{
     color: white;
 }
-/* media queries Navbar phones */
- @media (max-width: 767px){
+
+/* media queries Navbar for phones */
+@media (max-width: 767px){
     .navbar-collapse{
         background-color: #7E6C54;
     } 
@@ -112,6 +112,7 @@
     .store img{
         width: 100px !important;
     }
+
  }
 
 /* media query ends */
