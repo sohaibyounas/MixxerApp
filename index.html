@@ -31,7 +31,7 @@
     </div>   
 <!-- lg navbar -->
     <div class="container">
-      <div class="nav d-lg-block d-md-none d-sm-none  d-none align-items-center gap-4 mt-4 position-fixed ">
+      <div class="nav d-lg-block d-md-none d-sm-none d-none align-items-center gap-4 mt-4 position-fixed ">
         <div class="d-flex align-items-center justify-content-between">
           <a href="index.html">
             <img src="./images/whitelogo.png" class="img-fluid" alt="Mixxer" />
@@ -55,7 +55,7 @@
           Experience the next level of social networking with Mixxer. Download
           Mixxer now and let the adventure begin!
         </p>
-        <button type="button" class="btn mt-0 mb-0">Download the App</button><br>
+        <button type="button" class="btn mt-0 mb-3">Download the App</button><br>
         <div class="store d-flex flex-column">
           <img src="./images/playstore.png" alt="playstore" />
           <img src="./images/appstore.png" alt="applestote" />
@@ -68,7 +68,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-4">
-                <img src="./images/about-img1.png" alt="About" class="abimg d-none" />    
+                <img src="./images/about-img1.png" alt="About" class="abimg" />    
               <div class="txt ">
                 <h3>About Mixxer</h3>
                 <p>
@@ -93,6 +93,7 @@
                 </div>
               </div>
             </div>
+          <!-- c2 images end -->
           </div>
         </div>
       </div>
@@ -805,6 +806,17 @@
           alert('Form submitted successfully!');
           document.getElementById('contactForm').reset();
       }
+  </script>
+  <script type="text/javascript">
+    const nav = document.querySelector('.nav');
+    const sticky = nav.offsetTop;
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset >sticky) {
+        nav.classList.add('sticky');
+      } else {
+        nav.classList.remove('sticky');
+      }
+    });;
   </script>
 </body>
 </html>
