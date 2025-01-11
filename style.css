@@ -62,7 +62,6 @@
 .nav{
     display: flex;
     top: 0;
-    padding: 10px 10px 20px 0px;
     z-index: 1000;
     width: 90%;
 }
@@ -97,53 +96,6 @@
 .main-nav a{
     color: white;
 }
-
-/* media queries Navbar for phones */
-@media (max-width: 767px){
-    .navbar-collapse{
-        background-color: #7E6C54;
-    } 
-    .navbar-collapse a{
-        color: white;
-        padding: 10px 0px 0px 55px;
-    }
-    .text h1{
-        font-size: 28px !important;
-        letter-spacing: 2px !important;
-    }
-    .text p{
-        margin-bottom: 10px;
-        max-width: 540px;
-        font-size: 18px !important;
-        letter-spacing: 2px !important;
-    }
-    .text{
-        max-width: 540px;
-    }
-    .navbar-toggler{
-        margin-left: 60px;
-        max-width: 580px;
-    }
-    .text button{
-        margin-top: 0px;
-    }
-    .store img{
-        width: 120px !important;
-    }
-/* about area */
-    .abimg{
-        display: none !important;
-    }
-    .txt p{
-        width: 575px !important;
-        padding: 20px 65px 0px 0px !important;
-    }
-    .about img1{
-        display: none;
-    }
- }
-
-/* media query ends */
 
 /* text area */
 .text {
@@ -1241,3 +1193,50 @@
 .rectlinee{
     margin-left: 64px;
 }
+
+/* media queries Navbar for phones */
+@media (max-width: 768px){
+    .navbar-collapse{
+        background-color: #7E6C54;
+    } 
+    .navbar-collapse a{
+        color: white;
+        padding: 10px 0px 0px 55px;
+    }
+    .text h1{
+        font-size: 28px !important;
+        letter-spacing: 2px !important;
+    }
+    .text p{
+        margin-bottom: 10px;
+        max-width: 540px;
+        font-size: 18px !important;
+        letter-spacing: 2px !important;
+    }
+    .text{
+        max-width: 540px;
+    }
+    .navbar-toggler{
+        margin-left: 60px;
+        max-width: 580px;
+    }
+    .text button{
+        margin-top: 0px;
+    }
+    .store img{
+        width: 120px !important;
+    }
+/* about area */
+    .abimg{
+        display: none !important;
+    }
+    .txt p{
+        width: 575px !important;
+        padding: 20px 65px 0px 0px !important;
+    }
+    .about img1{
+        display: none;
+    }
+ }
+
+/* media query ends */
