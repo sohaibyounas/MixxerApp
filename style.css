@@ -68,20 +68,22 @@
 }
 
 .nav.sticky{
-    background-color: rgb(16, 15, 15);
-    position: fixed;
+    background-color: rgb(254, 254, 254);
     top: 0;
     left: 0;
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    z-index: 1000;
-    box-shadow: 0px 4px 8px rgba(151, 48, 48, 0.2);
 }
 
-.nav .a {
-    color: #5A5547;
-    z-index: 1000;
+.nav.sticky .menu a{
+    color: #6B747C;
+}
+.nav.sticky .logo{
+    content: url(./Images/logo.png);
+    margin-left: 75px;
+}
+
+.nav.sticky .menu{
+    padding-right: 4%;
 }
 
 .nav img{
@@ -130,13 +132,13 @@
     }
 /* about area */
     .abimg{
-        display: none;
+        display: none !important;
     }
     .txt p{
         width: 575px !important;
         padding: 20px 65px 0px 0px !important;
     }
-    .about img{
+    .about img1{
         display: none;
     }
  }
