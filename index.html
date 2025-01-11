@@ -16,7 +16,7 @@
     <div class="navbar d-lg-none d-md-none d-sm-block d-block justify-content-between position-fixed top-0 w-100">
         <div class="d-flex justify-content-between navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
           <img src="./images/whitelogo.png" alt="whitelogo" style="width: 200px;"  class="flogo"/>
-        <i class="fa-solid fa-bars fbar"></i>
+        <i class="fa-solid fa-bars fbar" onclick="changeIcon(this)"></i>
         </div>      
   <!-- main nav -->
         <div class="collapse navbar-collapse justify-content-end align-items-center" id="main-nav">
@@ -831,5 +831,13 @@
       }
     });;
   </script>
+
+  <script type="text/javascript">
+    let changeIcon = function(icon) {
+        icon.classList.toggle('fa-times')
+    }
+
+  </script>
+
 </body>
 </html>
