@@ -35,8 +35,9 @@
 }
 
 /* Navbar */
-.navbar img{
-    padding: 0px 0px 0px 50px;
+.flogo{
+    width: 135px !important;
+    margin-left: 50px !important;
 }
 
 .main-nav {
@@ -66,6 +67,27 @@
     width: 90%;
 }
 
+.fbar{
+    color: white;
+}
+/*navbar/navbar-toggler/collapse nav */
+.navbar.navbarfit{
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar.navbarfit .fbar{
+    color: #7E6C54;
+    font-size: 25px;
+}
+
+.navbar.navbarfit .flogo{
+    content: url(./Images/logo.png);
+}
+
+/* lg navbar */
 .nav.sticky{
     background-color: rgb(254, 254, 254);
     top: 0;
