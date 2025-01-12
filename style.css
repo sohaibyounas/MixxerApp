@@ -21,6 +21,10 @@
     font-family: MADE-Tommy-Soft-regular;
     src: url(./Font/made_tommy_soft/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf);
 }
+@font-face {
+    font-family: MADE-TommyBold-PERSONAL-USE;
+    src: url(./Font/made_tommy_soft/MADE\ Tommy\ Soft\ Bold\ PERSONAL\ USE.otf);
+}
 
 *{
     padding: 0px;
@@ -36,8 +40,8 @@
 
 /* Navbar */
 .flogo{
-    width: 135px !important;
-    margin-left: 50px !important;
+    width: 145px !important;
+    margin-left: 45px !important;
 }
 
 .main-nav {
@@ -238,7 +242,7 @@
 .head p{
     color: #342D23;
     text-align: start;
-    font-size: 15px;
+    font-size: 13px;
     padding-left: 35px;
     font-family: MADE-Tommy-Soft-regular;
 }
@@ -1259,6 +1263,36 @@
     .txt p{
         width: 575px !important;
         padding: 20px 65px 0px 0px !important;
+    }
+    /* seamless Socializing */
+    .stext h2{
+        font-size: 24px !important;
+        padding-top: 20px !important;
+    }
+    .head p{
+        font-size: 14px !important;
+    }
+    /* about */
+    .essentials{
+        padding-top: 10px !important;
+    }
+    .essentials h2{
+        font-family: MADE-TommyBold-PERSONAL-USE;
+        font-size: 30px !important;
+        padding-top: 0px !important;
+    }
+    .etxt1{
+        top: 100px !important; 
+        width: 50% !important;
+        margin-left: 16px !important;
+    }
+    .etxt1 h5{
+        font-size: 18px !important;
+    }
+    .eim{
+        padding-top: 100px !important;
+        width: 530px !important;
+        margin: auto;
     }
  }
 
