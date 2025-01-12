@@ -362,7 +362,7 @@
 .social h2{
     color: #221F1F;
     font-size: 36px;
-    /* font-weight: bold; */
+    font-weight: bold;
     font-family: MADE-Tommy-Soft-regular;
     text-align: center;
     padding: 80px 50px 10px 100px;
@@ -1225,9 +1225,6 @@
 
 /* media queries Navbar for phones */
 @media (max-width: 768px){
-    /* .navbar-collapse{
-        top: 0;
-    } */
     .navbar-collapse{
         background-color: #7E6C54;
     } 
@@ -1282,17 +1279,52 @@
         padding-top: 0px !important;
     }
     .etxt1{
-        top: 100px !important; 
+        top: 90px !important; 
         width: 50% !important;
         margin-left: 16px !important;
     }
     .etxt1 h5{
-        font-size: 18px !important;
+        width: 287px;
+        font-size: 20px !important;
     }
+
+    .etxt1 p{
+        font-size: 17px;
+        padding-right: 0px !important;
+        width: 266px !important;
+    }
+
     .eim{
         padding-top: 100px !important;
         width: 530px !important;
-        margin: auto;
+    }
+
+    .etxt3{
+        top: 190px !important; 
+        width: 38% !important;
+        margin: 0px !important;
+        padding-left: 15px !important;
+    }
+    .etxt2{
+        top: 355px !important; 
+        width: 30%;
+        margin-left: 16px !important;
+    }
+    .etxt2 h5 {
+        font-size: 19px !important;
+    } 
+    .etxt2 p {
+        font-size: 17px !important;
+    }
+    .social h2{
+        font-size: 36px !important;
+        font-weight: bold;
+        padding: 50px 50px 0px 100px !important;
+    }
+    
+    .social p{
+        font-size: 18px;
+        padding: 10px 96px 0px 100px ;
     }
  }
 
