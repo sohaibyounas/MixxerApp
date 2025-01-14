@@ -636,9 +636,8 @@
     color: #221F1F;
     font-size: 36px;
     text-align: start;
-    /* font-weight: bold; */
+    font-weight: bold;
     font-family: MADE-Tommy-Soft-regular;
-    padding: 15px 0px 10px 0px;
 }
 
 .htext p{
@@ -650,7 +649,7 @@
 
 /* hub text 1 */
 .hb h2{
-    color: #988265;
+    color: #655F5F;
     font-size: 18px;
     font-family: MADE-Tommy-Soft-regular;
     padding: 15px 0px 10px 10px;
@@ -692,6 +691,7 @@
 /* discover 4 image */
 .himg{
     padding: 65px 0px 2px 40px;
+    filter: drop-shadow(0 0 6px #abb2c6);
 }
 
 /* Get Started Mixxer */
@@ -712,6 +712,7 @@
     padding-top: 120px;
     color: #221F1F;
     font-size: 35.2px;
+    font-weight: bold;
     font-family: MADE-Tommy-Soft-regular;
 }
 
@@ -751,6 +752,11 @@
     padding: 120px 0px 30px 0px;
     text-align: center;
     font-family: MADE-Tommy-Soft-regular;
+}
+
+.farea{
+    padding-bottom: 100px;
+    gap: 10px;
 }
 
 /* text divs #1 */
@@ -843,6 +849,8 @@
     overflow-x: hidden;
     background-image: url(./images/contact-bg.png);
     background-size: cover;
+    background-position: center;
+    padding: 50px 20px; 
 }
 
 .ftext{
@@ -853,6 +861,7 @@
     padding-top: 80px;
     color: #221F1F;
     font-size: 36px;
+    font-weight: bold;
     font-family: MADE-Tommy-Soft-regular;
 }
 
@@ -875,10 +884,11 @@
     font-family: MADE-Tommy-Soft-regular;
     padding-left: 3px;
     margin-bottom: 0.2rem;
+    font-weight: bold;
 }
 
 .form-control{
-    width: 90% !important;
+    width: 90%;
     border-radius: 7px;
     color: #908B8B;
     font-size: 15px;
@@ -1427,13 +1437,17 @@
     .p4 p{
         font-size: 14px !important
     }
+    /* image */
+    .disc{
+        width: 80% !important;
+        padding: 90px 0px 0px !important;
+    }
     
     /* loop */
     .desc{
         width: 80% !important;
         padding: 30px 0px 0px !important;
     }
-
     .loop{
         padding: 40px 0px 0px !important
     }
@@ -1444,6 +1458,7 @@
     .loop p{
         font-size: 14px !important;
     }
+
     /* loop 1 text */
     .lt h2{
         font-size: 17px !important;
@@ -1462,71 +1477,158 @@
     .lp4 p{
         font-size: 14px !important;
     }
+
     /* Social Hub */
     .htext{
-        padding: 100px 0px 30px 0px;
+        padding: 20px 0px 30px 0px !important;
     }
 
     .htext h2{
-        color: #221F1F;
-        font-size: 36px;
-        text-align: start;
-        /* font-weight: bold; */
-        font-family: MADE-Tommy-Soft-regular;
-        padding: 15px 0px 10px 0px;
+        font-size: 30px!important;
     }
 
     .htext p{
-        text-align: start;
-        color: #655F5F;
-        font-size: 16px;
-        font-family: MADE-Tommy-Soft-regular;
+        font-size: 15px !important;
     }
 
     /* hub text 1 */
     .hb h2{
-        color: #988265;
-        font-size: 18px;
-        font-family: MADE-Tommy-Soft-regular;
-        padding: 15px 0px 10px 10px;
+        font-size: 15px !important;
     }
-
     .ht1 p{
-        text-align: start;
-        color: #655F5F;
-        font-size: 14px;
-        padding-bottom: 50px;
-        font-family: MADE-Tommy-Soft-regular;
+        padding-bottom: 20px !important;
     }
 
     /* hub text 2 */
     .ht2 p{
-        text-align: start;
-        color: #655F5F;
-        font-size: 14px;
-        padding-bottom: 50px;
-        font-family: MADE-Tommy-Soft-regular;
+        padding-bottom: 20px !important;
     }
 
     /* hub text 3 */
     .ht3 p{
-        text-align: start;
-        color: #655F5F;
         font-size: 14px;
-        font-family: MADE-Tommy-Soft-regular;
+        padding-bottom: 20px !important;
     }
 
     /* hub text 4 */
     .ht4 p{
-        text-align: start;
-        color: #655F5F;
         font-size: 14px;
-        font-family: MADE-Tommy-Soft-regular;
     }
 
     /* discover 4 image */
     .himg{
-        padding: 65px 0px 2px 40px;
+        width: 80% !important;
+        padding: 30px 0px 0px 40px !important;
+    }
+
+    /* Get Started Mixxer */
+    .bg-color{
+        margin: 50px 128px 0px 128px !important;
+    }
+    .get img{
+        width: 100% !important;
+    }
+    .mtxt{
+        padding-left: 30px;
+    }
+    .mtxt h2{
+        padding-top: 0px !important;
+        font-size: 25px !important;
+    }
+    .mtxt p{
+        padding-top: 10px !important;
+        font-size: 19px !important;
+    }
+    .mix{
+        font-size: 20px !important;
+    }
+    .str{
+        padding: 60px 0px 0px !important;
+        gap: 10px !important;
+    }
+    .str img{
+        width: 117px !important;
+    }
+    .sp{
+        font-size: 15px !important;
+        padding: 10px 0px 0px!important;
+    }
+
+    /* FAQ's */
+    .faq h2{
+        font-size: 34px !important;
+        padding: 50px 0px 30px 0px !important;
+    }
+    .farea{
+        padding-bottom: 100px !important;
+        gap: 10px !important;
+    }
+    /* faq1 */
+    .fp{
+        color: #000000 !important;
+        padding: 15px 0px 0px 10px !important;
+        font-size: 16px !important;
+    }
+    .fnw{
+        height: 100px !important;
+    }
+
+    /* assistance need */
+    .fassist{
+        padding: 0px 20px !important; 
+    }
+    .ftext{
+        padding-left: 15% !important;
+    }
+    .ftext h2{
+        width: 75% !important;
+        font-size: 34px !important;
+    }
+    
+    .ftext p{
+        width: 74% !important;
+        padding-top: 20px !important;
+        font-size: 16px !important;
+    }
+    /* form */
+    .form{
+        padding-left: 15% !important;
+        width: 96% !important;
+    }
+
+    .form-label{
+        font-size: 16px !important;
+        margin-bottom: 0.5rem !important;
+    }
+
+    .form-control{
+        border-radius: 7px !important;
+        font-size: 16px !important;
+    }
+
+    .txarea{
+        padding-bottom: 70px !important;
+        height: 110px;
+    }
+    
+    .itxt{
+        padding-bottom: 10px !important;
+        height: 50px;
+    }
+    
+    .bttn{
+        width: 90% !important;
+        height: 50px !important;
+        font-size: 16px !important;
+    }
+    
+    .buton{
+        padding: 30px 0px 95px 0px !important;
+    }
+    
+    .dimge{
+        width: 95% !important;
+        padding: 50px 60px 0px 0px !important;
     }
  }
 
