@@ -857,16 +857,17 @@
     padding: 95px 0px 0px 73px;
 }
 .ftext h2{
-    width: 75%;
+    width: 71%;
     padding-top: 80px;
     color: #221F1F;
-    font-size: 36px;
+    font-size: 32px;
+    letter-spacing: 1px;
     font-weight: bold;
-    font-family: MADE-Tommy-Soft-regular;
+    font-family: sf-prodisplay-bold;
 }
 
 .ftext p{
-    width: 86%;
+    width: 90%;
     padding-top: 20px;
     color: #655F5F;
     font-size: 15px;
@@ -880,15 +881,15 @@
 
 .form-label{
     color: #221f1f;
-    font-size: 13px;
-    font-family: MADE-Tommy-Soft-regular;
+    font-size: 16px;
     padding-left: 3px;
     margin-bottom: 0.2rem;
     font-weight: bold;
+    font-family: sf-prodisplay-bold;
 }
 
 .form-control{
-    width: 90%;
+    width: 93%;
     border-radius: 7px;
     color: #908B8B;
     font-size: 15px;
