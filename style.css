@@ -911,8 +911,7 @@
     background-color: #7E6C54;
     color: white;
     font-size: 16px;
-    font-weight: bold;
-    font-family: sf-prodisplay-bold;
+    font-family: MADE-Tommy-Soft-regular;
     border: none;
 }
 
@@ -947,24 +946,21 @@
 }
 
 .fl{
-    width: 215px !important;
-    padding-bottom: 25px;
+    width: 200px !important;
 }
 
 .fli{
-    width: 250px !important;
-    padding-bottom: 10px;
+    width: 278px !important;
     text-align: start;
     color: #473D2F;
-    font-size: 14px;
+    font-size: 16px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
 .fli1{
-    width: 280px !important;
-    padding-top: 20px;
+    width: 276px !important;
     color: #655F5F;
-    font-size: 14px;
+    font-size: 16px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
@@ -972,40 +968,36 @@
 .links{
     padding-left: 90px;
 }
-
-.lnk a:hover {
-    text-decoration: underline;
-    align-items: center;
-    color: black;
-    margin-right: 15px;
-    text-decoration: none;
+  .lnk a:hover {
+    color: #7E6C54;
   }
+
 
 .links h5{
     color: #0B0A0A;
-    font-size: 22px;
+    font-size: 23px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
 .lkimg{
-    /* padding-left: 2px !important; */
-    width: 115px !important;
+    width: 120px !important;
 }
 
 .flnk{
     text-decoration: none;
     color: #0B0A0A;
-    font-size: 20px;
+    font-size: 19px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
+
+
 .flnk img{
-    width: 30px !important;
+    width: 15px !important;
 }
 
 .uimg{
-    width: 25px !important;
-    padding-right: 10px;
+    width: 20px !important;
 }
 
 .flnk1{
@@ -1031,19 +1023,19 @@
 .trm a:hover {
     text-decoration: none;
     align-items: center;
-    color: black;
+    color: #655F5F;
     margin-right: 15px;
   }
 
 .terms img{
     padding-top: 10px;
-    width: 125px;
+    width: 105px;
 }
 
 .ftlnk{
     text-decoration: none;
     color: #0B0A0A;
-    font-size: 20px;
+    font-size: 19px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
@@ -1070,34 +1062,25 @@
 }
 
 .touch img{
-    width: 160px;
+    width: 120px;
 }
 .flimg{
     width: 30px !important;
     padding-right: 10px;
 }
-
-.uimg2{
-    width: 36px !important;
-}
-
-.flnk2{
-    text-align: start;
-}
 .flnk2 h5{
     color: #0B0A0A;
-    font-size: 18px;
+    font-size: 16px;
     font-family: MADE-Tommy-Soft-regular;
+}
+.eml{
+    color: #655F5F;
 }
 
 .touch p{
     color: #7A7474;
     font-size: 16px;
     font-family: MADE-Tommy-Soft-regular;
-}
-
-.ft{
-    gap: 10px;
 }
 
 /* faq's page css */
@@ -1618,18 +1601,16 @@
     
     .bttn{
         width: 90% !important;
-        height: 50px !important;
+        height: 40px !important;
         font-size: 16px !important;
     }
     
     .buton{
-        padding: 30px 0px 95px 0px !important;
+        padding: 15px 0px 60px 0px !important;
     }
     
-    .dimge{
-        width: 95% !important;
-        padding: 50px 60px 0px 0px !important;
-    }
+    /* footer */
+    
  }
 
 /* media query ends */
