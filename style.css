@@ -1077,12 +1077,6 @@
     color: #655F5F;
 }
 
-.touch p{
-    color: #7A7474;
-    font-size: 16px;
-    font-family: MADE-Tommy-Soft-regular;
-}
-
 /* faq's page css */
 /* Navbar */
 .fmenu {
@@ -1610,7 +1604,91 @@
     }
     
     /* footer */
-    
+    /* bg imag */
+    .fimg{
+        background-position: center;
+        margin-top: 50px;
+    }
+    .mixxer{
+        padding: 50px 0px 0px 100px !important;
+    }
+    .fl{
+        width: 145px !important;
+    }
+    .fli{
+        width: 501px !important;
+        font-size: 16px;
+    }
+    .fli1{
+        width: 276px !important;
+        padding-bottom: 30px;
+    }
+
+    /* links */
+    .links{
+        padding-left: 90px;
+    }
+    .lnk a:hover {
+        color: #7E6C54;
+    }
+
+
+    .links h5{
+        color: #0B0A0A;
+        font-size: 23px;
+        font-family: MADE-Tommy-Soft-regular;
+    }
+
+    .lkimg{
+        width: 120px !important;
+    }
+
+    .flnk img{
+        width: 15px !important;
+    }
+
+    .uimg{
+        width: 20px !important;
+    }
+
+    .flnk1{
+        color: #0B0A0A;
+        font-size: 17px;
+        font-family: MADE-Tommy-Soft-regular;
+    }
+
+    .flnk12{
+        color: #0B0A0A;
+        font-size: 14px;
+        font-family: MADE-Tommy-Soft-regular;
+    }
+
+    /* Terms */
+
+    .terms h5{
+        padding: 40px 0px 0px 92px !important;
+    }
+
+    .terms a{
+        padding: 0px 0px 0px 90px !important;
+    }
+
+    .trm a:hover {
+        color: #655F5F;
+    }
+
+    .terms img{
+        padding-top: 10px;
+        width: 105px;
+    }
+
+    /* Touch */
+    .touch{
+        padding: 30px 0px 0px 100px !important;
+    }
+    .flimg{
+        padding-top: 10px !important;
+    }
  }
 
 /* media query ends */
