@@ -1210,7 +1210,7 @@
     margin-left: 64px;
 }
 
-/* media queries Navbar for phones */
+/* media queries Navbar for tablets ≥768px */
 @media (max-width: 768px){
     .navbar-collapse{
         background-color: #7E6C54;
@@ -1692,6 +1692,109 @@
     .flimg{
         padding-top: 10px !important;
     }
- }
+}
+
+/* media queries Navbar for mobiles large ≥576px */
+@media screen and (max-width: 575px){
+    .navbar-toggler {
+        padding-left: 0px !important;
+        margin-left: 0px !important;
+        max-width: 575px !important;
+    }
+    .flogo{
+        width: 135px !important;
+        margin-left: 12px !important;
+    }
+    .navbar.navbarfit .fbar{
+        font-size: 25px !important;
+    }
+    
+    .navbar.navbarfit .flogo{
+        padding-right: 10px !important;
+    }
+    .text h1{
+        font-size: 24px !important;
+        letter-spacing: 2px;
+    }
+    .text p{
+        margin-bottom: 7px !important;
+        max-width: 441px !important;
+        font-size: 15px !important;
+        letter-spacing: 1px;
+    }
+    .btn{
+        font-size: 15px !important;
+    }
+    .store img{
+        width: 115px !important;
+    }
+    .simg{
+        padding-bottom: 5px !important;
+    }
+
+    /* about */
+    .essentials{
+        padding-top: 10px !important;
+    }
+    .essentials h2{
+        font-size: 30px !important;
+        padding-top: 0px !important;
+    }
+    .etxt1{
+        top: 130px !important; 
+        width: 50% !important;
+        margin-left: 16px !important;
+    }
+    .etxt1 h5{
+        width: 280px;
+        font-size: 20px !important;
+    }
+
+    .etxt1 p{
+        font-size: 13.5px !important;
+        padding-right: 40px !important;
+        width: 228px !important;
+    }
+
+    .eim{
+        padding-top: 110px !important;
+        width: 530px !important;
+    }
+    .etxt2{
+        top: 382px !important; 
+        width: 30%;
+        margin-left: 16px !important;
+    }
+    .etxt2 h5 {
+        font-size: 19px !important;
+    } 
+    .etxt2 p {
+        width: 232px !important;
+        font-size: 15px !important;
+    }
+    .etxt3{
+        top: 190px !important; 
+        width: 36% !important;
+        padding-left: 10px !important;
+    }
+    .etxt3 h5 {
+        padding-left: 39px !important;
+        font-size: 19px !important;
+    }
+    .etxt3 p {        
+        width: 220px !important;
+        padding: 0px 34px !important;
+        font-size: 15px !important;
+    }
+
+    .fli{
+        width: 427px !important;
+    }
+
+     /* assistance need */
+     .fassist{
+        padding: 0px !important; 
+    }
+}
 
 /* media query ends */
