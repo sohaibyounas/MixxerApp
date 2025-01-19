@@ -179,39 +179,32 @@
     background-image: url(./Images/ab-bg.png);
     background-size: cover;
 }
-
 .abimg{
     width: 370px !important;
     padding-top: 85px;
 }
-
 .img1{
     width: 590px !important;
     padding-left: 30px;
 }
-
 .img2{
     padding-top: 40px;
     width: 283px !important;
 }
-
 .img3{
     width: 290px !important; 
     padding-top: 25px;
 }
-
 .txt{
     margin-top: 20px;
     padding-bottom: 60px;
 }
-
 .txt h3{
     padding-top: 60px;
     color: #22201e;
     font-family: MADE-Tommy-Soft;
     width: 397px;
 }
-
 .txt p{
     font-family: MADE-Tommy-Soft-regular;
     color: #655F5F;
@@ -219,7 +212,6 @@
     padding: 20px 65px 0px 0px ;
     text-align: start;
 }
-
 .about{
     padding-left: 50px;
 }
@@ -229,15 +221,12 @@
     width: 80% !important;
     padding: 70px 65px 110px 30px !important;
 }
-
-
 .stext h2{
     font-family: sf-prodisplay-bold;
     color: #473D2F;
     font-size: 32px;
     padding-top: 150px;
 }
-
 .head{
     padding-top: 20px;
 }
@@ -1867,7 +1856,177 @@
         font-size: 13px !important;
         padding-right: 22px !important;
     }
-    
+    .desc {
+        width: 80% !important;
+    }
+    .htext p {
+        font-size: 14px !important;
+    }
+    .himg {
+        width: 80% !important;
+    }
+}
+
+/* max-width Mobile L > 425px */
+@media screen and (max-width: 425px) {
+    .navbar-toggler {
+        max-width: 430px !important;
+    }
+    .text h1 {
+        font-size: 17px !important;
+        letter-spacing: 0px !important;
+    }
+    .text p {
+        width: 85% !important;
+        margin-bottom: 4px !important;
+        font-size: 12px !important;
+    }
+    .text {
+        top: 95px !important;
+    }
+    .btn {
+        padding: 4px 8px !important;
+        margin: 0px 0px 6px 0px !important;
+    }
+    .btn {
+        font-size: 10px !important;
+    }
+    .store img {
+        width: 75px !important;
+    }
+    .txt p {
+        width: 438px !important;
+    }
+    .essentials h2 {
+        font-size: 20px !important;
+    }
+    .eim {
+        padding-top: 50px !important;
+        width: 370px !important;
+    }
+    .etxt1 {
+        top: 75px !important;
+        margin-left: 4px !important;
+    }
+    .etxt1 h5 {
+        font-size: 12.5px !important;
+    }
+    .etxt1 p {
+        font-size: 11px !important;
+        width: 192px !important;
+    }
+    .etxt2 {
+        top: 225px !important;
+        margin-left: 4px !important;
+    }
+    .etxt2 h5 {
+        font-size: 10.5px !important;
+    }
+    .etxt2 p {
+        width: 154px !important;
+        font-size: 14px !important;
+    }
+    .etxt3 h5 {
+        font-size: 10px !important;
+    }
+    .etxt3 p {
+        width: 188px !important;
+        font-size: 13.5px !important;
+    }
+    .str img {
+        width: 95px !important;
+    }
+    .sp {
+        font-size: 14px !important;
+    }
+    .faq h2 {
+        font-size: 31px !important;
+    }
+    .fli {
+        width: 344px !important;
+    }
+}
+
+/* max-width mobile M >376px */
+@media screen and (max-width : 376px){
+    .ctn {
+        padding: 0px 0px 0px 80px !important;
+    }
+    .head p {
+        padding: 0px !important;
+    }
+    .px-3 {
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
+    }
+    .text {
+        top: 75px !important;
+    }
+    .txt p {
+        width: 438px !important;
+    }
+    .txt h3{
+        width: 141px !important;
+    }
+    .txt p {
+        width: 350px !important;
+        padding: 0px !important;
+    }
+    .etxt3 p{
+        width: 140px !important;
+        padding: 0px !important;
+    }
+    .str img {
+        width: 83px !important;
+    }
+    .fli {
+        width: 262px !important;
+    }
+    .fli1{
+        font-size: 14px !important;
+        width: 247px !important;
+    }
+}
+
+/* Max-width Mobile S >320px  */
+@media screen and (max-width: 321px) {
+    .text {
+        top: 50px !important;
+    }
+    .text h1 {
+        font-size: 20px !important;
+    }
+    .text p {
+        width: 100% !important;
+        margin-bottom: 4px !important;
+        font-size: 10px !important;
+    }
+    .txt p {
+        width: 308px !important;
+        padding: 0px !important;
+    }
+    .ctn {
+        width: 100% !important;
+        padding-left: 40px!important;
+    }
+    .eim {
+        padding-top: 50px !important;
+        width: 325px !important;
+    }
+    .etxt1 h5 {
+        font-size: 11px !important;
+    }
+    .etxt1 p {
+        font-size: 10px !important;
+        width: 129px !important;
+    }
+    .etxt2 {
+        top: 250px !important;
+    }
+    .etxt2 p {
+        width: 143px !important;
+        font-size: 10px !important;
+    }
 }
 
 /* media query ends */
