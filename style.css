@@ -1970,8 +1970,30 @@
         padding-left: 72px !important;
     }
 
+    .social p {
+        font-size: 20px;
+        padding: 0px 20px;
+    }
+
+    .social h2 {
+        font-size: 24px !important;
+    }
+
+    .ptext p {
+        font-size: 15px !important;
+    }
+
+    .mtxt h2 {
+        padding: 15px 0px !important;
+        font-size: 22px !important;
+    }
+
     .str img {
-        width: 95px !important;
+        width: 90px !important;
+    }
+
+    .get img {
+        padding: 60px 0px 0px 10px !important;
     }
 
     .sp {
