@@ -1626,7 +1626,6 @@
         color: #7E6C54;
     }
 
-
     .links h5{
         color: #0B0A0A;
         font-size: 23px;
@@ -1658,7 +1657,6 @@
     }
 
     /* Terms */
-
     .terms h5{
         padding: 40px 0px 0px 92px !important;
     }
@@ -1826,11 +1824,11 @@
     }
     .stext h2 {
         font-size: 22px !important;
-        padding-top: 20px !important;
+        padding: 20px 0px 0px 10px !important;
     }
     .head p{
         font-size: 14px !important;
-        padding: 0px 20px 0px 0px !important;
+        padding: 0px !important;
     }
     .social h2 {
         font-size: 28px !important;
@@ -1909,7 +1907,7 @@
 
     .head p {
         font-size: 11px !important;
-        padding-left: 30px !important;
+        padding-left: 34px !important;
     }
 
     .ctn {
@@ -1935,6 +1933,7 @@
         font-size: 11px !important;
         width: 195px !important;
     }
+
     .etxt1 p {
         font-size: 11px !important;
         width: 182px !important;
@@ -1966,6 +1965,7 @@
     }
 
     .etxt3 p {
+        width: 186px !important;
         font-size: 11px !important;
         padding-left: 72px !important;
     }
@@ -2018,7 +2018,10 @@
     .head p {
         padding: 0px !important;
     }
-
+    .px-3 {
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
+    }
     .text {
         top: 75px !important;
     }
