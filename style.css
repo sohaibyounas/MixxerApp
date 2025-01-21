@@ -2189,11 +2189,9 @@
         padding-top: 0px !important;
     }
 
-    .trm a{
-        text-align: left !important;
-        margin-left: 0 !important;
+    .terms a {
+        padding: 0px 0px 0px 90px !important;
     }
-
 
 }
 
