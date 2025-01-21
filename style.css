@@ -2165,6 +2165,35 @@
         width: 98% !important;
     }
 
+    .mixxer {
+        padding: 0px !important;
+    }
+
+    .fli {
+        font-size: 13px !important;
+    }
+
+    .links {
+        padding-left: 0px;
+    }
+
+    .terms h5 {
+        padding: 40px 0px 0px !important;
+    }
+
+    .touch {
+        padding: 30px 0px 0px 0px !important;
+    }
+
+    .flimg {
+        padding-top: 0px !important;
+    }
+
+    .trm a{
+        text-align: left !important;
+        margin-left: 0 !important;
+    }
+
 
 }
 
