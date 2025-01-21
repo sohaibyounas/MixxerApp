@@ -1868,80 +1868,120 @@
 }
 
 /* max-width Mobile L > 425px */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     .navbar-toggler {
         max-width: 430px !important;
     }
+
     .text h1 {
         font-size: 17px !important;
-        letter-spacing: 0px !important;
+        letter-spacing: 1px !important;
     }
+
     .text p {
         width: 85% !important;
         margin-bottom: 4px !important;
         font-size: 12px !important;
     }
+    
     .text {
         top: 95px !important;
     }
+
     .btn {
         padding: 4px 8px !important;
         margin: 0px 0px 6px 0px !important;
-    }
-    .btn {
         font-size: 10px !important;
     }
+
     .store img {
         width: 75px !important;
     }
+
     .txt p {
-        width: 438px !important;
+        width: 413px !important;
+        padding: 0px !important;
     }
+
+    .headtxt {
+        font-size: 15px !important;
+    }
+
+    .head p {
+        font-size: 11px !important;
+        padding-left: 30px !important;
+    }
+
+    .ctn {
+        width: 80% !important;
+        padding-left: 50px !important;
+    }
+
     .essentials h2 {
+        padding: 0px !important;
         font-size: 20px !important;
     }
+
     .eim {
         padding-top: 50px !important;
-        width: 370px !important;
     }
+
     .etxt1 {
-        top: 75px !important;
+        top: 58px !important;
         margin-left: 4px !important;
     }
+
     .etxt1 h5 {
-        font-size: 12.5px !important;
+        font-size: 11px !important;
+        width: 195px !important;
     }
     .etxt1 p {
         font-size: 11px !important;
-        width: 192px !important;
+        width: 182px !important;
     }
+
     .etxt2 {
         top: 225px !important;
         margin-left: 4px !important;
     }
+
     .etxt2 h5 {
         font-size: 10.5px !important;
     }
+
     .etxt2 p {
         width: 154px !important;
-        font-size: 14px !important;
+        font-size: 11px !important;
     }
+
+    .etxt3 {
+        width: 220px !important;
+        top: 90px !important;
+        padding-left: 34px !important;
+    }
+
     .etxt3 h5 {
-        font-size: 10px !important;
+        font-size: 13px !important;
+        padding-left: 50px !important;
     }
+
     .etxt3 p {
-        width: 188px !important;
-        font-size: 13.5px !important;
+        font-size: 11px !important;
+        padding-left: 72px !important;
     }
+
     .str img {
         width: 95px !important;
     }
+
     .sp {
         font-size: 14px !important;
     }
+
     .faq h2 {
         font-size: 31px !important;
     }
+
     .fli {
         width: 344px !important;
     }
@@ -2013,12 +2053,13 @@
         width: 100% !important;
         padding-left: 40px!important;
     }
-    .essentials h2 {
-        padding-right: 5px !important;
-    }
     .eim {
         padding-top: 50px !important;
-        width: 325px !important;
+        width: 100% !important;
+    }
+    .etxt1 {
+        width: 0% !important;
+        top: 75px !important;
     }
     .etxt1 h5 {
         font-size: 11px !important;
