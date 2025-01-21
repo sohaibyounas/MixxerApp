@@ -1467,6 +1467,7 @@
     .hb h2{
         font-size: 15px !important;
     }
+    
     .ht1 p{
         padding-bottom: 20px !important;
     }
@@ -1497,28 +1498,35 @@
     .bg-color{
         margin: 50px 128px 0px 128px !important;
     }
+
     .get img{
         padding-top: 60px !important;
         width: 100% !important;
     }
+
     .mtxt h2{
         padding-top: 0px !important;
         font-size: 22px !important;
     }
+
     .mtxt p{
         padding-top: 10px !important;
         font-size: 18px !important;
     }
+
     .mix{
         font-size: 21px !important;
     }
+
     .str{
         padding: 60px 0px 0px !important;
         gap: 10px !important;
     }
+
     .str img{
         width: 117px !important;
     }
+
     .sp{
         font-size: 15px !important;
         padding: 10px 0px 0px!important;
@@ -1529,6 +1537,7 @@
         font-size: 34px !important;
         padding: 50px 0px 30px 0px !important;
     }
+
     .farea{
         padding-bottom: 100px !important;
         flex-direction: column !important;
@@ -1540,6 +1549,7 @@
         padding: 15px 0px 0px 10px !important;
         font-size: 16px !important;
     }
+
     .fnw{
         height: 100px !important;
     }
@@ -1548,9 +1558,11 @@
     .fassist{
         padding: 0px 20px !important; 
     }
+
     .ftext{
         padding-left: 15% !important;
     }
+
     .ftext h2{
         width: 75% !important;
         font-size: 34px !important;
@@ -1561,6 +1573,7 @@
         padding-top: 20px !important;
         font-size: 16px !important;
     }
+
     /* form */
     .form{
         padding-left: 15% !important;
@@ -1597,22 +1610,25 @@
         padding: 15px 0px 60px 0px !important;
     }
     
-    /* footer */
-    /* bg imag */
+    /* footer bg imag */
     .fimg{
         background-position: center;
         margin-top: 50px;
     }
+
     .mixxer{
         padding: 50px 0px 0px 100px !important;
     }
+
     .fl{
         width: 145px !important;
     }
+
     .fli{
         width: 501px !important;
         font-size: 16px;
     }
+
     .fli1{
         width: 276px !important;
         padding-bottom: 30px;
@@ -1678,6 +1694,7 @@
     .touch{
         padding: 30px 0px 0px 100px !important;
     }
+
     .flimg{
         padding-top: 10px !important;
     }
@@ -1690,10 +1707,12 @@
         margin-left: 0px !important;
         max-width: 575px !important;
     }
+
     .flogo{
         width: 135px !important;
         margin-left: 12px !important;
     }
+
     .navbar.navbarfit .fbar{
         font-size: 25px !important;
     }
@@ -1701,22 +1720,27 @@
     .navbar.navbarfit .flogo{
         padding-right: 10px !important;
     }
+
     .text h1{
         font-size: 24px !important;
         letter-spacing: 2px;
     }
+
     .text p{
         margin-bottom: 7px !important;
         max-width: 441px !important;
         font-size: 15px !important;
         letter-spacing: 1px;
     }
+
     .btn{
         font-size: 15px !important;
     }
+
     .store img{
         width: 115px !important;
     }
+
     .simg{
         padding-bottom: 5px !important;
     }
@@ -1725,14 +1749,17 @@
     .essentials{
         padding-top: 0px !important;
     }
+
     .essentials h2{
         padding-right: 30px !important;
         font-size: 25px !important;
     }
+
     .etxt1{
         top: 60px !important; 
         margin-left: 20px !important;
     }
+
     .etxt1 h5{
         width: 245px !important;
         font-size: 17px !important;
@@ -1747,27 +1774,34 @@
         padding-top: 80px !important;
         width: 380px !important;
     }
+
     .etxt2{
         top: 250px !important; 
         margin-left: 20px !important;
     }
+
     .etxt2 h5 {
         font-size: 14px !important;
     } 
+
     .etxt2 p {
         width: 179px !important;
         font-size: 14px !important;
     }
+
     .etxt3{
-        top: 90px !important; 
+        top: 118px !important;
         padding-left: 0px !important;
     }
+
     .etxt3 h5 {
-        padding-left: 0px !important;
-        font-size: 16px !important;
+        padding-left: 21px !important;
+        font-size: 18px !important;
     }
+
     .etxt3 p {        
-        width: 220px !important;
+        padding: 0px 0px 0px 22px !important;
+        width: 203px !important;
         font-size: 14px !important;
     }
 
@@ -1790,31 +1824,47 @@
     }
     
     .txt p{
-        padding: 20px 33px 0px 0px !important;
+        width: 543px !important;
+        padding: 0px !important;
     }
+
     .ce {
         width: 70% !important;
     }
+
     .disc {
         width: 70% !important;
     }
+
     .desc {
         width: 70% !important;
     }
+
     .himg {
         width: 70% !important;
     }
+
     /* Get Started Mixxer */
     .bg-color{
         margin: 100px 0px  !important;
     }
+
     .sp{
         font-size: 17px !important;
         padding: 0px!important;
     }
+
+    .mtxt {
+        padding-top: 20px !important;
+    }
+
     .mtxt p {
         padding-top: 10px !important;
         font-size: 18px !important;
+    }
+
+    .get img {
+        padding: 60px 0px 0px 10px !important;
     }
 
     /* Socializing */
@@ -1822,44 +1872,103 @@
         width: 70% !important;
         padding: 0px 0px 0px 80px !important;
     }
+
     .stext h2 {
         font-size: 22px !important;
         padding: 20px 0px 0px 10px !important;
     }
+
     .head p{
         font-size: 14px !important;
+        padding: 0px 0px 0px 45px !important;
+    }
+
+    .headtxt {
+        padding-left: 11px !important;
+    }
+
+    .sp {
+        font-size: 15px !important;
         padding: 0px !important;
     }
-    .social h2 {
-        font-size: 28px !important;
-    }
-    .ctxt h2 {
-        font-size: 25px !important;
-    }
-    .ctxt p {
-        padding: 20px 27px 0px 0px !important;
-        font-size: 15px !important;
-    }
+
     .s1 p {
         padding-right: 20px !important;
     }
+
     .s2 p {
         padding: 10px 20px 0px 0px !important;
     }
+
     .s3 p{
         font-size: 13px !important;
         padding-right: 10px !important;
     }
+
     .s4 p {
         font-size: 13px !important;
         padding-right: 22px !important;
     }
+
+    .social h2 {
+        font-size: 28px !important;
+    }
+
+    .ctxt h2 {
+        font-size: 25px !important;
+    }
+
+    .ctxt p {
+        padding: 20px 27px 0px 0px !important;
+        font-size: 15px !important;
+    }
+
+    .ftext {
+        padding-left: 2% !important;
+    }
+
+    .ftext h2 {
+        width: 100% !important;
+        font-size: 28px !important;
+    }
+
+    .form {
+        padding-left: 2% !important;
+        width: 100% !important;
+    }
+
+    .mixxer {
+        padding: 50px 0px 0px !important;
+    }
+
+    .fli {
+        width: 100% !important;
+    }
+
+    .links {
+        padding-left: 0px !important;
+    }
+
+    .terms h5 {
+        padding: 40px 0px 0px !important;
+    }
+
+    .trm a{
+        padding-left: 0px !important;
+    }
+
+    .touch {
+        padding: 30px 0px 0px !important;
+    }
+
     .desc {
         width: 80% !important;
     }
+
     .htext p {
         font-size: 14px !important;
     }
+
     .himg {
         width: 80% !important;
     }
