@@ -693,7 +693,7 @@
 /* discover 4 image */
 .himg{
     width: 80% !important;
-    padding: 70px 0px 2px 40px !important;
+    padding: 70px 0px 2px 40px;
     filter: drop-shadow(0 0 6px #abb2c6);
 }
 
@@ -1207,69 +1207,72 @@
 }
 
 /* media queries for tablets ≥768px */
-@media screen and (max-width: 768px){
-    .navbar.navbarfit {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15);
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000;
-    }
+@media screen and (max-width: 767px){
+.navbar.navbarfit {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15);
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
 
-    .navbar-collapse{
-        background-color: #7E6C54;
-    } 
+.navbar-collapse{
+    background-color: #7E6C54;
+} 
 
-    .navbar-collapse a{
-        color: white;
-        padding: 10px 0px 0px 15px;
-        font-family: sf-prodisplay-regular;
-    }
+.navbar-collapse a{
+    color: white;
+    padding: 10px 0px 0px 15px;
+    font-family: sf-prodisplay-regular;
+}
 
-    .text h1{
-        font-size: 28px;
-        letter-spacing: 2px;
-    }
+.navbar-toggler{
+    margin: 0px 100px;
+}
 
-    .text p{
-        margin-bottom: 10px;
-        max-width: 540px;
-        font-size: 18px;
-        letter-spacing: 2px;
-    }
+.flogo{
+    width: 135px !important;
+    margin-left: 12px;
+}
 
-    .text{
-        max-width: 540px;
-        top: 175px;
-    }
+.text{
+    top: 185px;
+}
 
-    .navbar-toggler{
-        max-width: 600px;
-        margin-left: 65px;
-    }
+.text h1{
+    font-size: 28px;
+    letter-spacing: 2px;
+}
 
-    .text button{
-        margin-top: 0px;
-    }
+.text p{
+    margin-bottom: 10px;
+    max-width: 540px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
 
-    .store img{
-        width: 120px;
-    }
+.text button{
+    margin-top: 0px;
+}
 
-    /* about area */
-    .txt p{
-        width: 575px;
-        padding: 20px 65px 0px 0px;
-    }
+.store img{
+    width: 120px;
+}
 
-    /* seamless Socializing */
-    .ctn {
-        width: 100%;
-        padding: 70px 65px 0px 30px;
-    }
+/* about area */
+.txt p{
+    width: 575px;
+    padding: 20px 65px 0px 0px;
+}
 
-    .stext h2{
+/* seamless Socializing */
+.ctn {
+    width: 100%;
+    padding: 70px 65px 0px 30px;
+}
+
+.stext h2{
         font-size: 24px;
         padding: 20px 0px 0px 10px;
     }
@@ -1754,7 +1757,7 @@
 
 .flogo{
     width: 135px !important;
-    margin-left: 12px !important;
+    margin-left: 12px;
 }
 
 .navbar.navbarfit .fbar{
