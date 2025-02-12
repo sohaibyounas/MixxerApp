@@ -222,8 +222,8 @@
 
 /* Socializing */
 .ctn{
-    width: 80% !important;
-    padding: 70px 65px 110px 30px !important;
+    width: 80%;
+    padding: 70px 65px 110px 30px;
 }
 .stext h2{
     font-family: sf-prodisplay-bold;
@@ -377,7 +377,7 @@
 /* connected ease area */
 .ce{
     width: 70% !important;
-    padding: 140px 0px 0px 0px !important;
+    padding: 140px 0px 0px 0px;
     filter: drop-shadow(0 0 6px #abb2c6);
 }
 
@@ -940,16 +940,16 @@
 
 /* col1 */
 .fc1 img{
-    width: 400px !important;
+    width: 400px;
     padding: 50px 0px 5px 80px;
 }
 
 .fl{
-    width: 200px !important;
+    width: 200px;
 }
 
 .fli{
-    width: 278px !important;
+    width: 278px;
     text-align: start;
     color: #473D2F;
     font-size: 16px;
@@ -957,7 +957,7 @@
 }
 
 .fli1{
-    width: 276px !important;
+    width: 276px;
     color: #655F5F;
     font-size: 16px;
     font-family: MADE-Tommy-Soft-regular;
@@ -1616,7 +1616,7 @@
     }
 
     .ftext {
-        padding: 15% 15% 0% 14%;
+        padding: 25px 12px 0px 14px;
     }
 
     .ftext h2{
@@ -1632,7 +1632,7 @@
 
     /* form */
     .form{
-        padding: 15% 12% 0% 14%;
+        padding: 15px 12px 0px 14px;
         width: 100%;
     }
 
@@ -1748,7 +1748,7 @@
 /* media queries Navbar for mobiles large ≥576px */
 @media screen and (max-width: 576px){
 .navbar .navbar-toggler {
-    padding-left: 0px;
+    padding-left: 18px;
     margin-left: 0px;
 }
 
@@ -1766,7 +1766,7 @@
 }
 
 .text {
-    left: 11px;
+    left: 30px;
     top: 100px;
 }
 
@@ -1794,18 +1794,26 @@
     padding-bottom: 5px;
 }
 
-/* About Mixer */
+/* About Mixxer*/
+.about-bgimg {
+    background-image: none;
+}
+
 .txt {
     margin-top: 0px;
     padding-bottom: 0px;
 }
     
-.txt p{
-    width: 562px;
+.txt h3 {
+    padding-left: 4px;
+}
+
+.txt p {
+    width: 522px;
     padding: 0px;
 }
     
-    .ce {
+.ce {
     width: 70%;
 }
     
@@ -1821,11 +1829,30 @@
     width: 70%;
 }
 
-/* about */
-.about-bgimg {
-    background-image: none;
+.ctn{
+    width: 70% !important;
 }
 
+/* Socializing */
+.stext h2 {
+    font-size: 22px;
+    padding: 20px 0px 0px 25px;
+}
+
+.head {
+    padding: 20px 11px 0px 25px;
+}
+
+.head p{
+    font-size: 14px;
+    padding: 0px 0px 0px 45px;
+}
+
+.headtxt {
+    padding-left: 11px;
+}
+
+/* essentials */
 .essentials{
     padding-top: 0px;
 }
@@ -1835,500 +1862,698 @@
     font-size: 25px;
 }
 
+.eim{
+    padding-top: 70px;
+    width: 80%;
+}
+
 .etxt1{
-    top: 60px; 
-    margin-left: 20px;
+    top: 65px; 
+    margin-left: 10px;
 }
 
 .etxt1 h5{
     width: 245px;
-    font-size: 17px;
+    font-size: 15px;
 }
 
-    .etxt1 p{
-        font-size: 13.5px;
-        width: 213px;
-    }
+.etxt1 p{
+    font-size: 13px;
+    width: 198px;
+}
 
-    .eim{
-        padding-top: 110px;
-        width: 80%;
-    }
+.etxt2{
+    top: 285px; 
+    margin-left: 10px;
+}
 
-    .etxt2{
-        top: 250px; 
-        margin-left: 20px;
-    }
+.etxt2 h5 {
+    font-size: 14px;
+} 
 
-    .etxt2 h5 {
-        font-size: 14px;
-    } 
+.etxt2 p {
+    width: 179px;
+    font-size: 13px;
+}
 
-    .etxt2 p {
-        width: 179px;
-        font-size: 14px;
-    }
+.etxt3{
+    top: 152px;
+    padding-left: 3px;
+}
 
-    .etxt3{
-        top: 118px;
-        padding-left: 0px;
-    }
+.etxt3 h5 {
+    padding-left: 39px;
+    font-size: 15px;
+}
 
-    .etxt3 h5 {
-        padding-left: 39px;
-        font-size: 18px;
-    }
+.etxt3 p {
+    width: 204px;
+    font-size: 12px;
+    padding: 0px 0px 0px 39px;
+}
 
-    .etxt3 p {
-        width: 224px;
-        font-size: 13px;
-    }
+.fli{
+    width: 427px;
+}
 
-    .fli{
-        width: 427px;
-    }
+/* assistance need */
+.fassist{
+    background-image: none;
+    padding: 0px; 
+}
 
-     /* assistance need */
-     .fassist{
-        background-image: none;
-        padding: 0px; 
-    }
+.str img{
+    width: 110px;
+}
 
-    .str img{
-        width: 110px;
-    }
+/* Get Started Mixxer */
+.bg-color{
+    margin: 100px 0px;
+}
 
-    /* Get Started Mixxer */
-    .bg-color{
-        margin: 100px 0px;
-    }
+.sp{
+    font-size: 17px;
+    padding: 0px;
+}
 
-    .sp{
-        font-size: 17px;
-        padding: 0px;
-    }
+.mtxt {
+    padding-top: 20px;
+}
 
-    .mtxt {
-        padding-top: 20px;
-    }
+.mtxt p {
+    padding-top: 10px;
+    font-size: 18px;
+}
 
-    .mtxt p {
-        padding-top: 10px;
-        font-size: 18px;
-    }
+.get img {
+    padding: 60px 0px 0px 10px;
+}
 
-    .get img {
-        padding: 60px 0px 0px 10px;
-    }
+.sp {
+    font-size: 15px;
+    padding: 0px;
+}
 
-    /* Socializing */
-    .ctn{
-        width: 70%;
-        padding: 0px 0px 0px 80px;
-    }
+.s1 p {
+    padding-right: 20px;
+}
 
-    .stext h2 {
-        font-size: 22px;
-        padding: 20px 0px 0px 10px;
-    }
+.s2 p {
+    padding: 10px 20px 0px 0px;
+}
 
-    .head p{
-        font-size: 14px;
-        padding: 0px 0px 0px 45px;
-    }
+.s3 p{
+    font-size: 13px;
+    padding-right: 10px;
+}
 
-    .headtxt {
-        padding-left: 11px;
-    }
+.s4 p {
+    font-size: 13px;
+    padding-right: 22px;
+}
 
-    .sp {
-        font-size: 15px;
-        padding: 0px;
-    }
+.social h2 {
+    font-size: 28px;
+}
 
-    .s1 p {
-        padding-right: 20px;
-    }
+.ctxt h2 {
+    font-size: 25px;
+}
 
-    .s2 p {
-        padding: 10px 20px 0px 0px;
-    }
+.ctxt p {
+    padding: 20px 27px 0px 0px;
+    font-size: 15px;
+}
 
-    .s3 p{
-        font-size: 13px;
-        padding-right: 10px;
-    }
+.ftext {
+    padding-left: 8px;
+}
 
-    .s4 p {
-        font-size: 13px;
-        padding-right: 22px;
-    }
+.ftext h2 {
+    width: 100%;
+    font-size: 28px;
+}
 
-    .social h2 {
-        font-size: 28px;
-    }
+.form {
+    padding-left: 2%;
+    width: 100%;
+}
 
-    .ctxt h2 {
-        font-size: 25px;
-    }
+.mixxer {
+    padding: 50px 0px 0px;
+}
 
-    .ctxt p {
-        padding: 20px 27px 0px 0px;
-        font-size: 15px;
-    }
+.fli {
+    width: 100%;
+}
 
-    .ftext {
-        padding-left: 2%;
-    }
+.links {
+    padding-left: 0px;
+}
 
-    .ftext h2 {
-        width: 100%;
-        font-size: 28px;
-    }
+.terms h5 {
+    padding: 40px 0px 0px;
+}
 
-    .form {
-        padding-left: 2%;
-        width: 100%;
-    }
+.trm a{
+    padding-left: 0px;
+}
 
-    .mixxer {
-        padding: 50px 0px 0px;
-    }
+.touch {
+    padding: 0%;
+}
 
-    .fli {
-        width: 100%;
-    }
+.desc {
+    width: 80%;
+}
 
-    .links {
-        padding-left: 0px;
-    }
+.htext p {
+    font-size: 14px;
+}
 
-    .terms h5 {
-        padding: 40px 0px 0px !important;
-    }
-
-    .trm a{
-        padding-left: 0px !important;
-    }
-
-    .touch {
-        padding: 0% !important;
-    }
-
-    .desc {
-        width: 80% !important;
-    }
-
-    .htext p {
-        font-size: 14px !important;
-    }
-
-    .himg {
-        width: 80% !important;
-    }
+.himg {
+    width: 80%;
+}
 }
 
 /* max-width Mobile L > 425px */
 @media screen and (max-width: 426px) {
-    .navbar-toggler {
-        max-width: 430px !important;
-    }
+.navbar-toggler {
+    max-width: 430px !important;
+}
 
-    .text h1 {
-        font-size: 17px !important;
-        letter-spacing: 1px !important;
-    }
+.text h1 {
+    font-size: 17px;
+    letter-spacing: 1px;
+}
 
-    .text p {
-        width: 85% !important;
-        margin-bottom: 4px !important;
-        font-size: 12px !important;
-    }
+.text p {
+    width: 85% !important;
+    margin-bottom: 4px;
+    font-size: 12px;
+}
     
-    .text {
-        top: 95px !important;
-    }
+.text {
+    top: 95px;
+}
 
-    .btn {
-        padding: 4px 8px !important;
-        margin: 0px 0px 6px 0px !important;
-        font-size: 10px !important;
-    }
+.btn {
+    padding: 4px 8px;
+    margin: 0px 0px 6px 0px;
+    font-size: 10px;
+}
 
-    .store img {
-        width: 75px !important;
-    }
+.store img {
+    width: 75px;
+}
 
-    .txt p {
-        width: 399px !important;
-        padding: 0px !important;
-    }
+.txt h3{
+    padding-left: 15px;
+}
 
-    .head {
-        padding: 20px 11px 0px 9px !important;
-    }
+.txt p {
+    width: 399px;
+    padding: 0px 0px 0px 15px;
+}
 
-    .headtxt {
-        font-size: 15px !important;
-    }
+.head {
+    padding: 20px 11px 0px 9px;
+}
 
-    .head p {
-        font-size: 11px !important;
-        padding-left: 34px !important;
-    }
+.headtxt {
+    font-size: 15px;
+}
 
-    .ctn {
-        width: 80% !important;
-        padding-left: 50px !important;
-    }
+.head p {
+    font-size: 11px;
+    padding-left: 34px;
+}
 
-    .essentials h2 {
-        padding: 0px !important;
-        font-size: 20px !important;
-    }
+.ctn {
+    width: 80%;
+    padding-left: 50px;
+}
 
-    .eim {
-        padding-top: 50px !important;
-    }
+.essentials h2 {
+    padding: 0px;
+    font-size: 20px;
+}
 
-    .etxt1 {
-        top: 58px !important;
-        margin-left: 4px !important;
-    }
+.eim {
+    padding-top: 72px;
+}
 
-    .etxt1 h5 {
-        font-size: 11px !important;
-        width: 195px !important;
-    }
+.etxt1 {
+    top: 58px;
+    margin-left: 4px;
+}
 
-    .etxt1 p {
-        font-size: 11px !important;
-        width: 182px !important;
-    }
+.etxt1 h5 {
+    font-size: 11px;
+    width: 195px;
+}
 
-    .etxt2 {
-        top: 225px !important;
-        margin-left: 4px !important;
-    }
+.etxt1 p {
+    font-size: 11px;
+    width: 182px;
+}
 
-    .etxt2 h5 {
-        font-size: 10.5px !important;
-    }
+.etxt2 {
+    top: 230px;
+    margin-left: 4px;
+}
 
-    .etxt2 p {
-        width: 154px !important;
-        font-size: 11px !important;
-    }
+.etxt2 h5 {
+    font-size: 10px;
+}
 
-    .etxt3 {
-        width: 220px !important;
-        top: 90px !important;
-        padding-left: 34px !important;
-    }
+.etxt2 p {
+    width: 154px;
+    font-size: 11px;
+}
 
-    .etxt3 h5 {
-        font-size: 13px !important;
-        padding-left: 50px !important;
-    }
+.etxt3 {
+    width: 220px;
+    top: 90px;
+    padding-left: 34px;
+}
 
-    .etxt3 p {
-        width: 186px !important;
-        font-size: 11px !important;
-        padding-left: 72px !important;
-    }
+.etxt3 h5 {
+    font-size: 13px;
+    padding-left: 50px;
+}
 
-    .social p {
-        font-size: 20px;
-        padding: 0px 20px;
-    }
+.etxt3 p {
+    width: 186px;
+    font-size: 11px;
+    padding-left: 72px;
+}
 
-    .social h2 {
-        font-size: 24px !important;
-    }
+.ctxt {
+    padding: 0px 0px 0px 17px;
+}
 
-    .ptext p {
-        font-size: 15px !important;
-    }
+.s1{
+    padding-left: 15px;
+}
 
-    .mtxt h2 {
-        padding: 0px !important;
-        font-size: 22px !important;
-    }
+.s2{
+    padding-left: 15px;
+}
 
-    .str img {
-        width: 90px !important;
-    }
+.s3{
+    padding-left: 15px;
+}
 
-    .get img {
-        padding: 60px 0px 0px 10px !important;
-    }
+.s4{
+    padding-left: 15px;
+}
 
-    .sp {
-        font-size: 14px !important;
-    }
+.social p {
+    font-size: 20px;
+    padding: 0px 20px;
+}
 
-    .faq h2 {
-        font-size: 31px !important;
-        padding: 5px 0px 30px 0px !important;
-    }
+.social h2 {
+    font-size: 24px;
+}
 
-    .bg-color{
-        background-color: #EEEAE5 !important;
-        margin: 50px 0px 30px 0px !important;
-    }
+.ptext {
+    padding: 50px 0px 0px 15px;
+}
 
-    .ftext h2 {
-        width: 100% !important;
-        font-size: 25px !important;
-    }
+.ptext p {
+    font-size: 15px;
+}
 
-    .ftext p {
-        width: 100% !important;
-        font-size: 14px !important;
-    }
+.p1{
+    padding-left: 28px;
+}
 
-    .fassist {
-        background-image: none;
-        padding: 0px !important;
-    }
+.p2{
+    padding-left: 28px;
+}
 
-    .itxt {
-        width: 100% !important;
-    }
+.p3{
+    padding-left: 28px;
+}
 
-    .txarea {
-        width: 100% !important;
-    }
+.p4{
+    padding-left: 28px;
+}
 
-    .bttn {
-        width: 100% !important;
-    }
+.loop {
+    padding: 40px 0px 0px 15px;
+}
 
-    .buton {
-        padding: 20px 0px 60px 0px !important;
-    }
+.lp1{
+    padding-left: 28px;
+}
 
-    .fimg {
-        background-position: center;
-        background-size: cover;
-    }
+.lp2{
+    padding-left: 28px;
+}
 
-    .fl {
-        width: 50% !important;
-    }
+.lp3{
+    padding-left: 28px;
+}
 
-    .fli {
-        width: 100% !important;
-    }
+.lp4{
+    padding-left: 28px;
+}
+
+.htext {
+    padding: 20px 0px 30px 15px;
+}
+
+.ht1{
+    padding-left: 28px;
+}
+
+.ht2{
+    padding-left: 28px;
+}
+
+.ht3{
+    padding-left: 28px;
+}
+
+.ht4{
+    padding-left: 28px;
+}
+
+.mtxt h2 {
+    padding: 0px;
+    font-size: 20px;
+}
+
+.mtxt p {
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+.mix {
+    font-size: 18px;
+}
+
+.str {
+    gap: 0px;
+}
+
+.str img {
+    width: 90px;
+}
+
+.get img {
+    padding: 60px 0px 0px 10px;
+}
+
+.sp {
+    font-size: 14px;
+}
+
+.faq h2 {
+    font-size: 30px;
+    padding: 5px 0px 30px 15px;
+}
+
+.farea {
+    padding: 0px 10px 0px 28px;
+}
+
+.fp {
+    padding: 15px 0px 0px 10px;
+    font-size: 14px;
+}
+
+.fp3 {
+    font-size: 12px;
+}
+
+.bg-color{
+    background-color: #EEEAE5;
+    margin: 50px 15px 30px 28px;
+}
+
+.fassist {
+    background-image: none;
+    padding: 0px 0px 0px 22px;
+}
+
+.ftext h2 {
+    font-size: 24px;
+}
+
+.ftext p {
+    width: 100%;
+    font-size: 13px;
+}
+
+.form {
+    padding: 5px 15px 0px 8px;
+}
+
+.mixxer {
+    padding: 30px 0px 0px 18px;
+}
+
+.itxt {
+    width: 100%;
+}
+
+.txarea {
+    width: 100%;
+}
+
+.bttn {
+    width: 100%;
+}
+
+.buton {
+    padding: 20px 0px 60px 0px;
+}
+
+.fimg {
+    background-position: center;
+    background-size: cover;
+}
+
+.fl {
+    width: 50% !important;
+}
+
+.fli {
+    width: 89%;
+}
+
+.links {
+    padding-left: 18px;
+}
+
+.terms h5 {
+    padding: 40px 0px 0px 18px;
+}
+
+.trm a {
+    padding-left: 18px;
+}
+
+.touch {
+    padding: 18px;
+}
 }
 
 /* max-width mobile M >376px */
 @media screen and (max-width : 376px){
-    .ctn {
-        padding: 0px 0px 0px 80px !important;
-    }
-    .head p {
-        padding: 0px !important;
-    }
-
-    .px-3 {
-        padding-right: 0rem !important;
-        padding-left: 0rem !important;
-    }
-
-    .text {
-        top: 75px !important;
-    }
-
-    .txt p {
-        width: 438px !important;
-    }
-
-    .txt h3{
-        width: 141px !important;
-    }
-
-    .txt p {
-        width: 350px !important;
-        padding: 0px !important;
-    }
-
-    .etxt3 p{
-        width: 140px !important;
-        padding: 0px !important;
-    }
-
-    .mix {
-        font-size: 17px !important;
-    }
-
-    .bg-color {
-        background-color: #EEEAE5 !important;
-        margin: 30px 0px 30px 0px !important;
-    }
-
-    .mtxt h2 {
-        padding: 5px 0px !important;
-        font-size: 20px !important;
-    }
-
-    .mtxt p {
-        padding-top: 10px !important;
-        font-size: 14px !important;
-    }
-
-    
-    .str img {
-        width: 83px !important;
-    }
-
-    .sp {
-        font-size: 12px !important;
-    }
-
-    .fli {
-        width: 98% !important;
-        font-size: 13px !important;
-    }
-
-    .fli1{
-        font-size: 14px !important;
-        width: 247px !important;
-    }
+.text {
+    top: 64px;
 }
 
-/* Max-width Mobile S >320px  */
-@media screen and (max-width: 321px) {
-    .text {
-        top: 50px !important;
-    }
-    .text h1 {
-        font-size: 15px !important;
-    }
-    .text p {
-        margin-bottom: 4px !important;
-        font-size: 9px !important;
-    }
+.txt h3 {
+    width: 156px;
+}
 
-    .btn {
-        font-size: 6px !important;
-    }
+.txt p {
+    width: 438px;
+}
 
-    .txt p {
-        width: 300px !important;
-        padding: 0px !important;
-        font-size: 12px;
-        letter-spacing: 1px;
-    }
+.txt p {
+    width: 350px;
+    padding: 0p;
+}
 
-    .ctn {
-        width: 100% !important;
-        padding-left: 40px!important;
-    }
+.stext h2 {
+    font-size: 20px;
+    padding: 20px 0px 0px 28px;
+}
 
-    .essentials {
-        padding-top: 10px !important;
-    }
+.head {
+    padding: 20px 11px 0px 25px;
+}
+
+.headtxt {
+    padding-left: 0px;
+}
+
+.head p {
+    padding-left: 35px;
+}
+
+.etxt1 {
+    top: 65px;
+}
+
+.etxt1 h5 {
+    font-size: 9px;
+    width: 195px;
+}
+
+.etxt1 p {
+    font-size: 10px;
+    width: 132px;
+}
+
+.etxt2 {
+    top: 227px;
+}
+
+.etxt2 h5 {
+    font-size: 9px;
+}
+
+.etxt2 p {
+    width: 140px;
+    font-size: 9px;
+}
+
+.etxt3 {
+    width: 215px;
+    top: 130px;
+    padding-left: 45px;
+}
+
+.etxt3 h5 {
+    font-size: 10px;
+    padding-left: 60px;
+}
+
+.etxt3 p {
+    width: 160px;
+    padding-left: 60px;
+    font-size: 8px;
+}
+
+.ctn {
+    padding: 0px 0px 0px 80px;
+}
+
+.ce {
+    width: 70% !important;
+    padding: 20px 0px 0px 0px ;
+    filter: drop-shadow(0 0 6px #abb2c6);
+}
+
+.social h2 {
+    font-size: 20px;
+    padding: 50px 45px 0px 45px;
+}
+
+.bg-color {
+    margin: 30px 15px 30px 28px;
+}
+
+.mtxt h2 {
+    padding: 5px 0px;
+    font-size: 18px;
+}
+
+.mix {
+    font-size: 15px;
+}
+
+.mtxt p {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.str img {
+    width: 78px;
+}
+
+.sp {
+    font-size: 11px;
+}
+
+.faq h2 {
+    font-size: 26px;
+    padding: 5px 5px 30px 15px;
+}
+
+.fp {
+    font-size: 11px;
+}
+
+.fp3 {
+    font-size: 10px;
+}
+
+.ftext h2 {
+    font-size: 20px;
+}
+
+.ftext p {
+    font-size: 11px;
+}
+
+.buton {
+    padding: 20px 0px 0px 0px;
+}
+
+.fli {
+    width: 98%;
+    font-size: 13px;
+}
+
+.fli1{
+    font-size: 14px;
+    width: 247px;
+}
+}
+
+/* Max-width Mobile S =>320px  */
+@media screen and (max-width: 321px){
+.text {
+    top: 50px;
+}
+
+.text h1 {
+    font-size: 12px;
+}
+
+.text p {
+    margin-bottom: 4px;
+    font-size: 9px;
+}
+
+.btn {
+    font-size: 6px;
+}
+
+.txt p {
+    width: 300px;
+    padding: 0px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.ctn {
+    width: 100%;
+    padding-left: 40px;
+}
+
+.essentials {
+    padding-top: 10px;
+}
 
     .essentials h2 {
         padding: 0px 48px !important;
@@ -2404,11 +2629,11 @@
 
     .ftext h2 {
         width: 100% !important;
-        font-size: 23px !important;
+        font-size: 23px;
     }
 
     .ftext p {
-        width: 98% !important;
+        width: 98%;
     }
 
     .mixxer {
@@ -2438,7 +2663,5 @@
     .terms a {
         padding: 0px !important;
     }
-
 }
-
 /* media query ends */
