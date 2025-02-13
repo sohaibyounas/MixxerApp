@@ -38,11 +38,6 @@
     margin: 0;
 }
 
-/* Navbar */
-/* .bgimg .navbar {
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
-} */
-
 .flogo{
     width: 145px;
     margin-left: 45px;
@@ -1092,9 +1087,7 @@
 /* faq's page css */
 /* Navbar */
 .fmenu {
-    float: right;
     margin-left: 250px;
-    padding: 0;
 }
 .fmenu a{
     font-family: sf-prodisplay-bold;
@@ -1103,7 +1096,7 @@
     color: #655F5F;
     float: right;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 73px;
 }
 
 .logo img{
@@ -1114,10 +1107,10 @@
 } 
 
 .fnav{
-    display: flex !important;
+    /* display: flex !important;
     justify-content: flex-end !important;
-    top: 0;
-    padding: 10px 10px 20px 16px;
+    top: 0; */
+    padding: 0px 0px 0px 9px;
     z-index: 1000;
 }
 
@@ -1137,8 +1130,8 @@
 }
 
 .tl{
-    width: 300px;
-    padding: 20px;
+    width: 85%;
+    padding-top: 20px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
@@ -1147,7 +1140,7 @@
 
 .tl ul {
     font-family: MADE-Tommy-Soft-regular;
-    font-size: 18px;
+    font-size: 20px;
     color: #221F1F;
     list-style-type: disc;
     padding-left: 20px;
@@ -1155,11 +1148,12 @@
   }
 
 .tl li {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    font-size: 15px;
   }
 
 .rectline{
-    margin-left: 93px;
+    margin-left: 55px;
 }
 
 /* tor details */
