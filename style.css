@@ -53,15 +53,13 @@
 }
 
 .menu {
-    padding-right: 26px;
+    padding-right: 37px;
 }
 .menu a{
     font-family: sf-prodisplay-bold;
     font-size: 18px;
     text-decoration:none;
     color: rgb(255, 255, 255);
-    float: right;
-    margin-left: 20px;
 }
 
 .nav img{
@@ -72,7 +70,7 @@
     display: flex;
     top: 0;
     z-index: 1000;
-    width: 90%;
+    width: 92%;
 }
 
 .fbar{
@@ -116,10 +114,6 @@
 .nav.sticky .logo{
     content: url(./Images/logo.png);
     margin-left: 75px;
-}
-
-.nav.sticky .menu{
-    padding-right: 4%;
 }
 
 .nav img{
@@ -1248,6 +1242,18 @@
 
     .navbar-toggler{
         margin: 0px 25px;
+    }
+
+    .nav {
+        width: 97%;
+    }
+
+    .nav.sticky .logo {
+        margin-left: 33px;
+    }
+    
+    .nav img {
+        width: 120px;
     }
 
     .flogo{
