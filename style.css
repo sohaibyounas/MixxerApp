@@ -2663,6 +2663,14 @@
     .himg {
         width: 80%;
     }
+
+    .trm {
+        padding-left: 15px;
+    }
+
+    .trm h2 {
+        font-size: 30px;
+    }
 }
 
 /* max-width mobile M >376px */
