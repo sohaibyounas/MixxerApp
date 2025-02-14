@@ -1296,6 +1296,7 @@
         width: 100%;
         padding: 40px 0px 0px 0px;
     }
+    
     .stext {
         padding-top: 30px;
     }
@@ -1756,13 +1757,13 @@
 
     /* Terms */
     .terms h5{
-        padding: 0px 0px 0px 30px;
+        padding: 0px;
         font-size: 18px;
     }
 
-    .terms a{
-        padding: 0px 0px 0px 10px;
-        font-size: 16.5px;
+    .terms a {
+        padding: 0px;
+        font-size: 15px;
     }
 
     .trm a:hover {
@@ -1770,25 +1771,48 @@
     }
 
     .terms h5 {
-        padding: 0px 0px 0px 7px;
+        padding: 0px;
         font-size: 18px;
     }
 
-    .trhd img{
-        padding: 4px 0px 0px 9px;
-        width: 164px;
+    .trhd img {
+        padding: 3px 8px 0px 0px;
+        width: 150px;
+    }
+
+    .ftlnk {
+        font-size: 15px;
     }
 
     /* Touch */
     .touch{
-        padding: 0px 0px 0px 15px;
+        padding: 0px;
+    }
+
+    .touch h5 {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+
+    .uimg2 img {
+        width: 30px;
     }
 
     .flimg{
         padding-top: 10px;
     }
 
-    .flnk2 h5 {
+    .flnk2 h4,
+    .flnk2 p {
+        font-size: 12px;
+    }
+
+    .tl{
+        width: 100%;
+        margin: 0px 0px 0px 25px; 
+    }
+
+    .tla{
         font-size: 12px;
     }
 }
@@ -1801,7 +1825,6 @@
     }
 
     .flogo{
-        width: 135px !important;
         margin-left: 12px;
     }
 
