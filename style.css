@@ -952,22 +952,18 @@
     padding: 50px 0px 5px 80px;
 }
 
-.fl{
-    width: 200px;
-}
-
 .fli{
     width: 278px;
     text-align: start;
     color: #473D2F;
-    font-size: 16px;
+    font-size: 15px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
 .fli1{
     width: 276px;
     color: #655F5F;
-    font-size: 16px;
+    font-size: 15px;
     font-family: MADE-Tommy-Soft-regular;
 }
 
@@ -993,11 +989,9 @@
 .flnk{
     text-decoration: none;
     color: #0B0A0A;
-    font-size: 19px;
+    font-size: 20px;
     font-family: MADE-Tommy-Soft-regular;
 }
-
-
 
 .flnk img{
     width: 15px !important;
@@ -1068,27 +1062,37 @@
     font-family: MADE-Tommy-Soft-regular;
 }
 
-.touch img{
-    width: 120px;
+.thimg{
+    width: 119px;
 }
+
+.uimg2 img{
+    width: 40px;
+}
+
 .flimg{
     width: 30px !important;
     padding-right: 10px;
 }
-.flnk2 h5{
+
+.flnk2 h4{
     color: #0B0A0A;
     font-size: 16px;
     font-family: MADE-Tommy-Soft-regular;
 }
+
+.flnk2 p{
+    color: #212529;
+    font-size: 16px;
+    font-family: MADE-Tommy-Soft-regular;
+}
+
 .eml{
     color: #655F5F;
 }
 
 /* faq's page css */
 /* Navbar */
-.fmenu {
-    margin-left: 250px;
-}
 .fmenu a{
     font-family: sf-prodisplay-bold;
     font-size: 18px;
@@ -1107,11 +1111,8 @@
 } 
 
 .fnav{
-    /* display: flex !important;
-    justify-content: flex-end !important;
-    top: 0; */
-    padding: 0px 0px 0px 9px;
-    z-index: 1000;
+    padding: 7px 0px 0px 80px;
+    /* z-index: 1000; */
 }
 
 .fnav img{

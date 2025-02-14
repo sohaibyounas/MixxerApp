@@ -838,47 +838,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-  
-    <!-- Form Validations -->
-    <script>
-      function handleSubmit(event) {
-          event.preventDefault();
-          alert('Form submitted successfully!');
-          document.getElementById('contactForm').reset();
-      }
-  </script>
-
-<!-- navbar toggling -->
-  <script type="text/javascript">
-    const nav = document.querySelector('.nav');
-    const sticky = nav.offsetTop;
-    window.addEventListener('scroll', () => {
-      if (window.pageYOffset >sticky) {
-        nav.classList.add('sticky');
-      } else {
-        nav.classList.remove('sticky');
-      }
-    });;
-  </script>
-
-  <script type="text/javascript">
-  const navbar = document.querySelector('.navbar');
-    const navbarfit = navbar.offsetTop;
-    window.addEventListener('scroll', () => {
-      if (window.pageYOffset > navbarfit) {
-        navbar.classList.add('navbarfit');
-      } else {
-        navbar.classList.remove('navbarfit');
-      }
-    });;
-  </script>
-
-  <script type="text/javascript">
-    let changeIcon = function(icon) {
-        icon.classList.toggle('fa-times')
-    }
-
-  </script>
+  <script src="script.js"></script>
 
 </body>
 </html>
