@@ -34,14 +34,7 @@
 .bgimg img{
     width: 100%;
     height: auto;
-    padding: 0;
-    margin: 0;
 }
-
-/* Navbar */
-/* .bgimg .navbar {
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
-} */
 
 .flogo{
     width: 145px;
@@ -2603,6 +2596,10 @@
         padding: 5px 15px 0px 8px;
     }
 
+    .flogo {
+        margin-left: 24px;
+    }
+
     .mixxer {
         padding: 30px 0px 0px 18px;
     }
@@ -2629,7 +2626,7 @@
     }
 
     .fl {
-        width: 50% !important;
+        width: 38% !important;
     }
 
     .fli {
@@ -2640,18 +2637,43 @@
         padding-left: 18px;
     }
 
-    .terms h5 {
-        padding: 40px 0px 0px;
+    .terms {
+        padding-left: 13px;
     }
 
-    .trm a{
-        padding-left: 0px;
+    .terms h5 {
+        padding: 15px 0px 0px 2px;
+    }
+
+    .trm {
+        padding-left: 5px;
+    }
+
+    .trm h2 {
+        font-size: 30px;
+        padding-left: 9px;
+    }
+
+    .terms a {
+        padding: 0px;
+    }
+
+    .trm p{
+        padding-left: 10px;
+    }
+
+    .trhd img {
+        padding: 0px 0px 20px 2px;
     }
 
     .touch {
-        padding: 0%;
+        padding: 20px 0px 0px 20px;
     }
 
+    .thimg{
+        padding: 1px;
+    }
+    
     .desc {
         width: 80%;
     }
@@ -2662,15 +2684,7 @@
 
     .himg {
         width: 80%;
-    }
-
-    .trm {
-        padding-left: 15px;
-    }
-
-    .trm h2 {
-        font-size: 30px;
-    }
+    }  
 }
 
 /* max-width mobile M >376px */
