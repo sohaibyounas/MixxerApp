@@ -10,7 +10,7 @@
 </head>
 <body>
 <!-- Navbar -->
-    <div class="container">
+    <!-- <div class="container">
         <div class="fnav d-flex align-items-center gap-lg-5 mt-4 position-fixed shadow-lg">
             <a href="index.html">
                 <img src="./Images/logo.png" alt="Mixxer" />
@@ -23,7 +23,25 @@
                 <a href="index.html#contact" >Contact</a>
             </div>
         </div>
-    </div>
+    </div> -->
+
+    <!-- navbar lg -->
+    <div class="navbar bg-brown d-lg-none d-md-none d-sm-block d-block justify-content-between position-fixed top-0 w-100">
+      <div class="d-flex justify-content-between w-100 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <img src="./images/whitelogo.png" alt="whitelogo" class="flogo"/>
+      <i class="fa-solid fa-bars fbar" onclick="changeIcon(this)"></i>
+    </div>      
+    <!-- main nav -->
+          <div class="collapse navbar-collapse justify-content-end align-items-center" id="main-nav">
+            <div class="main-nav d-flex flex-column gap-2 justify-content-between list-unstyled text-decoration-none ">
+              <a href="index.html" target="_self" class="list-unstyled text-decoration-none">Home</a><hr>
+              <a href="#feature" class="list-unstyled text-decoration-none">Features </a><hr>
+              <a href="#abt" class="list-unstyled text-decoration-none">About</a><hr>
+              <a href="#faqq" class="list-unstyled text-decoration-none">FAQ's</a><hr>
+              <a href="#contact" class="list-unstyled text-decoration-none">Contact</a>
+            </div>
+          </div>
+      </div>
 <!-- navbar ends -->
 <!-- EULA of Servces -->
     <div class="container">
