@@ -1132,7 +1132,7 @@
 
     /* Terms of Services page */
     .tor{
-        margin-top: 100px;
+        margin-top: 120px;
     }
 
     .tl{
@@ -1794,6 +1794,18 @@
     .tor {
         margin-top: 65px;
     }
+
+    /* EULA page */
+    .trm h2 {
+        font-size: 31px;
+    }
+
+    .tor1 {
+        margin-top: 65px;
+    }
+
+    /* Privacy Policies */
+    
 
 }
 
