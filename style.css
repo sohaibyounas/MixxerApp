@@ -1692,35 +1692,28 @@
         background-size: 100% 100%;
     }
 
-    .mixxer{
-        padding: 15px 15px 0px 15px;
-    }
-
     .fl{
-        width: 175px;
+        width: 175px !important;
     }
 
-    .fli{
-        width: 70%;
-        font-size: 14.5px;
+    .fli {
+        width: 192px;
+        font-size: 14px;
     }
 
     .fli1{
+        width: 200px;
         font-size: 15px;
     }
 
     /* links */
-    .links{
-        padding-left: 15%;
-    }
-
     .lnk a:hover {
         color: #7E6C54;
     }
 
     .links h5{
         color: #0B0A0A;
-        font-size: 23px;
+        font-size: 21px;
         font-family: MADE-Tommy-Soft-regular;
     }
 
@@ -1738,7 +1731,8 @@
 
     /* Terms */
     .terms h5{
-        padding: 5px 0px 0px 15px;
+        font-size: 19px;
+        padding: 5px 0px 0px 5px;
     }
 
     .terms a{
@@ -1753,6 +1747,11 @@
     .trhd img {
         padding: 10px 0px 0px 18px;
         width: 165px;
+    }
+
+    .lkm1 img {
+        width: 145px;
+        padding-left: 9px;
     }
 
     .ftlnk {
