@@ -1229,6 +1229,8 @@
 
   .navbar-collapse {
     background-color: #7e6c54;
+    z-index: 1000;
+    top: 52px;
   }
 
   .navbar-collapse a {
@@ -1825,6 +1827,9 @@
     padding-right: 10px;
   }
 
+  .navbar{
+    background-color: #7E6C54;
+  }
   .text {
     left: 30px;
     top: 120px;
@@ -2676,10 +2681,6 @@
     margin-left: 24px;
   }
 
-  .mixxer {
-    padding: 30px 0px 0px 18px;
-  }
-
   .lkm1 img {
     padding-left: 4px;
 }
@@ -2727,8 +2728,8 @@
 
   .trm h2 {
     font-size: 30px;
-    padding-left: 9px;
-  }
+    padding-top: 30px;
+}
 
   .lkm img {
     width: 120px;
@@ -2739,7 +2740,7 @@
   }
 
   .trm p {
-    padding-left: 10px;
+    padding-left: 0px;
   }
 
   .trhd img {
@@ -2784,6 +2785,11 @@
     .ctn img {
     width: 80% !important;
     padding: 40px 0px 40px 40px;
+}
+
+/* terms page */
+.mixxer {
+    padding: 30px 0px 0px 7px;
 }
 
 }
@@ -3152,6 +3158,10 @@
     padding-left: 5px;
   }
 
+  .mixxer {
+    padding: 30px 0px 0px 0px;
+}
+
   .mtxt h2 {
     font-size: 14px;
   }
@@ -3212,6 +3222,10 @@
     padding-top: 0px;
   }
 
+  .fl {
+    padding-bottom: 10px;
+  }
+  
   .fli1 {
     font-size: 13.5px;
     width: 243px;

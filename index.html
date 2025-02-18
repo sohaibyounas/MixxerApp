@@ -11,18 +11,20 @@
   <link rel="icon" href="./icons/mobile logo.svg" type="image/x-icon" />
 </head>
 <body>
+
 <!-- collapse navbar -->
   <div class="bgimg position-relative">
     <img src="./images/bg.png" alt="bgimg" />
-    <div class="navbar bg-brown d-lg-none d-md-none d-sm-block d-block justify-content-between position-fixed top-0 w-100">
+    <div class="navbar bg-brown d-lg-none d-md-none d-sm-block d-block justify-content-between position-fixed top-0 w-100 z-1">
       <div class="d-flex justify-content-between w-100 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-      <img src="./images/logo.png" alt="whitelogo" class="flogo"/>
+      <img src="./images/whitelogo.png" alt="whitelogo" class="flogo"/>
       <i class="fa-solid fa-bars fbar" onclick="changeIcon(this)"></i>
     </div>
   </div>
-  <!-- collapse nav -->
-    <div class="collapse navbar-collapse justify-content-end align-items-center" id="main-nav">
-      <div class="main-nav d-flex flex-column gap-2 justify-content-between list-unstyled text-decoration-none">
+
+  <!-- collapse nav's menu -->
+    <div class="collapse position-fixed w-100 navbar-collapse justify-content-end align-items-center" id="main-nav" >
+      <div class="main-nav d-flex flex-column gap-2 justify-content-between list-unstyled text-decoration-none ">
         <a href="index.html" target="_self" class="list-unstyled text-decoration-none">Home</a><hr>
         <a href="#feature" class="list-unstyled text-decoration-none">Features </a><hr>
         <a href="#abt" class="list-unstyled text-decoration-none">About</a><hr>

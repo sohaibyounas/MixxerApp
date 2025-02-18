@@ -15,3 +15,8 @@
         nav.classList.remove('sticky');
       }
     });;
+
+    // change icon
+let changeIcon = function(icon) {
+  icon.classList.toggle('fa-times')
+}
