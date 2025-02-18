@@ -1,3195 +1,3220 @@
 @font-face {
-    font-family: sf-prodisplay-regular;
-    src: url(./Font/SFPRODISPLAYREGULAR.OTF);
+  font-family: sf-prodisplay-regular;
+  src: url(./Font/SFPRODISPLAYREGULAR.OTF);
 }
 
 @font-face {
-    font-family: sf-prodisplay-medium;
-    src: url(./Font/SFPRODISPLAYMEDIUM.OTF);
+  font-family: sf-prodisplay-medium;
+  src: url(./Font/SFPRODISPLAYMEDIUM.OTF);
 }
 
 @font-face {
-    font-family: sf-prodisplay-bold;
-    src: url(./Font/SFPRODISPLAYBOLD.OTF);
+  font-family: sf-prodisplay-bold;
+  src: url(./Font/SFPRODISPLAYBOLD.OTF);
 }
 
 @font-face {
-    font-family: MADE-Tommy-Soft;
-    src: url(./Font/made_tommy_soft/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf);
+  font-family: MADE-Tommy-Soft;
+  src: url(./Font/made_tommy_soft/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf);
 }
 
 @font-face {
-    font-family: MADE-Tommy-Soft-regular;
-    src: url(./Font/made_tommy_soft/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf);
+  font-family: MADE-Tommy-Soft-regular;
+  src: url(./Font/made_tommy_soft/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf);
 }
 
 @font-face {
-    font-family: MADE-TommyBold-PERSONAL-USE;
-    src: url(./Font/made_tommy_soft/MADE\ Tommy\ Soft\ Bold\ PERSONAL\ USE.otf);
+  font-family: MADE-TommyBold-PERSONAL-USE;
+  src: url(./Font/made_tommy_soft/MADE\ Tommy\ Soft\ Bold\ PERSONAL\ USE.otf);
 }
 
-    *{
-        padding: 0px;
-        margin: 0px;
-    }
-
-    .bgimg img{
-        width: 100%;
-        height: auto;
-    }
-
-    .flogo{
-        width: 145px;
-        margin-left: 45px;
-    }
-
-    .main-nav {
-        background-color: #7E6C54;
-    }
-
-    .menu {
-        padding-right: 26px;
-    }
-
-    .menu a{
-        font-family: sf-prodisplay-bold;
-        font-size: 18px;
-        text-decoration:none;
-        color: rgb(255, 255, 255);
-        float: right;
-        margin-left: 20px;
-    }
-
-    .nav img{
-        width: 200px;
-    } 
-
-    .nav{
-        top: 0;
-        z-index: 1000;
-        width: 90%;
-    }
-
-    .fbar{
-        color: white;
-        cursor: pointer;
-        transition: 0.3s;
-    }
-
-    /*navbar/navbar-toggler/collapse nav */
-    .navbar{
-        z-index: 1000;
-    }
-
-    .navbar.navbarfit{
-        background-color: rgb(255, 255, 255);
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000;
-    }
-    .navbar.navbarfit .fbar{
-        color: #6C757D;
-        font-size: 25px;
-    }
-
-    .navbar.navbarfit .flogo{
-        content: url(./Images/logo.png);
-    }
-
-    /* lg navbar */
-    .nav.sticky{
-        background-color: rgb(254, 254, 254);
-        top: 0;
-        left: 0;
-        width: 100%;
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15);
-    }
-
-    .nav.sticky .menu a{
-        color: #6B747C;
-    }
-
-    .nav.sticky .logo{
-        content: url(./Images/logo.png);
-        margin-left: 80px;
-    }
-
-    .nav img{
-        width: 200px;
-    } 
-
-    .bar{
-        color: #7E6C54;
-    }
-
-    .main-nav a{
-        color: white;
-    }
-
-    /* text area */
-    .text {
-        position: absolute;
-        top: 170px;
-    }
-
-    .text h1{
-        font-size: 48px;
-        font-family: sf-prodisplay-bold;
-    }
-
-    .text p{
-        font-size: 24px;
-        font-family: sf-prodisplay-regular;
-    }
-
-    .btn{
-        border-radius: 27px;
-        color: white;
-        background-color: #7E6C54;
-        padding: 8px 16px;
-        border-color: white;
-        margin: 10px 0px 20px 0px;
-        font-size: 18px;
-        font-family: sf-prodisplay-bold;
-    }
-
-    .store img{
-        width: 200px;
-    }
-
-    .btn:hover{
-        color: rgb(255, 255, 255);
-    }
-    
-    .text h1{
-        color: white;
-    }
-    .text p{
-        width: 606px;
-        color: white;
-        text-align: start;
-    }
-
-    /* About Mixer */
-    .about-bgimg{
-        background-image: url(./Images/ab-bg.png);
-        background-size: cover;
-    }
-    .abimg{
-        width: 370px !important;
-        padding-top: 85px;
-    }
-
-    .img1{
-        width: 590px !important;
-        padding-left: 30px;
-    }
-
-    .img2{
-        padding-top: 40px;
-        width: 283px !important;
-    }
-
-    .img3{
-        width: 290px !important; 
-        padding-top: 25px;
-    }
-
-    .txt{
-        margin-top: 20px;
-        padding-bottom: 60px;
-    }
-
-    .txt h3{
-        padding-top: 60px;
-        color: #22201e;
-        font-family: MADE-Tommy-Soft;
-        width: 397px;
-    }
-
-    .txt p{
-        font-family: MADE-Tommy-Soft-regular;
-        color: #655F5F;
-        width: 404px;
-        padding: 20px 65px 0px 0px ;
-        text-align: start;
-    }
-
-    .about{
-        padding-left: 50px;
-    }
-
-    /* Socializing */
-    .ctn img{
-        width: 100%;
-        padding: 70px 65px 110px 30px;
-    }
-
-    .stext h2{
-        font-family: sf-prodisplay-bold;
-        color: #473D2F;
-        font-size: 32px;
-        padding-top: 150px;
-    }
-
-    .head{
-        padding-top: 20px;
-    }
-
-    .headtxt{
-        color: #342D23;
-        font-size: 18px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    .head p{
-        color: #342D23;
-        text-align: start;
-        font-size: 13px;
-        padding: 0px 0px 25px 35px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* essentials */
-    .essentials h2{
-        padding: 0px 0px 0px 60px;
-        text-transform: uppercase;
-        font-size: 48px;
-        font-weight: bold;
-        font-family: MADE-TommyBold-PERSONAL-USE;
-    }
-
-    .e-img{
-        background-image: url(./Images/export-bg.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 100%;
-    }
-
-    .essentials{
-        position: relative;
-        padding-top: 50px;
-        color: white;
-        text-align: center; 
-    }
-
-    /* essential image */
-    .eim{
-        padding-top: 60px;
-        position: relative;
-        width: 750px;
-        margin: auto;
-    }
-
-    /* essential texts 1 */
-    .etxt1{
-        position: absolute;
-        top: 255px; 
-        width: 36%;
-        margin-left: 75px;
-    }
-
-    .fm{
-        border-bottom: 3px solid #f0ad4e;
-    }
-
-    .etxt1 h5 {
-        text-align: start;
-        font-size: 23px;
-        font-family: MADE-Tommy-Soft-regular;
-        padding-right: 48px;
-    }
-
-    .etxt1 p {
-        text-align: start;
-        font-size: 18px;
-        font-family: MADE-Tommy-Soft-regular;
-        padding-right: 52px;
-    }
-
-    /* essential texts 2 */
-    .etxt2{
-        position: absolute;
-        top: 570px; 
-        width: 30%;
-        text-align: start;
-        margin-left: 100px;
-    }
-
-    .fm{
-        border-bottom: 3px solid #f0ad4e;
-    }
-
-    .etxt2 h5 {
-        text-align: start;
-        font-size: 28px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    .etxt2 p {
-        text-align: start;
-        font-size: 18px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* essential texts 3 */
-    .etxt3{
-        position: absolute;
-        top: 400px; 
-        width: 36%;
-        right: 0;
-    }
-
-    .fm{
-        border-bottom: 3px solid #f0ad4e;
-    }
-
-    .etxt3 h5 {
-        padding-left: 30px;
-        text-align: start;
-        font-size: 20px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    .etxt3 p {
-        padding: 0px 38px 0px 30px;
-        text-align: start;
-        font-size: 17px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* Socializing */
-    .social h2{
-        color: #221F1F;
-        font-size: 36px;
-        font-weight: bold;
-        font-family: MADE-Tommy-Soft-regular;
-        text-align: center;
-        padding: 80px 50px 10px 100px;
-    }
-
-    .social p{
-        color: #655F5F;
-        font-size: 18px;
-        font-family: MADE-Tommy-Soft-regular;
-        text-align: center;
-        padding: 10px 260px 0px 280px;
-    }
-
-    /* connected ease area */
-    .ce{
-        width: 70% !important;
-        padding: 140px 0px 0px 0px;
-        filter: drop-shadow(0 0 6px #abb2c6);
-    }
-
-    .ctxt{
-        padding-top: 90px;
-    }
-    .ctxt h2{
-        padding-top: 40px;
-        text-align: start;
-        color: #221F1F;
-        font-size: 34px;
-        font-weight: bold;
-        font-family: sf-prodisplay-medium;
-    }
-
-    .ctxt p{
-        padding-right: 38px;
-        font-size: 16px;
-        color: #655F5F;
-        text-align: start;
-        font-family: sf-prodisplay-medium;
-    }
-
-    /* c1 text */
-    .ce1{
-        padding-top: 30px; 
-    }
-
-    .ce1 img{
-        width: 30px;
-    }
-
-    .ce1 h2{
-        padding: 12px 0px 0px 10px;
-        color: #655F5F;
-        font-size: 18px;
-        text-align: start;
-        font-family: sf-prodisplay-medium;
-    }
-    .s1 p{
-        color: #655F5F;
-        font-size: 14px;
-        text-align: start;
-        font-family: sf-prodisplay-medium;
-    }
-
-    /* c2 text */
-    .ce2 img{
-        width: 30px;
-        padding-top: 18px;
-    }
-
-    .ce2 h2{
-        padding: 30px 0px 0px 10px;
-        color: #655F5F;
-        font-size: 18px;
-        font-family: sf-prodisplay-medium;
-    }
-
-    .s2 p{
-        color: #655F5F;
-        padding-top: 10px;
-        font-size: 15px;
-        text-align: start;
-        font-family: MADE-Tommy-Soft-regular;
-    } 
-
-    /* c3 text */
-    .ce3 img{
-        width: 30px;
-    }
-
-    .ce3 h2{
-        color: #655F5F;
-        font-size: 16px;
-        font-family: sf-prodisplay-medium;
-    }
-
-    .s3 p{
-        color: #655F5F;
-        font-size: 14px;
-        text-align: start;
-        padding-top: 4px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* c4 text */
-    .ce4 img{
-        width: 30px;
-    }
-
-    .ce4 h2{
-        padding: 10px 0px 0px 10px;
-        color: #655F5F;
-        font-size: 16px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    .s4 p{
-        color: #655F5F;
-        font-size: 14px;
-        text-align: start;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* perfect mixxer */
-    .ptext{
-        padding-top: 180px;
-    }
-    .ptext h2{
-        font-weight: bold;
-        color: #221F1F;
-        font-size: 34px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    .ptext p{
-        color: #655F5F;
-        font-size: 14.5px;
-        text-align: start;
-        font-family: MADE-Tommy-Soft-regular;
-        padding: 20px 0px 25px 0px;
-    }
-
-    /* c1 text */
-    .icn{
-        width: 30px !important;
-    }
-
-    .c1 h2{
-        color: #655F5F;
-        font-size: 18px;
-        font-family: MADE-Tommy-Soft-regular;
-        padding: 15px 0px 10px 16px ;
-    }
-
-    .p1 p{
-        color: #655F5F;
-        font-size: 14px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* c2 text */
-    .c2 h2{
-        color: #655F5F;
-        font-size: 18px;
-        font-family: MADE-Tommy-Soft-regular;
-        padding: 15px 0px 10px 16px ;
-    }
-
-    .p2 p{
-        color: #655F5F;
-        font-size: 16px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* c3 text */
-
-    .c3 h2{
-        color: #655F5F;
-        font-size: 18px;
-        font-family: MADE-Tommy-Soft-regular;
-        padding: 15px 0px 10px 16px ;
-    }
-
-    .p3 p{
-        color: #655F5F;
-        font-size: 13.5px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* c3 text */
-    .c4 h2{
-        color:#655F5F;
-        font-size: 18px;
-        font-family: MADE-Tommy-Soft-regular;
-        padding: 15px 0px 10px 16px;
-    }
-
-    .p4 p{
-        color: #655F5F;
-        font-size: 17px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* image */
-    .disc{
-        width: 80% !important;
-        filter: drop-shadow(0 0 6px #abb2c6);
-        padding: 145px 0px 0px;
-    }
-
-    /* Loop */
-    .desc{
-        width: 80% !important;
-        padding: 190px 0px 0px;
-        filter: drop-shadow(0 0 6px #abb2c6);
-    }
-    .loop{
-        padding: 225px 0px 0px 0px;
-    }
-
-    .loop h2{
-        font-weight: bold;
-        color: #212529;
-        font-size: 36px;
-        font-family: MADE-Tommy-Soft-regular;
-        padding: 0px 0px 10px 0px;
-    }
-
-    .loop p{
-        color: #655F5F;
-        font-size: 14.5px;
-        font-family: MADE-Tommy-Soft-regular;
-        padding-bottom: 25px;
-    }
-    /* loop 1 text */
-    .lt h2{
-        color: #655F5F;
-        font-size: 18px;
-        font-family: MADE-Tommy-Soft-regular;
-        padding: 15px 0px 10px 10px;
-    }
-
-    .lp1 p{
-        color: #655F5F;
-        font-size: 13px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* loop 2 text */
-    .lp2 p{
-        color: #655F5F;
-        font-size: 14.5px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* loop 3 text */
-    .lp3 p{
-        color: #655F5F;
-        font-size: 13px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* loop 4 text */
-    .lp4 p{
-        color: #655F5F;
-        font-size: 13.5px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* Social Hub */
-    .htext{
-        padding: 100px 0px 30px 0px;
-    }
-
-    .htext h2{
-        color: #221F1F;
-        font-size: 36px;
-        text-align: start;
-        font-weight: bold;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    .htext p{
-        text-align: start;
-        color: #655F5F;
-        font-size: 15px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* hub text 1 */
-    .hb h2{
-        color: #655F5F;
-        font-size: 18px;
-        font-family: MADE-Tommy-Soft-regular;
-        padding: 15px 0px 10px 10px;
-    }
-
-    .ht1 p{
-        text-align: start;
-        color: #655F5F;
-        font-size: 14px;
-        padding-bottom: 50px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* hub text 2 */
-    .ht2 p{
-        text-align: start;
-        color: #655F5F;
-        font-size: 14px;
-        padding-bottom: 50px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* hub text 3 */
-    .ht3 p{
-        text-align: start;
-        color: #655F5F;
-        font-size: 14px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* hub text 4 */
-    .ht4 p{
-        text-align: start;
-        color: #655F5F;
-        font-size: 14px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* discover 4 image */
-    .himg{
-        width: 80% !important;
-        padding: 70px 0px 2px 40px;
-        filter: drop-shadow(0 0 6px #abb2c6);
-    }
-
-    /* Get Started Mixxer */
-    .bg-color{
-        background-color: #EEEAE5 ;
-        margin: 100px 45px 0px 73px;
-    }
-
-    .get img{
-        width: 500px;
-    }
-
-    .mtxt h2{
-        padding-top: 30px;
-        color: #221F1F;
-        font-size: 35.2px;
-        font-weight: bold;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    .mtxt p{
-        padding-top: 10px;
-        color: #221F1F;
-        font-size: 22px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    .mix{
-        color: #988265;
-        font-size: 22px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    .str{
-        padding: 60px 0px 0px;
-        gap: 15px;
-    }
-
-    .str img{
-        width: 180px;
-    }
-
-    .sp{
-        color: #6C5C48;
-        font-size: 17.6px;
-        padding-bottom: 89px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* FAQ's */
-    .faq h2{
-        color: #221F1F;
-        font-size: 36px;
-        padding: 120px 0px 30px 0px;
-        text-align: center;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    .farea{
-        padding-bottom: 100px;
-        gap: 10px;
-    }
-
-    /* text divs #1 */
-    .count{
-        background-color: #EEEAE5;
-        color: #000000;
-        padding: 5px 10px 5px 10px;
-        font-size: 20px;
-        border-radius: 6px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    .accordion-button:not(.collapsed) {
-        color: #7e6c54;
-        background-color: #ffffff;
-        box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
-    }
-
-    .accordion-button {
-        border: 1px solid #DFDFDF;
-        border-top-left-radius: 4px !important;
-        border-top-right-radius: 4px !important;
-        color: #7e6c54;
-        background-color: #ffffff;
-        box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
-    }
-
-    .accordion-button:not(.collapsed)::after {
-        background-image: url(./icons/downVector.svg);
-        transform: rotate(-180deg);
-    }
-
-    .accordion-button::after {
-        flex-shrink: 0;
-        width: 1.25rem;
-        height: 1.25rem;
-        margin-left: auto;
-        content: "";
-        background-image: url(./icons/downVector.svg);
-        background-repeat: no-repeat;
-        background-size: 1.25rem;
-        transition: transform .2s ease-in-out;
-    }
-
-    .accordion-body{
-        color: #221F1F;
-        font-size: 14px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    .accordion-item {
-        width: 100%;
-        border: 1px solid #DFDFDF;
-        border-radius: 5px!important;
-
-    }
-
-    /* faq1 */
-    .fp{
-        color: #7E6C54;
-        padding: 15px 0px 0px 10px;
-        font-size: 16px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* faq3 */
-    .fp3{
-        padding: 0;
-        margin: 0;
-        color: #221F1F;
-        font-size: 16px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* faq5 */
-    .fp5{
-        padding: 0;
-        margin: 0;
-        color: #221F1F;
-        font-size: 15px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    .fnw{
-        height: 80px;
-    }
-
-    /* assistance need */
-    .fassist{
-        overflow-x: hidden;
-        background-image: url(./images/contact-bg.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 100% 100%; 
-    }
-
-    .ftext{
-        padding: 95px 0px 0px 73px;
-    }
-    .ftext h2{
-        width: 82%;
-        padding-top: 80px;
-        color: #000000;
-        font-size: 33px;
-        letter-spacing: 1px;
-        font-family: sf-prodisplay-bold;
-    }
-
-    .ftext p{
-        width: 90%;
-        padding-top: 20px;
-        color: #655F5F;
-        font-size: 15px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    /* form */
-    .form{
-        padding: 20px 20px 0px 73px;
-    }
-
-    .form-label{
-        color: #221f1f;
-        font-size: 16px;
-        padding-left: 3px;
-        margin-bottom: 0.2rem;
-        font-weight: bold;
-        font-family: sf-prodisplay-bold;
-    }
-
-    .form-control{
-        width: 93%;
-        border-radius: 7px;
-        color: #908B8B;
-        font-size: 15px;
-        text-align: start;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    .txarea{
-        padding-bottom: 70px;
-    }
-
-    .itxt{
-        padding-bottom: 10px;
-    }
-
-    .bttn{
-        width: 90%;
-        height: 50px;
-        border-radius: 30px;
-        background-color: #7E6C54;
-        color: white;
-        font-size: 16px;
-        font-family: MADE-Tommy-Soft-regular;
-        border: none;
-    }
-
-    .buton{
-        padding: 30px 0px 95px 0px;
-    }
-
-    .dimge{
-        width: 90% !important;
-    }
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.bgimg img {
+  width: 100%;
+  height: auto;
+}
+
+.flogo {
+  width: 145px;
+  margin-left: 45px;
+}
+
+.main-nav {
+  background-color: #7e6c54;
+}
+
+.menu {
+  padding-right: 26px;
+}
+
+.menu a {
+  font-family: sf-prodisplay-bold;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  float: right;
+  margin-left: 20px;
+}
+
+.nav img {
+  width: 200px;
+}
+
+.nav {
+  top: 0;
+  z-index: 1000;
+  width: 90%;
+}
+
+.fbar {
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/*navbar/navbar-toggler/collapse nav */
+.navbar {
+  z-index: 1000;
+}
+
+.navbar.navbarfit {
+  background-color: rgb(255, 255, 255);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar.navbarfit .fbar {
+  color: #6c757d;
+  font-size: 25px;
+}
+
+.navbar.navbarfit .flogo {
+  content: url(./Images/logo.png);
+}
+
+/* lg navbar */
+.nav.sticky {
+  background-color: rgb(254, 254, 254);
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.nav.sticky .menu a {
+  color: #6b747c;
+}
+
+.nav.sticky .logo {
+  content: url(./Images/logo.png);
+  margin-left: 80px;
+}
+
+.nav img {
+  width: 200px;
+}
+
+.bar {
+  color: #7e6c54;
+}
+
+.main-nav a {
+  color: white;
+}
+
+/* text area */
+.text {
+  position: absolute;
+  top: 170px;
+}
+
+.text h1 {
+  font-size: 48px;
+  font-family: sf-prodisplay-bold;
+}
+
+.text p {
+  font-size: 24px;
+  font-family: sf-prodisplay-regular;
+}
+
+.btn {
+  border-radius: 27px;
+  color: white;
+  background-color: #7e6c54;
+  padding: 8px 16px;
+  border-color: white;
+  margin: 10px 0px 20px 0px;
+  font-size: 18px;
+  font-family: sf-prodisplay-bold;
+}
+
+.store img {
+  width: 200px;
+}
+
+.btn:hover {
+  color: rgb(255, 255, 255);
+}
+
+.text h1 {
+  color: white;
+}
+.text p {
+  width: 606px;
+  color: white;
+  text-align: start;
+}
+
+/* About Mixer */
+.about-bgimg {
+  background-image: url(./Images/ab-bg.png);
+  background-size: cover;
+}
+.abimg {
+  width: 370px !important;
+  padding-top: 85px;
+}
+
+.img1 {
+  width: 590px !important;
+  padding-left: 30px;
+}
+
+.img2 {
+  padding-top: 40px;
+  width: 283px !important;
+}
+
+.img3 {
+  width: 290px !important;
+  padding-top: 25px;
+}
+
+.txt {
+  margin-top: 20px;
+  padding-bottom: 60px;
+}
+
+.txt h3 {
+  padding-top: 60px;
+  color: #22201e;
+  font-family: MADE-Tommy-Soft;
+  width: 397px;
+}
+
+.txt p {
+  font-family: MADE-Tommy-Soft-regular;
+  color: #655f5f;
+  width: 404px;
+  padding: 20px 65px 0px 0px;
+  text-align: start;
+}
+
+.about {
+  padding-left: 50px;
+}
+
+/* Socializing */
+.ctn img {
+  width: 100%;
+  padding: 70px 65px 110px 30px;
+}
+
+.stext h2 {
+  font-family: sf-prodisplay-bold;
+  color: #473d2f;
+  font-size: 32px;
+  padding-top: 150px;
+}
+
+.head {
+  padding-top: 20px;
+}
+
+.headtxt {
+  color: #342d23;
+  font-size: 18px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+.head p {
+  color: #342d23;
+  text-align: start;
+  font-size: 13px;
+  padding: 0px 0px 25px 35px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* essentials */
+.essentials h2 {
+  padding: 0px 0px 0px 60px;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: MADE-TommyBold-PERSONAL-USE;
+}
+
+.e-img {
+  background-image: url(./Images/export-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+.essentials {
+  position: relative;
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+}
+
+/* essential image */
+.eim {
+  padding-top: 60px;
+  position: relative;
+  width: 750px;
+  margin: auto;
+}
+
+/* essential texts 1 */
+.etxt1 {
+  position: absolute;
+  top: 255px;
+  width: 36%;
+  margin-left: 75px;
+}
+
+.fm {
+  border-bottom: 3px solid #f0ad4e;
+}
+
+.etxt1 h5 {
+  text-align: start;
+  font-size: 23px;
+  font-family: MADE-Tommy-Soft-regular;
+  padding-right: 48px;
+}
+
+.etxt1 p {
+  text-align: start;
+  font-size: 18px;
+  font-family: MADE-Tommy-Soft-regular;
+  padding-right: 52px;
+}
+
+/* essential texts 2 */
+.etxt2 {
+  position: absolute;
+  top: 570px;
+  width: 30%;
+  text-align: start;
+  margin-left: 100px;
+}
+
+.fm {
+  border-bottom: 3px solid #f0ad4e;
+}
+
+.etxt2 h5 {
+  text-align: start;
+  font-size: 28px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+.etxt2 p {
+  text-align: start;
+  font-size: 18px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* essential texts 3 */
+.etxt3 {
+  position: absolute;
+  top: 400px;
+  width: 36%;
+  right: 0;
+}
+
+.fm {
+  border-bottom: 3px solid #f0ad4e;
+}
+
+.etxt3 h5 {
+  padding-left: 30px;
+  text-align: start;
+  font-size: 20px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+.etxt3 p {
+  padding: 0px 38px 0px 30px;
+  text-align: start;
+  font-size: 17px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* Socializing */
+.social h2 {
+  color: #221f1f;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: MADE-Tommy-Soft-regular;
+  text-align: center;
+  padding: 80px 50px 10px 100px;
+}
+
+.social p {
+  color: #655f5f;
+  font-size: 18px;
+  font-family: MADE-Tommy-Soft-regular;
+  text-align: center;
+  padding: 10px 260px 0px 280px;
+}
+
+/* connected ease area */
+.ce {
+  width: 70% !important;
+  padding: 140px 0px 0px 0px;
+  filter: drop-shadow(0 0 6px #abb2c6);
+}
+
+.ctxt {
+  padding-top: 90px;
+}
+.ctxt h2 {
+  padding-top: 40px;
+  text-align: start;
+  color: #221f1f;
+  font-size: 34px;
+  font-weight: bold;
+  font-family: sf-prodisplay-medium;
+}
+
+.ctxt p {
+  padding-right: 38px;
+  font-size: 16px;
+  color: #655f5f;
+  text-align: start;
+  font-family: sf-prodisplay-medium;
+}
+
+/* c1 text */
+.ce1 {
+  padding-top: 30px;
+}
+
+.ce1 img {
+  width: 30px;
+}
+
+.ce1 h2 {
+  padding: 12px 0px 0px 10px;
+  color: #655f5f;
+  font-size: 18px;
+  text-align: start;
+  font-family: sf-prodisplay-medium;
+}
+.s1 p {
+  color: #655f5f;
+  font-size: 14px;
+  text-align: start;
+  font-family: sf-prodisplay-medium;
+}
+
+/* c2 text */
+.ce2 img {
+  width: 30px;
+  padding-top: 18px;
+}
+
+.ce2 h2 {
+  padding: 30px 0px 0px 10px;
+  color: #655f5f;
+  font-size: 18px;
+  font-family: sf-prodisplay-medium;
+}
+
+.s2 p {
+  color: #655f5f;
+  padding-top: 10px;
+  font-size: 15px;
+  text-align: start;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* c3 text */
+.ce3 img {
+  width: 30px;
+}
+
+.ce3 h2 {
+  color: #655f5f;
+  font-size: 16px;
+  font-family: sf-prodisplay-medium;
+}
+
+.s3 p {
+  color: #655f5f;
+  font-size: 14px;
+  text-align: start;
+  padding-top: 4px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* c4 text */
+.ce4 img {
+  width: 30px;
+}
+
+.ce4 h2 {
+  padding: 10px 0px 0px 10px;
+  color: #655f5f;
+  font-size: 16px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+.s4 p {
+  color: #655f5f;
+  font-size: 14px;
+  text-align: start;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* perfect mixxer */
+.ptext {
+  padding-top: 180px;
+}
+.ptext h2 {
+  font-weight: bold;
+  color: #221f1f;
+  font-size: 34px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+.ptext p {
+  color: #655f5f;
+  font-size: 14.5px;
+  text-align: start;
+  font-family: MADE-Tommy-Soft-regular;
+  padding: 20px 0px 25px 0px;
+}
+
+/* c1 text */
+.icn {
+  width: 30px !important;
+}
+
+.c1 h2 {
+  color: #655f5f;
+  font-size: 18px;
+  font-family: MADE-Tommy-Soft-regular;
+  padding: 15px 0px 10px 16px;
+}
+
+.p1 p {
+  color: #655f5f;
+  font-size: 14px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* c2 text */
+.c2 h2 {
+  color: #655f5f;
+  font-size: 18px;
+  font-family: MADE-Tommy-Soft-regular;
+  padding: 15px 0px 10px 16px;
+}
+
+.p2 p {
+  color: #655f5f;
+  font-size: 16px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* c3 text */
+
+.c3 h2 {
+  color: #655f5f;
+  font-size: 18px;
+  font-family: MADE-Tommy-Soft-regular;
+  padding: 15px 0px 10px 16px;
+}
+
+.p3 p {
+  color: #655f5f;
+  font-size: 13.5px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* c3 text */
+.c4 h2 {
+  color: #655f5f;
+  font-size: 18px;
+  font-family: MADE-Tommy-Soft-regular;
+  padding: 15px 0px 10px 16px;
+}
+
+.p4 p {
+  color: #655f5f;
+  font-size: 17px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* image */
+.disc {
+  width: 80% !important;
+  filter: drop-shadow(0 0 6px #abb2c6);
+  padding: 145px 0px 0px;
+}
+
+/* Loop */
+.desc {
+  width: 80% !important;
+  padding: 190px 0px 0px;
+  filter: drop-shadow(0 0 6px #abb2c6);
+}
+.loop {
+  padding: 225px 0px 0px 0px;
+}
+
+.loop h2 {
+  font-weight: bold;
+  color: #212529;
+  font-size: 36px;
+  font-family: MADE-Tommy-Soft-regular;
+  padding: 0px 0px 10px 0px;
+}
+
+.loop p {
+  color: #655f5f;
+  font-size: 14.5px;
+  font-family: MADE-Tommy-Soft-regular;
+  padding-bottom: 25px;
+}
+/* loop 1 text */
+.lt h2 {
+  color: #655f5f;
+  font-size: 18px;
+  font-family: MADE-Tommy-Soft-regular;
+  padding: 15px 0px 10px 10px;
+}
+
+.lp1 p {
+  color: #655f5f;
+  font-size: 13px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* loop 2 text */
+.lp2 p {
+  color: #655f5f;
+  font-size: 14.5px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* loop 3 text */
+.lp3 p {
+  color: #655f5f;
+  font-size: 13px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* loop 4 text */
+.lp4 p {
+  color: #655f5f;
+  font-size: 13.5px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* Social Hub */
+.htext {
+  padding: 100px 0px 30px 0px;
+}
+
+.htext h2 {
+  color: #221f1f;
+  font-size: 36px;
+  text-align: start;
+  font-weight: bold;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+.htext p {
+  text-align: start;
+  color: #655f5f;
+  font-size: 15px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* hub text 1 */
+.hb h2 {
+  color: #655f5f;
+  font-size: 18px;
+  font-family: MADE-Tommy-Soft-regular;
+  padding: 15px 0px 10px 10px;
+}
+
+.ht1 p {
+  text-align: start;
+  color: #655f5f;
+  font-size: 14px;
+  padding-bottom: 50px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* hub text 2 */
+.ht2 p {
+  text-align: start;
+  color: #655f5f;
+  font-size: 14px;
+  padding-bottom: 50px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* hub text 3 */
+.ht3 p {
+  text-align: start;
+  color: #655f5f;
+  font-size: 14px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* hub text 4 */
+.ht4 p {
+  text-align: start;
+  color: #655f5f;
+  font-size: 14px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* discover 4 image */
+.himg {
+  width: 80% !important;
+  padding: 70px 0px 2px 40px;
+  filter: drop-shadow(0 0 6px #abb2c6);
+}
+
+/* Get Started Mixxer */
+.bg-color {
+  background-color: #eeeae5;
+  margin: 100px 45px 0px 73px;
+}
+
+.get img {
+  width: 500px;
+}
+
+.mtxt h2 {
+  padding-top: 30px;
+  color: #221f1f;
+  font-size: 35.2px;
+  font-weight: bold;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+.mtxt p {
+  padding-top: 10px;
+  color: #221f1f;
+  font-size: 22px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+.mix {
+  color: #988265;
+  font-size: 22px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+.str {
+  padding: 60px 0px 0px;
+  gap: 15px;
+}
+
+.str img {
+  width: 180px;
+}
+
+.sp {
+  color: #6c5c48;
+  font-size: 17.6px;
+  padding-bottom: 89px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* FAQ's */
+.faq h2 {
+  color: #221f1f;
+  font-size: 36px;
+  padding: 120px 0px 30px 0px;
+  text-align: center;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+.farea {
+  padding-bottom: 100px;
+  gap: 10px;
+}
+
+/* text divs #1 */
+.count {
+  background-color: #eeeae5;
+  color: #000000;
+  padding: 5px 10px 5px 10px;
+  font-size: 20px;
+  border-radius: 6px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #7e6c54;
+  background-color: #ffffff;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+
+.accordion-button {
+  border: 1px solid #dfdfdf;
+  border-top-left-radius: 4px !important;
+  border-top-right-radius: 4px !important;
+  color: #7e6c54;
+  background-color: #ffffff;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(./icons/downVector.svg);
+  transform: rotate(-180deg);
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url(./icons/downVector.svg);
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.accordion-body {
+  color: #221f1f;
+  font-size: 14px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+.accordion-item {
+  width: 100%;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px !important;
+}
+
+/* faq1 */
+.fp {
+  color: #7e6c54;
+  padding: 15px 0px 0px 10px;
+  font-size: 16px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* faq3 */
+.fp3 {
+  padding: 0;
+  margin: 0;
+  color: #221f1f;
+  font-size: 16px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* faq5 */
+.fp5 {
+  padding: 0;
+  margin: 0;
+  color: #221f1f;
+  font-size: 15px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+.fnw {
+  height: 80px;
+}
+
+/* assistance need */
+.fassist {
+  overflow-x: hidden;
+  background-image: url(./images/contact-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.ftext {
+  padding: 95px 0px 0px 73px;
+}
+.ftext h2 {
+  width: 82%;
+  padding-top: 80px;
+  color: #000000;
+  font-size: 33px;
+  letter-spacing: 1px;
+  font-family: sf-prodisplay-bold;
+}
+
+.ftext p {
+  width: 90%;
+  padding-top: 20px;
+  color: #655f5f;
+  font-size: 15px;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+/* form */
+.form {
+  padding: 20px 20px 0px 73px;
+}
+
+.form-label {
+  color: #221f1f;
+  font-size: 16px;
+  padding-left: 3px;
+  margin-bottom: 0.2rem;
+  font-weight: bold;
+  font-family: sf-prodisplay-bold;
+}
+
+.form-control {
+  width: 93%;
+  border-radius: 7px;
+  color: #908b8b;
+  font-size: 15px;
+  text-align: start;
+  font-family: MADE-Tommy-Soft-regular;
+}
+
+.txarea {
+  padding-bottom: 70px;
+}
+
+.itxt {
+  padding-bottom: 10px;
+}
+
+.bttn {
+  width: 90%;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #7e6c54;
+  color: white;
+  font-size: 16px;
+  font-family: MADE-Tommy-Soft-regular;
+  border: none;
+}
+
+.buton {
+  padding: 30px 0px 95px 0px;
+}
+
+.dimge {
+  width: 90% !important;
+}
 
 /* footer */
 /* bg imag */
-    .fimg{
-        background-image: url(./images/footer-bg.png);
-        background-size: 100% 100%;
-        padding-top: 50px;
-        margin-top: 100px;
-        overflow-x: hidden;
-        background-repeat: no-repeat;
-    }
+.fimg {
+  background-image: url(./images/footer-bg.png);
+  background-size: 100% 100%;
+  padding-top: 50px;
+  margin-top: 100px;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+}
 
-    /* col1 */
-    .fc1 img{
-        width: 400px;
-        padding: 50px 0px 5px 80px;
-    }
+/* col1 */
+.fc1 img {
+  width: 400px;
+  padding: 50px 0px 5px 80px;
+}
 
-    .fl{
-        width: 210px;
-    }
+.fl {
+  width: 210px;
+}
 
-    .fli{
-        width: 278px;
-        text-align: start;
-        padding-left: 10px;
-        color: #473D2F;
-        font-size: 15px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
+.fli {
+  width: 278px;
+  text-align: start;
+  padding-left: 10px;
+  color: #473d2f;
+  font-size: 15px;
+  font-family: MADE-Tommy-Soft-regular;
+}
 
-    .fli1{
-        width: 276px;
-        color: #655F5F;
-        padding-left: 10px;
-        font-size: 15px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
+.fli1 {
+  width: 276px;
+  color: #655f5f;
+  padding-left: 10px;
+  font-size: 15px;
+  font-family: MADE-Tommy-Soft-regular;
+}
 
-    /* links */
-    .links{
-        padding-left: 90px;
-    }
+/* links */
+.links {
+  padding-left: 90px;
+}
 
-    .lnk a:hover {
-    color: #7E6C54;
-    }
+.lnk a:hover {
+  color: #7e6c54;
+}
 
-    .links h5{
-        color: #0B0A0A;
-        font-size: 23px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
+.links h5 {
+  color: #0b0a0a;
+  font-size: 23px;
+  font-family: MADE-Tommy-Soft-regular;
+}
 
-    .lkm img{
-        width: 120px;
-    }
+.lkm img {
+  width: 120px;
+}
 
-    .lkm1 img{
-        width: 145px;
-    }
+.lkm1 img {
+  width: 145px;
+}
 
-    .flnk{
-        text-decoration: none;
-        color: #0B0A0A;
-        font-size: 19px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
+.flnk {
+  text-decoration: none;
+  color: #0b0a0a;
+  font-size: 19px;
+  font-family: MADE-Tommy-Soft-regular;
+}
 
-    .flnk img{
-        width: 15px !important;
-    }
+.flnk img {
+  width: 15px !important;
+}
 
-    .uimg{
-        width: 20px !important;
-    }
+.uimg {
+  width: 20px !important;
+}
 
-    .flnk1{
-        color: #0B0A0A;
-        font-size: 17px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
+.flnk1 {
+  color: #0b0a0a;
+  font-size: 17px;
+  font-family: MADE-Tommy-Soft-regular;
+}
 
-    .flnk12{
-        color: #0B0A0A;
-        font-size: 14px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
+.flnk12 {
+  color: #0b0a0a;
+  font-size: 14px;
+  font-family: MADE-Tommy-Soft-regular;
+}
 
-    /* Terms */
+/* Terms */
 
-    .terms h5{
-        color: #0B0A0A;
-        font-size: 20px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
+.terms h5 {
+  color: #0b0a0a;
+  font-size: 20px;
+  font-family: MADE-Tommy-Soft-regular;
+}
 
-    .trm a:hover {
-        text-decoration: none;
-        align-items: center;
-        color: #655F5F;
-        margin-right: 15px;
-    }
+.trm a:hover {
+  text-decoration: none;
+  align-items: center;
+  color: #655f5f;
+  margin-right: 15px;
+}
 
-    .trhd img{
-        padding-top: 10px;
-        width: 105px;
-    }
+.trhd img {
+  padding-top: 10px;
+  width: 105px;
+}
 
-    .ftlnk{
-        text-decoration: none;
-        color: #0B0A0A;
-        font-size: 19px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
+.ftlnk {
+  text-decoration: none;
+  color: #0b0a0a;
+  font-size: 19px;
+  font-family: MADE-Tommy-Soft-regular;
+}
 
-    /* .ftlnk img{
+/* .ftlnk img{
         width: 27px;
     } */
 
-    .ftlnk1{
-        color: #0B0A0A;
-        font-size: 19px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
+.ftlnk1 {
+  color: #0b0a0a;
+  font-size: 19px;
+  font-family: MADE-Tommy-Soft-regular;
+}
 
-    .uimg1{
-        width: 30px;
-        padding: 7px 10px 10px 0px;
-    }
+.uimg1 {
+  width: 30px;
+  padding: 7px 10px 10px 0px;
+}
 
-    /* Touch */
-    .touch h5{
-        color: #0B0A0A;
-        font-size: 20px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
+/* Touch */
+.touch h5 {
+  color: #0b0a0a;
+  font-size: 20px;
+  font-family: MADE-Tommy-Soft-regular;
+}
 
-    .flimg img{
-        width: 120px;
-    }
+.flimg img {
+  width: 120px;
+}
 
-    .flimg{
-        width: 30px !important;
-        padding-right: 10px;
-    }
+.flimg {
+  width: 30px !important;
+  padding-right: 10px;
+}
 
-    .flnk2 h4{
-        color: #0B0A0A;
-        font-size: 16px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
+.flnk2 h4 {
+  color: #0b0a0a;
+  font-size: 16px;
+  font-family: MADE-Tommy-Soft-regular;
+}
 
-    .eml{
-        color: #655F5F;
-    }
+.eml {
+  color: #655f5f;
+}
 
 /*terms page footer */
-    .trhd img{
-        padding: 10px 0px 0px 3px;
-        width: 145px;
-    }
+.trhd img {
+  padding: 10px 0px 0px 3px;
+  width: 145px;
+}
 
-    .ft {
-        gap: 12px;
-        padding-top: 20px;
-    }
+.ft {
+  gap: 12px;
+  padding-top: 20px;
+}
 
-    .ft img{
-        width: 40px;
-    }
-    
+.ft img {
+  width: 40px;
+}
+
 /* faq's page css, Navbar */
-    .fmenu a{
-        font-family: sf-prodisplay-bold;
-        font-size: 18px;
-        text-decoration: none;
-        color: #655F5F;
-        margin-left: 20px;
-    }
+.fmenu a {
+  font-family: sf-prodisplay-bold;
+  font-size: 18px;
+  text-decoration: none;
+  color: #655f5f;
+  margin-left: 20px;
+}
 
-    .logo img{
-        top: 0;
-        position: absolute !important;
-        width: 200px;
-        margin-top: 20px;
-    } 
+.logo img {
+  top: 0;
+  position: absolute !important;
+  width: 200px;
+  margin-top: 20px;
+}
 
-    .fnav{
-        top: 0;
-        padding: 5px 0px 0px 9px;
-        z-index: 1000;
-        
-    }
+.fnav {
+  top: 0;
+  padding: 5px 0px 0px 9px;
+  z-index: 1000;
+}
 
-    .fnav img{
-        width: 200px; 
-    }
+.fnav img {
+  width: 200px;
+}
 
-    /* faq's page */
-    .bg-color1{
-        background-color: #EEEAE5 ;
-        margin: 105px 90px 0px 88px;
-    }
+/* faq's page */
+.bg-color1 {
+  background-color: #eeeae5;
+  margin: 105px 90px 0px 88px;
+}
 
-    /* Terms of Services page */
-    .tor{
-        margin-top: 120px;
-    }
+/* Terms of Services page */
+.tor {
+  margin-top: 120px;
+}
 
-    .tl{
-        width: 300px;
-        padding: 20px;
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-        margin: 0px 0px 0px 20px; 
-    }
+.tl {
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0px 0px 0px 20px;
+}
 
-    .tl ul {
-        font-family: MADE-Tommy-Soft-regular;
-        font-size: 18px;
-        color: #221F1F;
-        list-style-type: disc;
-        padding-left: 20px;
-        margin: 0;
-    }
+.tl ul {
+  font-family: MADE-Tommy-Soft-regular;
+  font-size: 18px;
+  color: #221f1f;
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
 
-    .tl li {
-        margin-bottom: 15px;
-    }
+.tl li {
+  margin-bottom: 15px;
+}
 
-    .rectline{
-        margin-left: 93px;
-    }
+.rectline {
+  margin-left: 93px;
+}
 
-    /* tor details */
-    .trm h2{
-        font-family: MADE-Tommy-Soft-regular;
-        font-size: 34px;
-        color: #221F1F;
-    }
+/* tor details */
+.trm h2 {
+  font-family: MADE-Tommy-Soft-regular;
+  font-size: 34px;
+  color: #221f1f;
+}
 
-    .trp{
-        font-family: MADE-Tommy-Soft-regular;
-        font-size: 18px;
-        color: #4E4949;
-    }
+.trp {
+  font-family: MADE-Tommy-Soft-regular;
+  font-size: 18px;
+  color: #4e4949;
+}
 
-    .trp1{
-        font-family: MADE-Tommy-Soft-regular;
-        font-size: 17px;
-        color: #4E4949;
-        padding-right: 4px;
-    }
+.trp1 {
+  font-family: MADE-Tommy-Soft-regular;
+  font-size: 17px;
+  color: #4e4949;
+  padding-right: 4px;
+}
 
-    .trp2{
-        font-family: MADE-Tommy-Soft-regular;
-        font-size: 15.5px;
-        color: #4E4949;
-        padding-right: 4px;
-    }
+.trp2 {
+  font-family: MADE-Tommy-Soft-regular;
+  font-size: 15.5px;
+  color: #4e4949;
+  padding-right: 4px;
+}
 
-    /* eula */
-    .elp{
-        font-family: MADE-Tommy-Soft-regular;
-        font-size: 17.5px;
-        color: #4E4949;
-    }
+/* eula */
+.elp {
+  font-family: MADE-Tommy-Soft-regular;
+  font-size: 17.5px;
+  color: #4e4949;
+}
 
-    .elp1{
-        font-family: MADE-Tommy-Soft-regular;
-        font-size: 17px;
-        color: #4E4949;
-        padding-right: 4px;
-    }
+.elp1 {
+  font-family: MADE-Tommy-Soft-regular;
+  font-size: 17px;
+  color: #4e4949;
+  padding-right: 4px;
+}
 
-    .elp11{
-        font-family: MADE-Tommy-Soft-regular;
-        font-size: 17px;
-        color: #4E4949;
-        padding: 0px 4px 0px 10px;
-    }
+.elp11 {
+  font-family: MADE-Tommy-Soft-regular;
+  font-size: 17px;
+  color: #4e4949;
+  padding: 0px 4px 0px 10px;
+}
 
-    .lst li a{
-        text-decoration: none;
-        color: #221F1F;
-    }
+.lst li a {
+  text-decoration: none;
+  color: #221f1f;
+}
 
-    .rectlinee{
-        margin-left: 64px;
-    }
+.rectlinee {
+  margin-left: 64px;
+}
 
 /* media queries for tablets ≤ 768px */
-@media screen and (max-width: 768px){
-    .navbar.navbarfit {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15);
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000;
-    }
-
-    .navbar-collapse{
-        background-color: #7E6C54;
-    } 
-
-    .navbar-collapse a{
-        color: white;
-        padding: 10px 0px 0px 15px;
-        font-family: sf-prodisplay-regular;
-    }
-
-    .navbar-toggler{
-        margin: 0px 115px;
-    }
-    
-    .fnav{
-        top: 0;
-        padding: 10px 40px 20px 10px;
-        z-index: 1000;
-    }
-    
-    .flogo{
-        width: 135px !important;
-        margin-left: 12px;
-    }
-
-    .text{
-        top: 185px;
-    }
-
-    .text h1{
-        font-size: 28px;
-        letter-spacing: 2px;
-    }
-
-    .text p{
-        margin-bottom: 10px;
-        max-width: 540px;
-        font-size: 18px;
-        letter-spacing: 2px;
-    }
-
-    .text button{
-        margin-top: 0px;
-    }
-
-    .store img{
-        width: 120px;
-    }
-
-    /* about area */
-    .txt p{
-        width: 520px;
-        padding: 20px 0px 0px 2px;
-    }
-
-/* seamless Socializing */
-    .ctn {
-            width: 100% !important;
-            padding: 30px;
-        }
-
-    .stext h2{
-            font-size: 24px;
-            padding: 20px 0px 0px 13px;
-        }
-
-    .head {
-        padding: 20px 11px 0px 5px;
-    }
-
-    .head p{
-        font-size: 14px;
-    }
-
-    /* about */
-    .essentials{
-        padding-top: 10px;
-    }
-    .essentials h2{
-        font-size: 30px;
-        padding-top: 0px;
-    }
-    
-    .eim{
-        padding-top: 110px;
-        width: 68%;
-    }
-
-    .etxt1{
-        top: 130px; 
-        width: 50%;
-        margin-left: 16px;
-    }
-
-    .etxt1 h5{
-        width: 280px;
-        font-size: 20px;
-    }
-
-    .etxt1 p{
-        font-size: 14px;
-        padding-right: 0px;
-        width: 228px;
-    }
-
-    .etxt2{
-        top: 400px; 
-        width: 30%;
-        margin-left: 16px;
-    }
-
-    .etxt2 h5 {
-        font-size: 15.5px;
-    } 
-
-    .etxt2 p {
-        width: 219px;
-        font-size: 14px;
-    }
-
-    .etxt3{
-        top: 190px; 
-        width: 36%;
-        padding-left: 10px;
-    }
-
-    .etxt3 h5 {
-        padding-left: 39px;
-        font-size: 18px;
-    }
-    
-    .etxt3 p {
-        width: 258px;
-        font-size: 13px;
-        padding-left: 40px;
-    }
-
-    /* Social */
-    .social h2{
-        font-size: 34.5px;
-        padding: 50px 70px 0px 70px;
-    }
-    
-    .social p{
-        font-size: 18px;
-        padding: 10px 90px 0px 94px;
-    }
-
-    /* phone img and text */
-    .ctxt{
-        padding-top: 0px;
-    }
-
-    .ctxt h2{
-        padding-top: 40px;
-        font-size: 27px;
-    }
-    
-    .ctxt p{
-        padding: 20px 0px 0px;
-        font-size: 15.5px;
-    }
-
-    /* connected ease area */
-    .ce{
-        width: 80%;
-        padding: 0px;
-    }
-
-    /* perfect mixxer */
-    .ptext{
-        padding-top: 50px;
-    }
-
-    .ptext h2{
-        font-size: 28px;
-    }
-
-    .ptext p{
-        font-size: 14.5px;
-        padding: 20px 0px 25px 0px;
-    }
-    
-    /* c1 text */
-     .ce1{
-        padding-top: 30px;
-     }
-
-     .ce1 img{
-          width: 30px;
-     }
-
-     .ce1 h2{
-         padding: 12px 0px 0px 10px;
-         font-size: 18px;
-     }
-
-    .s1 p{
-         font-size: 15px;
-     }
-
-    /* c2 text */
-    .ce2 img{
-         width: 30px;
-         padding-top: 18px;
-     }
-
-     .ce2 h2{
-         padding: 30px 0px 0px 10px;
-         font-size: 18px;
-     }
-     
-     .s2 p{
-         padding-top: 10px;
-         font-size: 14px;
-     } 
-
-     /* c3 text */
-    .ce3 img{
-         width: 30px;
-     }
-
-     .ce3 h2{
-         padding: 10px 0px 0px 5px;
-         font-size: 16px;
-     }
-
-     /* c4 text */
-     .ce4 img{
-         width: 30px;
-     }
-
-     .ce4 h2{
-         padding: 10px 0px 0px 10px;
-         font-size: 16px;
-     }
-
-     .s4 p{
-         font-size: 14px;
-     }
-
-    /* c2 text */
-    .c2 h2{
-        font-size: 18p;
-        padding: 15px 0px 10px 16px;
-    }
-
-    .p2 p{
-        font-size: 14px;
-    }
-
-    .p4 p{
-        font-size: 14px;
-    }
-
-    /* image */
-    .disc{
-        width: 80%;
-        padding: 90px 0px 0px;
-    }
-    
-    /* loop */
-    .desc{
-        width: 80%;
-        padding: 30px 0px 0px;
-    }
-
-    .loop{
-        padding: 40px 0px 0px;
-    }
-
-    .loop h2{ 
-        font-size: 24px;
-    }
-    
-    .loop p{
-        font-size: 14px;
-    }
-
-    /* loop 1 text */
-    .lt h2{
-        font-size: 17px;
-    }
-
-    .lp1 p{
-        font-size: 14.5px;
-    }
-
-    /* loop 3 text */
-    .lp3 p{
-        font-size: 14px;
-    }
-
-    /* loop 4 text */
-    .lp4 p{
-        font-size: 14px;
-    }
-
-    /* Social Hub */
-    .htext{
-        padding: 20px 0px 30px 0px;
-    }
-
-    .htext h2{
-        font-size: 30px;
-    }
-
-    .htext p{
-        font-size: 15px;
-    }
-
-    /* hub text 1 */
-    .hb h2{
-        font-size: 15px;
-    }
-    
-    .ht1 p{
-        padding-bottom: 20px;
-    }
-
-    /* hub text 2 */
-    .ht2 p{
-        padding-bottom: 20px;
-    }
-
-    /* hub text 3 */
-    .ht3 p{
-        font-size: 14px;
-        padding-bottom: 20px;
-    }
-
-    /* hub text 4 */
-    .ht4 p{
-        font-size: 14px;
-    }
-
-    /* discover 4 image */
-    .himg{
-        width: 80%;
-        padding: 30px 0px 0px 40px;
-    }
-
-    /* Get Started Mixxer */
-    .bg-color{
-        margin: 50px 120px;
-    }
-
-    .get img{
-        padding-top: 60px;
-        width: 100%;
-    }
-
-    .mtxt h2{
-        padding-top: 5px;
-        font-size: 21px;
-    }
-
-    .mtxt p{
-        padding-top: 10px;
-        font-size: 18px;
-    }
-
-    .mix{
-        font-size: 21px;
-    }
-
-    .str{
-        padding: 60px 0px 0px;
-        gap: 10px;
-    }
-
-    .str img{
-        width: 117px;
-    }
-
-    .sp{
-        font-size: 16px;
-        padding: 10px 0px 0px;
-    }
-
-    /* FAQ's */
-    .faq h2{
-        font-size: 34px;
-        padding: 50px 0px 30px 0px;
-    }
-
-    .farea{
-        padding-bottom: 100px;
-        flex-direction: column;
-    }
-
-    /* faq1 */
-    .fp{
-        color: #000000;
-        padding: 15px 0px 0px 10px;
-        font-size: 16px;
-    }
-
-    .fnw{
-        height: 100px;
-    }
-
-    /* assistance need */
-    .fassist{
-        padding: 0px 20px; 
-    }
-
-    .ftext {
-        padding: 25px 12px 0px 14px;
-    }
-
-    .ftext h2{
-        width: 100%;
-        font-size: 34px;
-    }
-    
-    .ftext p{
-        width: 88%;
-        padding-top: 10px;
-        font-size: 16px;
-    }
-
-    /* form */
-    .form{
-        padding: 15px 12px 0px 14px;
-        width: 100%;
-    }
-
-    .form-label{
-        font-size: 16px;
-        margin-bottom: 0.5rem;
-    }
-
-    .form-control{
-        border-radius: 7px;
-        font-size: 16px;
-    }
-
-    .txarea{
-        padding-bottom: 70px;
-        height: 110px;
-    }
-    
-    .itxt{
-        padding-bottom: 10px;
-        height: 50px;
-    }
-    
-    .bttn{
-        width: 93%;
-        height: 40px;
-        font-size: 16px;
-    }
-    
-    .buton{
-        padding: 20px 0px 60px 0px;
-    }
-    
-    /* footer bg imag */
-    .fimg{
-        background-size: 100% 100%;
-    }
-
-    .fl{
-        width: 175px !important;
-    }
-
-    .fli {
-        width: 192px;
-        font-size: 14px;
-    }
-
-    .fli1{
-        width: 200px;
-        font-size: 15px;
-    }
-
-    /* links */
-    .lnk a:hover {
-        color: #7E6C54;
-    }
-
-    .links h5{
-        color: #0B0A0A;
-        font-size: 21px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    .lkm img{
-        width: 120px;
-    }
-
-    .flnk img{
-        width: 15px;
-    }
-
-    .uimg{
-        width: 20px;
-    }
-
-    /* Terms */
-    .terms h5{
-        font-size: 19px;
-        padding: 5px 0px 0px 15px;
-    }
-
-    .terms a{
-        padding: 0px 0px 0px 15px;
-        white-space: nowrap;
-    }
-
-    .trm a:hover {
-        color: #655F5F;
-    }
-
-    .trhd img {
-        padding: 10px 0px 0px 18px;
-        width: 165px;
-    }
-
-    .lkm1 img {
-        width: 145px;
-        padding-left: 9px;
-    }
-
-    .ftlnk {
-        font-size: 17px;
-    }
-
-    /* Touch */
-    .ft img {
-        width: 23px;
-    }
-
-    .flnk2 h4 {
-        font-size: 11.5px;
-    }
-
-    /* Terms page */
-    .nav.sticky .logo {
-        margin: 0px 35px 0px 43px;
-    }
-    
-    .nav img {
-        width: 175px;
-    }
-
-    .tl {
-        padding: 5px 0px 0px 0px;
-        margin: 0px 0px 0px 20px;
-    }
-
-    .tl ul a, tl ul {
-        font-size: 16px;
-        white-space: nowrap;
-    }
-
-    .rectline {
-        margin-left: 0px;
-    }
-
-    .tor {
-        margin-top: 65px;
-    }
-
-    /* EULA page */
-    .trm h2 {
-        font-size: 31px;
-    }
-
-    .tor1 {
-        margin-top: 65px;
-    }
-
-    /* Privacy Policies */
-    
-
+@media screen and (max-width: 768px) {
+  .navbar.navbarfit {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .navbar-collapse {
+    background-color: #7e6c54;
+  }
+
+  .navbar-collapse a {
+    color: white;
+    padding: 10px 0px 0px 15px;
+    font-family: sf-prodisplay-regular;
+  }
+
+  .navbar-toggler {
+    margin: 0px 115px;
+  }
+
+  .fnav {
+    top: 0;
+    padding: 10px 40px 20px 10px;
+    z-index: 1000;
+  }
+
+  .flogo {
+    width: 135px !important;
+    margin-left: 12px;
+  }
+
+  .text {
+    top: 185px;
+  }
+
+  .text h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+
+  .text p {
+    margin-bottom: 10px;
+    max-width: 540px;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  .text button {
+    margin-top: 0px;
+  }
+
+  .store img {
+    width: 120px;
+  }
+
+  /* about area */
+  .txt p {
+    width: 520px;
+    padding: 20px 0px 0px 2px;
+  }
+
+  /* seamless Socializing */
+  .ctn {
+    width: 100% !important;
+    padding: 30px;
+  }
+
+  .stext h2 {
+    font-size: 24px;
+    padding: 20px 0px 0px 13px;
+  }
+
+  .head {
+    padding: 20px 11px 0px 5px;
+  }
+
+  .head p {
+    font-size: 14px;
+  }
+
+  /* about */
+  .essentials {
+    padding-top: 10px;
+  }
+  .essentials h2 {
+    font-size: 30px;
+    padding-top: 0px;
+  }
+
+  .eim {
+    padding-top: 110px;
+    width: 68%;
+  }
+
+  .etxt1 {
+    top: 130px;
+    width: 50%;
+    margin-left: 16px;
+  }
+
+  .etxt1 h5 {
+    width: 280px;
+    font-size: 20px;
+  }
+
+  .etxt1 p {
+    font-size: 14px;
+    padding-right: 0px;
+    width: 228px;
+  }
+
+  .etxt2 {
+    top: 400px;
+    width: 30%;
+    margin-left: 16px;
+  }
+
+  .etxt2 h5 {
+    font-size: 15.5px;
+  }
+
+  .etxt2 p {
+    width: 219px;
+    font-size: 14px;
+  }
+
+  .etxt3 {
+    top: 190px;
+    width: 36%;
+    padding-left: 10px;
+  }
+
+  .etxt3 h5 {
+    padding-left: 39px;
+    font-size: 18px;
+  }
+
+  .etxt3 p {
+    width: 258px;
+    font-size: 13px;
+    padding-left: 40px;
+  }
+
+  /* Social */
+  .social h2 {
+    font-size: 34.5px;
+    padding: 50px 70px 0px 70px;
+  }
+
+  .social p {
+    font-size: 18px;
+    padding: 10px 90px 0px 94px;
+  }
+
+  /* phone img and text */
+  .ctxt {
+    padding-top: 0px;
+  }
+
+  .ctxt h2 {
+    padding-top: 40px;
+    font-size: 27px;
+  }
+
+  .ctxt p {
+    padding: 20px 0px 0px;
+    font-size: 15.5px;
+  }
+
+  /* connected ease area */
+  .ce {
+    width: 80%;
+    padding: 0px;
+  }
+
+  /* perfect mixxer */
+  .ptext {
+    padding-top: 50px;
+  }
+
+  .ptext h2 {
+    font-size: 28px;
+  }
+
+  .ptext p {
+    font-size: 14.5px;
+    padding: 20px 0px 25px 0px;
+  }
+
+  /* c1 text */
+  .ce1 {
+    padding-top: 30px;
+  }
+
+  .ce1 img {
+    width: 30px;
+  }
+
+  .ce1 h2 {
+    padding: 12px 0px 0px 10px;
+    font-size: 18px;
+  }
+
+  .s1 p {
+    font-size: 15px;
+  }
+
+  /* c2 text */
+  .ce2 img {
+    width: 30px;
+    padding-top: 18px;
+  }
+
+  .ce2 h2 {
+    padding: 30px 0px 0px 10px;
+    font-size: 18px;
+  }
+
+  .s2 p {
+    padding-top: 10px;
+    font-size: 14px;
+  }
+
+  /* c3 text */
+  .ce3 img {
+    width: 30px;
+  }
+
+  .ce3 h2 {
+    padding: 10px 0px 0px 5px;
+    font-size: 16px;
+  }
+
+  /* c4 text */
+  .ce4 img {
+    width: 30px;
+  }
+
+  .ce4 h2 {
+    padding: 10px 0px 0px 10px;
+    font-size: 16px;
+  }
+
+  .s4 p {
+    font-size: 14px;
+  }
+
+  /* c2 text */
+  .c2 h2 {
+    font-size: 18p;
+    padding: 15px 0px 10px 16px;
+  }
+
+  .p2 p {
+    font-size: 14px;
+  }
+
+  .p4 p {
+    font-size: 14px;
+  }
+
+  /* image */
+  .disc {
+    width: 80%;
+    padding: 90px 0px 0px;
+  }
+
+  /* loop */
+  .desc {
+    width: 80%;
+    padding: 30px 0px 0px;
+  }
+
+  .loop {
+    padding: 40px 0px 0px;
+  }
+
+  .loop h2 {
+    font-size: 24px;
+  }
+
+  .loop p {
+    font-size: 14px;
+  }
+
+  /* loop 1 text */
+  .lt h2 {
+    font-size: 17px;
+  }
+
+  .lp1 p {
+    font-size: 14.5px;
+  }
+
+  /* loop 3 text */
+  .lp3 p {
+    font-size: 14px;
+  }
+
+  /* loop 4 text */
+  .lp4 p {
+    font-size: 14px;
+  }
+
+  /* Social Hub */
+  .htext {
+    padding: 20px 0px 30px 0px;
+  }
+
+  .htext h2 {
+    font-size: 30px;
+  }
+
+  .htext p {
+    font-size: 15px;
+  }
+
+  /* hub text 1 */
+  .hb h2 {
+    font-size: 15px;
+  }
+
+  .ht1 p {
+    padding-bottom: 20px;
+  }
+
+  /* hub text 2 */
+  .ht2 p {
+    padding-bottom: 20px;
+  }
+
+  /* hub text 3 */
+  .ht3 p {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  /* hub text 4 */
+  .ht4 p {
+    font-size: 14px;
+  }
+
+  /* discover 4 image */
+  .himg {
+    width: 80%;
+    padding: 30px 0px 0px 40px;
+  }
+
+  /* Get Started Mixxer */
+  .bg-color {
+    margin: 50px 25px 50px 42px;
+  }
+
+  .get img {
+    padding-top: 60px;
+    width: 100%;
+  }
+
+  .mtxt h2 {
+    padding-top: 5px;
+    font-size: 21px;
+  }
+
+  .mtxt p {
+    padding-top: 10px;
+    font-size: 18px;
+  }
+
+  .mix {
+    font-size: 21px;
+  }
+
+  .str {
+    padding: 60px 0px 0px;
+    gap: 10px;
+  }
+
+  .str img {
+    width: 117px;
+  }
+
+  .sp {
+    font-size: 16px;
+    padding: 10px 0px 0px;
+  }
+
+  /* FAQ's */
+  .faq h2 {
+    font-size: 34px;
+    padding: 50px 0px 30px 0px;
+  }
+
+  .farea {
+    padding-bottom: 100px;
+    flex-direction: column;
+  }
+
+  /* faq1 */
+  .fp {
+    color: #000000;
+    padding: 15px 0px 0px 10px;
+    font-size: 16px;
+  }
+
+  .fnw {
+    height: 100px;
+  }
+
+  /* assistance need */
+  .fassist {
+    padding: 0px 20px;
+  }
+
+  .ftext {
+    padding: 25px 12px 0px 14px;
+  }
+
+  .ftext h2 {
+    width: 100%;
+    font-size: 34px;
+  }
+
+  .ftext p {
+    width: 88%;
+    padding-top: 10px;
+    font-size: 16px;
+  }
+
+  /* form */
+  .form {
+    padding: 15px 12px 0px 14px;
+    width: 100%;
+  }
+
+  .form-label {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-control {
+    border-radius: 7px;
+    font-size: 16px;
+  }
+
+  .txarea {
+    padding-bottom: 70px;
+    height: 110px;
+  }
+
+  .itxt {
+    padding-bottom: 10px;
+    height: 50px;
+  }
+
+  .bttn {
+    width: 93%;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .buton {
+    padding: 20px 0px 60px 0px;
+  }
+
+  /* footer bg imag */
+  .fimg {
+    background-size: 100% 100%;
+  }
+
+  .fl {
+    width: 175px !important;
+  }
+
+  .fli {
+    width: 192px;
+    font-size: 14px;
+  }
+
+  .fli1 {
+    width: 200px;
+    font-size: 15px;
+  }
+
+  /* links */
+  .lnk a:hover {
+    color: #7e6c54;
+  }
+
+  .links h5 {
+    color: #0b0a0a;
+    font-size: 21px;
+    font-family: MADE-Tommy-Soft-regular;
+  }
+
+  .lkm img {
+    width: 120px;
+  }
+
+  .flnk img {
+    width: 15px;
+  }
+
+  .uimg {
+    width: 20px;
+  }
+
+  /* Terms */
+  .terms h5 {
+    font-size: 19px;
+    padding: 5px 0px 0px 15px;
+  }
+
+  .terms a {
+    padding: 0px 0px 0px 15px;
+    white-space: nowrap;
+  }
+
+  .trm a:hover {
+    color: #655f5f;
+  }
+
+  .trhd img {
+    padding: 10px 0px 0px 18px;
+    width: 165px;
+  }
+
+  .lkm1 img {
+    width: 145px;
+    padding-left: 9px;
+  }
+
+  .ftlnk {
+    font-size: 17px;
+  }
+
+  /* Touch */
+  .ft img {
+    width: 23px;
+  }
+
+  .flnk2 h4 {
+    font-size: 11.5px;
+  }
+
+  /* Terms page */
+  .nav.sticky .logo {
+    margin: 0px 35px 0px 43px;
+  }
+
+  .nav img {
+    width: 175px;
+  }
+
+  .tl {
+    padding: 5px 0px 0px 0px;
+    margin: 0px 0px 0px 20px;
+  }
+
+  .tl ul a,
+  tl ul {
+    font-size: 16px;
+    white-space: nowrap;
+  }
+
+  .rectline {
+    margin-left: 0px;
+  }
+
+  .tor {
+    margin-top: 65px;
+  }
+
+  /* EULA page */
+  .trm h2 {
+    font-size: 31px;
+  }
+
+  .tor1 {
+    margin-top: 65px;
+  }
+
+  /* Privacy Policies */
 }
 
 /* media queries Navbar for mobiles large ≥576px */
-@media screen and (max-width: 576px){
-    .navbar .navbar-toggler {
-        padding-left: 18px;
-        margin-left: 0px;
-    }
+@media screen and (max-width: 576px) {
+  .navbar .navbar-toggler {
+    padding-left: 18px;
+    margin-left: 0px;
+  }
 
-    .flogo{
-        width: 135px !important;
-        margin-left: 12px;
-    }
+  .flogo {
+    width: 135px !important;
+    margin-left: 12px;
+  }
 
-    .navbar.navbarfit .fbar{
-        font-size: 25px;
-    }
-        
-    .navbar.navbarfit .flogo{
-        padding-right: 10px;
-    }
+  .navbar.navbarfit .fbar {
+    font-size: 25px;
+  }
 
-    .text {
-        left: 30px;
-        top: 100px;
-    }
+  .navbar.navbarfit .flogo {
+    padding-right: 10px;
+  }
 
-    .text h1{
-        font-size: 24px;
-        letter-spacing: 2px;
-    }
+  .text {
+    left: 30px;
+    top: 120px;
+  }
 
-    .text p{
-        margin-bottom: 7px;
-        max-width: 441px;
-        font-size: 15px;
-        letter-spacing: 1px;
-    }
-        
-    .btn{
+  .text h1 {
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+
+  .text p {
+    margin-bottom: 7px;
+    max-width: 441px;
     font-size: 15px;
-    }
-
-    .store img{
-        width: 115px;
-    }
-
-    .simg{
-        padding-bottom: 5px;
-    }
-
-    /* About Mixxer*/
-    .about-bgimg {
-        background-image: none;
-    }
-
-    .txt {
-        margin-top: 0px;
-        padding-bottom: 0px;
-    }
-        
-    .txt h3 {
-        padding-left: 4px;
-    }
-
-    .txt p {
-        width: 522px;
-        padding: 0px;
-    }
-        
-    .ce {
-        width: 70%;
-    }
-        
-    .disc {
-        width: 70%;
-    }
-        
-    .desc {
-        width: 70%;
-    }
-        
-    .himg {
-        width: 70%;
-    }
-
-    .ctn{
-        width: 70% !important;
-    }
-
-    /* Socializing */
-    .stext h2 {
-        font-size: 22px;
-        padding: 20px 0px 0px 25px;
-    }
-
-    .head {
-        padding: 20px 11px 0px 25px;
-    }
-
-    .head p{
-        font-size: 14px;
-        padding: 0px 0px 0px 45px;
-    }
-
-    .headtxt {
-        padding-left: 11px;
-    }
-
-    /* essentials */
-    .essentials{
-        padding-top: 0px;
-    }
-
-    .essentials h2{
-        padding-right: 30px;
-        font-size: 25px;
-    }
-
-    .eim{
-        padding-top: 70px;
-        width: 80%;
-    }
-
-    .etxt1{
-        top: 65px; 
-        margin-left: 10px;
-    }
-
-    .etxt1 h5{
-        width: 245px;
-        font-size: 15px;
-    }
-
-    .etxt1 p{
-        font-size: 13px;
-        width: 198px;
-    }
-
-    .etxt2{
-        top: 285px; 
-        margin-left: 10px;
-    }
-
-    .etxt2 h5 {
-        font-size: 14px;
-    } 
-
-    .etxt2 p {
-        width: 179px;
-        font-size: 13px;
-    }
-
-    .etxt3{
-        top: 152px;
-        padding-left: 10px;
-    }
-
-    .etxt3 h5 {
-        padding-left: 39px;
-        font-size: 18px;
-    }
-
-    .etxt3 p {
-        width: 258px;
-        font-size: 13px;
-        padding-left: 40px;
-    }
-
-    /* Social */
-    .social h2{
-        font-size: 34.5px;
-        padding: 50px 70px 0px 70px;
-    }
-        
-    .social p{
-        font-size: 18px;
-        padding: 10px 90px 0px 94px;
-    }
-
-    /* phone img and text */
-    .ctxt{
-        padding-top: 0px;
-    }
-
-    .ctxt h2{
-        padding-top: 40px;
-        font-size: 27px;
-    }
-        
-    .ctxt p{
-        padding: 20px 0px 0px;
-        font-size: 15.5px;
-    }
-
-    /* connected ease area */
-    .ce{
-        width: 80%;
-        padding: 0px;
-    }
-
-    /* perfect mixxer */
-    .ptext{
-        padding-top: 50px;
-    }
-
-    .ptext h2{
-        font-size: 28px;
-    }
-
-    .ptext p{
-        font-size: 14.5px;
-        padding: 20px 0px 25px 0px;
-    }
-        
-    /* c1 text */
-    .ce1{
-        padding-top: 30px;
-    }
-
-    .ce1 img{
-        width: 30px;
-    }
-
-    .ce1 h2{
-        padding: 12px 0px 0px 10px;
-        font-size: 18px;
-    }
-
-    .s1 p{
-        font-size: 15px;
-    }
-
-    /* c2 text */
-    .ce2 img{
-        width: 30px;
-        padding-top: 18px;
-    }
-
-    .ce2 h2{
-        padding: 30px 0px 0px 10px;
-        font-size: 18px;
-    }
-    
-    .s2 p{
-        padding-top: 10px;
-        font-size: 14px;
-    } 
-
-    /* c3 text */
-    .ce3 img{
-        width: 30px;
-    }
-
-    .ce3 h2{
-        padding: 10px 0px 0px 5px;
-        font-size: 16px;
-    }
-
-    /* c4 text */
-    .ce4 img{
-        width: 30px;
-    }
-
-    .ce4 h2{
-        padding: 10px 0px 0px 10px;
-        font-size: 16px;
-    }
-
-    .s4 p{
-        font-size: 14px;
-    }
-
-    /* c2 text */
-    .c2 h2{
-        font-size: 18p;
-        padding: 15px 0px 10px 16px;
-    }
-
-    .p2 p{
-        font-size: 14px;
-    }
-
-    .p4 p{
-        font-size: 14px;
-    }
-
-    /* image */
-    .disc{
-        width: 80%;
-        padding: 90px 0px 0px;
-    }
-        
-    /* loop */
-    .desc{
-        width: 80%;
-        padding: 30px 0px 0px;
-    }
-
-    .loop{
-        padding: 40px 0px 0px;
-    }
-
-    .loop h2{ 
-        font-size: 24px;
-    }
-        
-    .loop p{
-        font-size: 14px;
-    }
-
-    /* loop 1 text */
-    .lt h2{
-        font-size: 17px;
-    }
-
-    .lp1 p{
-        font-size: 14.5px;
-    }
-
-    /* loop 3 text */
-    .lp3 p{
-        font-size: 14px;
-    }
-
-    /* loop 4 text */
-    .lp4 p{
-        font-size: 14px;
-    }
-
-    /* Social Hub */
-    .htext{
-        padding: 20px 0px 30px 0px;
-    }
-
-    .htext h2{
-        font-size: 30px;
-    }
-
-    .htext p{
-        font-size: 15px;
-    }
-
-    /* hub text 1 */
-    .hb h2{
-        font-size: 15px;
-    }
-        
-    .ht1 p{
-        padding-bottom: 20px;
-    }
-
-    /* hub text 2 */
-    .ht2 p{
-        padding-bottom: 20px;
-    }
-
-    /* hub text 3 */
-    .ht3 p{
-        font-size: 14px;
-        padding-bottom: 20px;
-    }
-
-    /* hub text 4 */
-    .ht4 p{
-        font-size: 14px;
-    }
-
-    /* discover 4 image */
-    .himg{
-        width: 80%;
-        padding: 30px 0px 0px 40px;
-    }
-
-    /* Get Started Mixxer */
-    .bg-color{
-        margin: 50px 120px;
-    }
-
-    .get img{
-        padding-top: 60px;
-        width: 100%;
-    }
-
-    .mtxt h2{
-        padding-top: 5px;
-        font-size: 21px;
-    }
-
-    .mtxt p{
-        padding-top: 10px;
-        font-size: 18px;
-    }
-
-    .mix{
-        font-size: 21px;
-    }
-
-    .str{
-        padding: 60px 0px 0px;
-        gap: 10px;
-    }
-
-    .str img{
-        width: 117px;
-    }
-
-    .sp{
-        font-size: 16px;
-        padding: 10px 0px 0px;
-    }
-
-    /* FAQ's */
-    .faq h2{
-        font-size: 34px;
-        padding: 50px 0px 30px 0px;
-    }
-
-    .farea{
-        padding-bottom: 100px;
-        flex-direction: column;
-    }
-
-    /* faq1 */
-    .fp{
-        color: #000000;
-        padding: 15px 0px 0px 10px;
-        font-size: 16px;
-    }
-
-    .fnw{
-        height: 100px;
-    }
-
-    /* assistance need */
-    .fassist{
-        padding: 0px 20px; 
-    }
-
-    .ftext {
-        padding: 25px 12px 0px 14px;
-    }
-
-    .ftext h2{
-        width: 100%;
-        font-size: 34px;
-    }
-        
-    .ftext p{
-        width: 88%;
-        padding-top: 10px;
-        font-size: 16px;
-    }
-
-    /* form */
-    .form{
-        padding: 15px 12px 0px 14px;
-        width: 100%;
-    }
-
-    .form-label{
-        font-size: 16px;
-        margin-bottom: 0.5rem;
-    }
-
-    .form-control{
-        border-radius: 7px;
-        font-size: 16px;
-    }
-
-    .txarea{
-        padding-bottom: 70px;
-        height: 110px;
-    }
-        
-    .itxt{
-        padding-bottom: 10px;
-        height: 50px;
-    }
-        
-    .bttn{
-        width: 93%;
-        height: 40px;
-        font-size: 16px;
-    }
-        
-    .buton{
-        padding: 20px 0px 60px 0px;
-    }
-        
-    /* footer bg imag */
-    .fimg{
-        background-position: center;
-        margin-top: 50px;
-    }
-
-    .mixxer{
-        padding: 5px 15px 0px 5px;
-    }
-
-    .fl{
-        width: 138px;
-    }
-
-    .fli{
-        width: 278px;
-        font-size: 16px;
-    }
-
-    .fli1{
-        width: 276px;
-        padding-bottom: 30px;
-    }
-
-    /* links */
-    .links{
-        padding-left: 15%;
-    }
-
-    .lnk a:hover {
-        color: #7E6C54;
-    }
-
-    .links h5{
-        color: #0B0A0A;
-        font-size: 23px;
-        font-family: MADE-Tommy-Soft-regular;
-    }
-
-    .lkm img{
-        width: 120px;
-    }
-
-    .flnk img{
-        width: 15px;
-    }
-
-    .uimg{
-        width: 20px;
-    }
-
-    /* Terms */
-    .terms h5{
-        padding-top: 9px;
-    }
-
-    .terms a{
-        padding: 0px 0px 0px 5px;
-    }
-
-    .trm a:hover {
-        color: #655F5F;
-    }
-
-    .trhd img {
-        padding: 10px 0px 0px 8px;
-        width: 160px;
-    }
-
-    /* Touch */
-    .touch{
-        padding: 0px 0px 0px 5px;
-    }
-
-    .flimg{
-        padding-top: 10px;
-    }
-
-    .uimg2 img{
-        width: 30px;
-    }
-
-    .flnk2 h4, .flnk2 p{
-        font-size: 14px;
-    }
+    letter-spacing: 1px;
+  }
+
+  .btn {
+    font-size: 15px;
+  }
+
+  .store img {
+    width: 115px;
+  }
+
+  .simg {
+    padding-bottom: 5px;
+  }
+
+  /* About Mixxer*/
+  .about-bgimg {
+    background-image: none;
+  }
+
+  .txt {
+    margin-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .txt h3 {
+    padding-left: 4px;
+  }
+
+  .txt p {
+    width: 522px;
+    padding: 0px;
+  }
+
+  .ce {
+    width: 70%;
+  }
+
+  .disc {
+    width: 70%;
+  }
+
+  .desc {
+    width: 70%;
+  }
+
+  .himg {
+    width: 70%;
+  }
+
+  .ctn img {
+    padding: 60px 0px 100px 30px;
+  }
+
+  .ctn {
+    padding: 0px;
+    width: 70% !important;
+  }
+
+  /* Socializing */
+  .stext h2 {
+    font-size: 24px;
+    padding: 20px 0px 0px 12px;
+  }
+
+  .head {
+    padding: 20px 11px 0px 10px;
+  }
+
+  .head p {
+    font-size: 14px;
+    padding: 0px 0px 0px 45px;
+  }
+
+  .headtxt {
+    padding-left: 11px;
+  }
+
+  /* essentials */
+  .essentials {
+    padding-top: 0px;
+  }
+
+  .essentials h2 {
+    padding-right: 30px;
+    font-size: 25px;
+  }
+
+  .eim {
+    padding-top: 70px;
+    width: 80%;
+  }
+
+  .etxt1 {
+    top: 65px;
+    margin-left: 10px;
+  }
+
+  .etxt1 h5 {
+    width: 245px;
+    font-size: 15px;
+  }
+
+  .etxt1 p {
+    font-size: 13px;
+    width: 198px;
+  }
+
+  .etxt2 {
+    top: 285px;
+    margin-left: 10px;
+  }
+
+  .etxt2 h5 {
+    font-size: 14px;
+  }
+
+  .etxt2 p {
+    width: 179px;
+    font-size: 13px;
+  }
+
+  .etxt3 {
+    top: 140px;
+    padding-left: 0px;
+  }
+
+  .etxt3 h5 {
+    padding-left: 39px;
+    font-size: 15px;
+  }
+
+  .etxt3 p {
+    width: 207px;
+    font-size: 12.5px;
+    padding-left: 39px;
+  }
+
+  /* Social */
+  .social h2 {
+    font-size: 34.5px;
+    padding: 50px 70px 0px 70px;
+  }
+
+  .social p {
+    font-size: 18px;
+    padding: 10px 90px 0px 94px;
+  }
+
+  /* phone img and text */
+  .ctxt {
+    padding-top: 0px;
+  }
+
+  .ctxt h2 {
+    padding-top: 40px;
+    font-size: 27px;
+  }
+
+  .ctxt p {
+    padding: 20px 0px 0px;
+    font-size: 15.5px;
+  }
+
+  /* connected ease area */
+  .ce {
+    width: 80%;
+    padding: 0px;
+  }
+
+  /* perfect mixxer */
+  .ptext {
+    padding-top: 50px;
+  }
+
+  .ptext h2 {
+    font-size: 28px;
+  }
+
+  .ptext p {
+    font-size: 14.5px;
+    padding: 20px 0px 25px 0px;
+  }
+
+  /* c1 text */
+  .ce1 {
+    padding-top: 30px;
+  }
+
+  .ce1 img {
+    width: 30px;
+  }
+
+  .ce1 h2 {
+    padding: 12px 0px 0px 10px;
+    font-size: 18px;
+  }
+
+  .s1 p {
+    font-size: 15px;
+  }
+
+  /* c2 text */
+  .ce2 img {
+    width: 30px;
+    padding-top: 18px;
+  }
+
+  .ce2 h2 {
+    padding: 30px 0px 0px 10px;
+    font-size: 18px;
+  }
+
+  .s2 p {
+    padding-top: 10px;
+    font-size: 14px;
+  }
+
+  /* c3 text */
+  .ce3 img {
+    width: 30px;
+  }
+
+  .ce3 h2 {
+    padding: 10px 0px 0px 5px;
+    font-size: 16px;
+  }
+
+  /* c4 text */
+  .ce4 img {
+    width: 30px;
+  }
+
+  .ce4 h2 {
+    padding: 10px 0px 0px 10px;
+    font-size: 16px;
+  }
+
+  .s4 p {
+    font-size: 14px;
+  }
+
+  /* c2 text */
+  .c2 h2 {
+    font-size: 18p;
+    padding: 15px 0px 10px 16px;
+  }
+
+  .p2 p {
+    font-size: 14px;
+  }
+
+  .p4 p {
+    font-size: 14px;
+  }
+
+  /* image */
+  .disc {
+    width: 70% !important;
+    padding: 90px 0px 30px 40px;
+  }
+
+  /* loop */
+  .desc {
+    width: 70% !important;
+    padding: 90px 0px 40px 40px;
+  }
+
+  .loop {
+    padding: 40px 0px 0px;
+  }
+
+  .loop h2 {
+    font-size: 24px;
+  }
+
+  .loop p {
+    font-size: 14px;
+  }
+
+  /* loop 1 text */
+  .lt h2 {
+    font-size: 17px;
+  }
+
+  .lp1 p {
+    font-size: 14.5px;
+  }
+
+  /* loop 3 text */
+  .lp3 p {
+    font-size: 14px;
+  }
+
+  /* loop 4 text */
+  .lp4 p {
+    font-size: 14px;
+  }
+
+  /* Social Hub */
+  .htext {
+    padding: 20px 0px 30px 0px;
+  }
+
+  .htext h2 {
+    font-size: 30px;
+  }
+
+  .htext p {
+    font-size: 15px;
+  }
+
+  /* hub text 1 */
+  .hb h2 {
+    font-size: 15px;
+  }
+
+  .ht1 p {
+    padding-bottom: 20px;
+  }
+
+  /* hub text 2 */
+  .ht2 p {
+    padding-bottom: 20px;
+  }
+
+  /* hub text 3 */
+  .ht3 p {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  /* hub text 4 */
+  .ht4 p {
+    font-size: 14px;
+  }
+
+  /* discover 4 image */
+  .himg {
+    width: 80%;
+    padding: 30px 0px 0px 20px;
+  }
+
+  /* Get Started Mixxer */
+  .bg-color {
+    margin: 50px 12px 0px 30px;
+  }
+
+  .get img {
+    padding-top: 60px;
+    width: 100%;
+  }
+
+  .mtxt h2 {
+    padding-top: 5px;
+    font-size: 21px;
+  }
+
+  .mtxt p {
+    padding-top: 10px;
+    font-size: 18px;
+  }
+
+  .mix {
+    font-size: 21px;
+  }
+
+  .str {
+    padding: 46px 0px 0px;
+    gap: 10px;
+  }
+
+  .str img {
+    width: 117px;
+  }
+
+  .sp {
+    font-size: 16px;
+    padding: 10px 0px 0px;
+  }
+
+  /* FAQ's */
+  .faq h2 {
+    font-size: 34px;
+    padding: 50px 0px 30px 0px;
+  }
+
+  .farea {
+    padding-bottom: 100px;
+    flex-direction: column;
+  }
+
+  /* faq1 */
+  .fp {
+    color: #000000;
+    padding: 15px 0px 0px 10px;
+    font-size: 16px;
+  }
+
+  .fnw {
+    height: 100px;
+  }
+
+  /* assistance need */
+  .fassist {
+    padding: 0px 15px;
+    background-image: none;
+  }
+
+  .ftext {
+    padding: 25px 12px 0px 14px;
+  }
+
+  .ftext h2 {
+    width: 100%;
+    font-size: 34px;
+  }
+
+  .ftext p {
+    width: 88%;
+    padding-top: 10px;
+    font-size: 16px;
+  }
+
+  /* form */
+  .form {
+    padding: 15px 12px 0px 14px;
+    width: 100%;
+  }
+
+  .form-label {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-control {
+    border-radius: 7px;
+    font-size: 16px;
+  }
+
+  .txarea {
+    padding-bottom: 70px;
+    height: 110px;
+  }
+
+  .itxt {
+    padding-bottom: 10px;
+    height: 50px;
+  }
+
+  .bttn {
+    width: 93%;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .buton {
+    padding: 20px 0px 60px 0px;
+  }
+
+  /* footer bg imag */
+  .mixxer {
+    padding: 5px 0px 0px 10px;
+  }
+
+  .fl {
+    width: 200px !important;
+  }
+
+  .fli {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .fli1 {
+    width: 276px;
+    padding-bottom: 30px;
+  }
+
+  /* links */
+  .links {
+    padding-left: 15%;
+  }
+
+  .lnk a:hover {
+    color: #7e6c54;
+  }
+
+  .links h5 {
+    color: #0b0a0a;
+    font-size: 23px;
+    font-family: MADE-Tommy-Soft-regular;
+  }
+
+  .lkm img {
+    width: 120px;
+  }
+
+  .lkm1 img {
+    width: 155px;
+    padding-left: 15px;
+  }
+
+  .flnk img {
+    width: 15px;
+  }
+
+  .uimg {
+    width: 20px;
+  }
+
+  /* Terms */
+  .terms h5 {
+    padding-top: 9px;
+  }
+
+  .trm a:hover {
+    color: #655f5f;
+  }
+
+  .trhd img {
+    padding: 10px 0px 0px 8px;
+    width: 160px;
+  }
+
+  /* Touch */
+  .touch {
+    padding: 0px 0px 0px 5px;
+  }
+
+  .flimg {
+    padding-top: 10px;
+  }
+
+  .uimg2 img {
+    width: 30px;
+  }
+
+  .flnk2 h4,
+  .flnk2 p {
+    font-size: 14px;
+  }
 }
 
 /* max-width Mobile L > 425px */
-@media screen and (max-width: 426px) {
-    .navbar-toggler {
-        max-width: 430px !important;
-    }
-
-    .navbar .navbar-toggler {
-        padding-left: 0px;
-        margin-left: 0px;
-    }
-
-    .text h1 {
-        font-size: 17px;
-        letter-spacing: 1px;
-    }
-
-    .text p {
-        width: 85% !important;
-        margin-bottom: 4px;
-        font-size: 12px;
-    }
-        
-    .text {
-        top: 92px;
-        left: 24px;
-    }
-
-    .btn {
-        padding: 4px 8px;
-        margin: 0px 0px 6px 0px;
-        font-size: 10px;
-    }
-
-    .store img {
-        width: 75px;
-    }
-
-    .txt h3{
-        padding-left: 12px;
-    }
-
-    .txt p {
-        width: 399px;
-        padding-left: 12px;
-    }
-
-    .head {
-        padding: 20px 11px 0px 22px;
-    }
-
-    .headtxt {
-        font-size: 15px;
-        padding-left: 0px;
-    }
-
-    .head p {
-        font-size: 11px;
-        padding-left: 34px;
-    }
-
-    .ctn {
-        width: 100% !important;
-        padding-left: 50px;
-    }
-
-    .essentials h2 {
-        padding: 0px;
-        font-size: 20px;
-    }
-
-    .eim {
-        padding-top: 72px;
-    }
-
-    .etxt1 {
-        top: 58px;
-        margin-left: 4px;
-    }
-
-    .etxt1 h5 {
-        font-size: 11px;
-        width: 195px;
-    }
-
-    .etxt1 p {
-        font-size: 11px;
-        width: 182px;
-    }
-
-    .etxt2 {
-        top: 230px;
-        margin-left: 4px;
-    }
-
-    .etxt2 h5 {
-        font-size: 10px;
-    }
-
-    .etxt2 p {
-        width: 154px;
-        font-size: 11px;
-    }
-
-    .etxt3 {
-        width: 220px;
-        top: 90px;
-        padding-left: 34px;
-    }
-
-    .etxt3 h5 {
-        font-size: 13px;
-        padding-left: 50px;
-    }
-
-    .etxt3 p {
-        width: 186px;
-        font-size: 11px;
-        padding-left: 72px;
-    }
-
-    .ctxt {
-        padding: 0px 0px 0px 17px;
-    }
-
-    .s1{
-        padding-left: 15px;
-    }
-
-    .s2{
-        padding-left: 15px;
-    }
-
-    .s3{
-        padding-left: 15px;
-    }
-
-    .s4{
-        padding-left: 15px;
-    }
-
-    .social p {
-        font-size: 20px;
-        padding: 0px 20px;
-    }
-
-    .social h2 {
-        font-size: 24px;
-    }
-
-    .ptext {
-        padding: 50px 0px 0px 15px;
-    }
-
-    .ptext p {
-        font-size: 15px;
-    }
-
-    .p1{
-        padding-left: 28px;
-    }
-
-    .p2{
-        padding-left: 28px;
-    }
-
-    .p3{
-        padding-left: 28px;
-    }
-
-    .p4{
-        padding-left: 28px;
-    }
-
-    .loop {
-        padding: 40px 0px 0px 15px;
-    }
-
-    .lp1{
-        padding-left: 28px;
-    }
-
-    .lp2{
-        padding-left: 28px;
-    }
-
-    .lp3{
-        padding-left: 28px;
-    }
-
-    .lp4{
-        padding-left: 28px;
-    }
-
-    .htext {
-        padding: 20px 0px 30px 15px;
-    }
-
-    .ht1{
-        padding-left: 28px;
-    }
-
-    .ht2{
-        padding-left: 28px;
-    }
-
-    .ht3{
-        padding-left: 28px;
-    }
-
-    .ht4{
-        padding-left: 28px;
-    }
-
-    .mtxt h2 {
-        padding: 0px;
-        font-size: 20px;
-    }
-
-    .mtxt p {
-        padding-top: 10px;
-        font-size: 17px;
-    }
-
-    .mix {
-        font-size: 18px;
-    }
-
-    .str {
-        gap: 0px;
-    }
-
-    .str img {
-        width: 90px;
-    }
-
-    .get img {
-        padding: 60px 0px 0px 10px;
-    }
-
-    .sp {
-        font-size: 14px;
-    }
-
-    .faq h2 {
-        font-size: 30px;
-        padding: 5px 0px 30px 15px;
-    }
-
-    .farea {
-        padding: 0px 10px 0px 28px;
-    }
-
-    .fp {
-        padding: 15px 0px 0px 10px;
-        font-size: 14px;
-    }
-
-    .fp3 {
-        font-size: 12px;
-    }
-
-    .bg-color{
-        background-color: #EEEAE5;
-        margin: 50px 15px 30px 28px;
-    }
-
-    .fassist {
-        background-image: none;
-        padding: 0px 0px 0px 22px;
-    }
-
-    .ftext h2 {
-        font-size: 24px;
-        padding-top: 25px !important;
-    }
-
-    .ftext p {
-        width: 92%;
-        font-size: 13px;
-    }
-
-    .form {
-        padding: 5px 15px 0px 8px;
-    }
-
-    .flogo {
-        margin-left: 24px;
-    }
-
-    .mixxer {
-        padding: 30px 0px 0px 18px;
-    }
-
-    .itxt {
-        width: 100%;
-    }
-
-    .txarea {
-        width: 100%;
-    }
-
-    .bttn {
-        width: 100%;
-    }
-
-    .buton {
-        padding: 20px 0px 60px 0px;
-    }
-
-    .fimg {
-        background-position: center;
-        background-size: cover;
-    }
-
-    .fl {
-        width: 38% !important;
-    }
-
-    .fli {
-        width: 89%;
-    }
-
-    .links {
-        padding-left: 18px;
-    }
-
-    .terms {
-        padding: 20px 0px 0px 13px;
-    }
-
-    .terms h5 {
-        padding: 15px 0px 0px 2px;
-    }
-
-    .trm {
-        padding-left: 5px;
-    }
-
-    .trm h2 {
-        font-size: 30px;
-        padding-left: 9px;
-    }
-
-    .lkm img{
-        width: 120px;
-    }
-
-    .terms a {
-        padding: 0px;
-    }
-
-    .trm p{
-        padding-left: 10px;
-    }
-
-    .trhd img {
-        padding: 0px 0px 20px 2px;
-    }
-
-    .touch {
-        padding: 20px 0px 0px 20px;
-    }
-
-    .thimg{
-        padding: 1px;
-    }
-    
-    .desc {
-        width: 80%;
-    }
-
-    .htext p {
-        font-size: 14px;
-    }
-
-    .himg {
-        width: 80%;
-    }  
+@media (max-width: 426px) {
+  .navbar-toggler {
+    max-width: 430px !important;
+  }
+
+  .navbar .navbar-toggler {
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+  .text h1 {
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+
+  .text p {
+    width: 85% !important;
+    margin-bottom: 4px;
+    font-size: 12px;
+  }
+
+  .text {
+    top: 92px;
+    left: 24px;
+  }
+
+  .btn {
+    padding: 4px 8px;
+    margin: 0px 0px 6px 0px;
+    font-size: 10px;
+  }
+
+  .store img {
+    width: 75px;
+  }
+
+  .txt h3 {
+    padding-left: 12px;
+  }
+
+  .txt p {
+    width: 399px;
+    padding-left: 12px;
+  }
+
+  .head {
+    padding: 20px 11px 0px 22px;
+  }
+
+  .headtxt {
+    font-size: 15px;
+    padding-left: 0px;
+  }
+
+  .head p {
+    font-size: 11px;
+    padding-left: 34px;
+  }
+
+  .ctn {
+    width: 100% !important;
+    padding-left: 50px;
+  }
+
+  .essentials h2 {
+    padding: 0px;
+    font-size: 20px;
+  }
+
+  .eim {
+    padding-top: 72px;
+  }
+
+  .etxt1 {
+    top: 58px;
+    margin-left: 4px;
+  }
+
+  .etxt1 h5 {
+    font-size: 11px;
+    width: 195px;
+  }
+
+  .etxt1 p {
+    font-size: 11px;
+    width: 182px;
+  }
+
+  .etxt2 {
+    top: 230px;
+    margin-left: 4px;
+  }
+
+  .etxt2 h5 {
+    font-size: 10px;
+  }
+
+  .etxt2 p {
+    width: 154px;
+    font-size: 11px;
+  }
+
+  .etxt3 {
+    width: 220px;
+    top: 90px;
+    padding-left: 0px;
+  }
+
+  .etxt3 h5 {
+    font-size: 13px;
+    padding-left: 50px;
+  }
+
+  .etxt3 p {
+    width: 186px;
+    font-size: 11px;
+    padding-left: 72px;
+  }
+
+  .ctxt {
+    padding: 0px 0px 0px 17px;
+  }
+
+  .s1 {
+    padding-left: 15px;
+  }
+
+  .s2 {
+    padding-left: 15px;
+  }
+
+  .s3 {
+    padding-left: 15px;
+  }
+
+  .s4 {
+    padding-left: 15px;
+  }
+
+  .social p {
+    font-size: 20px;
+    padding: 0px 20px;
+  }
+
+  .social h2 {
+    font-size: 24px;
+  }
+
+  .ptext {
+    padding: 50px 0px 0px 15px;
+  }
+
+  .ptext p {
+    font-size: 15px;
+  }
+
+  .p1 {
+    padding-left: 28px;
+  }
+
+  .p2 {
+    padding-left: 28px;
+  }
+
+  .p3 {
+    padding-left: 28px;
+  }
+
+  .p4 {
+    padding-left: 28px;
+  }
+
+  .loop {
+    padding: 40px 0px 0px 15px;
+  }
+
+  .lp1 {
+    padding-left: 28px;
+  }
+
+  .lp2 {
+    padding-left: 28px;
+  }
+
+  .lp3 {
+    padding-left: 28px;
+  }
+
+  .lp4 {
+    padding-left: 28px;
+  }
+
+  .htext {
+    padding: 20px 0px 30px 15px;
+  }
+
+  .ht1 {
+    padding-left: 28px;
+  }
+
+  .ht2 {
+    padding-left: 28px;
+  }
+
+  .ht3 {
+    padding-left: 28px;
+  }
+
+  .ht4 {
+    padding-left: 28px;
+  }
+
+  .mtxt h2 {
+    padding: 0px;
+    font-size: 20px;
+  }
+
+  .mtxt p {
+    padding-top: 10px;
+    font-size: 17px;
+  }
+
+  .mix {
+    font-size: 18px;
+  }
+
+  .str {
+    gap: 0px;
+  }
+
+  .str img {
+    width: 90px;
+  }
+
+  .get img {
+    padding: 60px 0px 0px 0px;
+  }
+
+  .sp {
+    font-size: 14px;
+  }
+
+  .faq h2 {
+    font-size: 30px;
+    padding: 5px 0px 30px 15px;
+  }
+
+  .farea {
+    padding: 0px 10px 0px 28px;
+  }
+
+  .fp {
+    padding: 15px 0px 0px 10px;
+    font-size: 14px;
+  }
+
+  .fp3 {
+    font-size: 12px;
+  }
+
+  .bg-color {
+    background-color: #eeeae5;
+    margin: 50px 15px 30px 28px;
+  }
+
+  .fassist {
+    background-image: none;
+    padding: 0px 0px 0px 22px;
+  }
+
+  .ftext {
+    padding: 25px 12px 0px 14px;
+  }
+
+  .ftext h2 {
+    padding-top: 25px;
+    font-size: 28px;
+  }
+
+  .ftext p {
+    width: 92%;
+    font-size: 13px;
+  }
+
+  .form {
+    padding: 5px 15px 0px 8px;
+  }
+
+  .flogo {
+    margin-left: 24px;
+  }
+
+  .mixxer {
+    padding: 30px 0px 0px 18px;
+  }
+
+  .lkm1 img {
+    padding-left: 4px;
+}
+
+  .itxt {
+    width: 100%;
+  }
+
+  .txarea {
+    width: 100%;
+  }
+
+  .bttn {
+    width: 100%;
+  }
+
+  .buton {
+    padding: 20px 0px 60px 0px;
+  }
+
+  .fimg {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .fl {
+    width: 38% !important;
+  }
+
+  .fli {
+    width: 89%;
+  }
+
+  .links {
+    padding-left: 18px;
+  }
+
+  .terms {
+    padding: 20px 0px 0px 13px;
+  }
+
+  .terms h5 {
+    padding: 15px 0px 0px 0px;
+  }
+
+  .trm h2 {
+    font-size: 30px;
+    padding-left: 9px;
+  }
+
+  .lkm img {
+    width: 120px;
+  }
+
+  .terms a {
+    padding: 0px;
+  }
+
+  .trm p {
+    padding-left: 10px;
+  }
+
+  .trhd img {
+    padding: 0px 0px 20px 2px;
+  }
+
+  .touch {
+    padding: 20px 0px 0px 5px;
+  }
+
+  .thimg {
+    padding: 1px;
+  }
+
+  .desc {
+    width: 80% !important;
+    padding: 30px 0px 0px 55px;
+  }
+
+  .htext p {
+    font-size: 14px;
+  }
+
+  .stext h2 {
+    padding: 20px 0px 0px 25px;
+}
+
+  .himg {
+    padding: 30px 0px 0px 55px;
+}
+
+   .disc {
+    width: 80% !important;
+    padding: 90px 0px 30px 40px;
+}
+
+   .ce {
+    width: 80% !important;
+    padding: 90px 0px 30px 40px;
+}
+
+    .ctn img {
+    width: 80% !important;
+    padding: 40px 0px 40px 40px;
+}
+
 }
 
 /* max-width mobile M >376px */
-@media screen and (max-width : 376px){
-    .navbar .navbar-toggler {
-        padding-left: 17px;
-        margin: 0px 0px 0px 11px;
-    }
+@media screen and (max-width: 376px) {
+  .navbar .navbar-toggler {
+    padding-left: 17px;
+    margin: 0px 0px 0px 11px;
+  }
 
-    .text {
-        top: 64px;
-    }
+  .text {
+    top: 64px;
+  }
 
-    .txt h3 {
-        width: 156px;
-    }
+  .txt h3 {
+    width: 156px;
+  }
 
-    .txt p {
-        width: 438px;
-    }
+  .txt p {
+    width: 438px;
+  }
 
-    .txt p {
-        width: 350px;
-        padding: 0p;
-    }
+  .txt p {
+    width: 350px;
+    padding: 0p;
+  }
 
-    .stext h2 {
-        font-size: 20px;
-        padding: 20px 0px 0px 28px;
-    }
+  .stext h2 {
+    font-size: 20px;
+    padding: 20px 0px 0px 28px;
+  }
 
-    .head {
-        padding: 20px 11px 0px 25px;
-    }
+  .head {
+    padding: 20px 11px 0px 25px;
+  }
 
-    .headtxt {
-        padding-left: 0px;
-    }
+  .headtxt {
+    padding-left: 0px;
+  }
 
-    .head p {
-        padding-left: 35px;
-    }
+  .head p {
+    padding-left: 35px;
+  }
 
-    .etxt1 {
-        top: 65px;
-    }
+  .etxt1 {
+    top: 65px;
+  }
 
-    .etxt1 h5 {
-        font-size: 9px;
-        width: 195px;
-    }
+  .etxt1 h5 {
+    font-size: 9px;
+    width: 195px;
+  }
 
-    .etxt1 p {
-        font-size: 10px;
-        width: 132px;
-    }
+  .etxt1 p {
+    font-size: 10px;
+    width: 132px;
+  }
 
-    .etxt2 {
-        top: 227px;
-    }
+  .etxt2 {
+    top: 227px;
+  }
 
-    .etxt2 h5 {
-        font-size: 9px;
-    }
+  .etxt2 h5 {
+    font-size: 9px;
+  }
 
-    .etxt2 p {
-        width: 140px;
-        font-size: 9px;
-    }
+  .etxt2 p {
+    width: 140px;
+    font-size: 9px;
+  }
 
-    .etxt3 {
-        width: 215px;
-        top: 130px;
-        padding-left: 45px;
-    }
+  .etxt3 {
+    width: 215px;
+    top: 130px;
+    padding-left: 45px;
+  }
 
-    .etxt3 h5 {
-        font-size: 10px;
-        padding-left: 60px;
-    }
+  .etxt3 h5 {
+    font-size: 10px;
+    padding-left: 60px;
+  }
 
-    .etxt3 p {
-        width: 160px;
-        padding-left: 60px;
-        font-size: 8px;
-    }
+  .etxt3 p {
+    width: 160px;
+    padding-left: 60px;
+    font-size: 8px;
+  }
 
-    .ctn {
-        padding: 0px 0px 0px 80px;
-    }
+  .ctn {
+    padding: 0px 0px 0px 80px;
+  }
 
-    .ce {
-        width: 70% !important;
-        padding: 20px 0px 0px 0px ;
-        filter: drop-shadow(0 0 6px #abb2c6);
-    }
+  .ce {
+    width: 70% !important;
+    padding: 20px 0px 0px 0px;
+    filter: drop-shadow(0 0 6px #abb2c6);
+  }
 
-    .social h2 {
-        font-size: 20px;
-        padding: 50px 45px 0px 45px;
-    }
+  .social h2 {
+    font-size: 20px;
+    padding: 50px 45px 0px 45px;
+  }
 
-    .bg-color {
-        margin: 30px 15px 30px 28px;
-    }
+  .bg-color {
+    margin: 30px 15px 30px 28px;
+  }
 
-    .mtxt h2 {
-        padding: 5px 0px;
-        font-size: 18px;
-    }
+  .mtxt h2 {
+    padding: 5px 0px;
+    font-size: 18px;
+  }
 
-    .mix {
-        font-size: 15px;
-    }
+  .mix {
+    font-size: 15px;
+  }
 
-    .mtxt p {
-        padding-top: 10px;
-        font-size: 14px;
-    }
+  .mtxt p {
+    padding-top: 10px;
+    font-size: 14px;
+  }
 
-    .str img {
-        width: 78px;
-    }
+  .str img {
+    width: 78px;
+  }
 
-    .sp {
-        font-size: 11px;
-    }
+  .sp {
+    font-size: 11px;
+  }
 
-    .faq h2 {
-        font-size: 26px;
-        padding: 5px 5px 30px 15px;
-    }
+  .faq h2 {
+    font-size: 26px;
+    padding: 5px 5px 30px 15px;
+  }
 
-    .fp {
-        font-size: 11px;
-    }
+  .fp {
+    font-size: 11px;
+  }
 
-    .fp3 {
-        font-size: 10px;
-    }
+  .fp3 {
+    font-size: 10px;
+  }
 
-    .ftext h2 {
-        font-size: 20px;
-    }
+  .ftext h2 {
+    font-size: 20px;
+  }
 
-    .ftext p {
-        font-size: 11px;
-    }
+  .ftext p {
+    font-size: 11px;
+  }
 
-    .buton {
-        padding: 20px 0px 0px 0px;
-    }
+  .buton {
+    padding: 20px 0px 0px 0px;
+  }
 
-    .fli {
-        width: 98%;
-        font-size: 13px;
-    }
+  .fli {
+    width: 98%;
+    font-size: 13px;
+  }
 
-    .fli1{
-        font-size: 14px;
-        width: 247px;
-    }
+  .fli1 {
+    font-size: 14px;
+    width: 247px;
+  }
 }
 
 /* Max-width Mobile S <= 320px */
 @media screen and (max-width: 320px) {
-    .navbar-toggler {
-        margin: 0px;
-    }
+  .navbar-toggler {
+    margin: 0px;
+  }
 
-    .flogo {
-        margin-left: 10px !important;
-    }
+  .flogo {
+    margin-left: 10px !important;
+  }
 
-    .text {
-        top: 50px;
-    }
+  .text {
+    top: 50px;
+  }
 
-    .text h1 {
-        font-size: 12px;
-    }
+  .text h1 {
+    font-size: 12px;
+  }
 
-    .text p {
-        margin-bottom: 4px;
-        font-size: 9px;
-    }
+  .text p {
+    margin-bottom: 4px;
+    font-size: 9px;
+  }
 
-    .btn {
-        font-size: 6px;
-    }
+  .btn {
+    font-size: 6px;
+  }
 
-    .txt p {
-        width: 300px;
-        padding: 0px 0px 0px 15px;
-        font-size: 11px;
-        letter-spacing: 1px;
-    }
+  .txt p {
+    width: 300px;
+    padding: 0px 0px 0px 15px;
+    font-size: 11px;
+    letter-spacing: 1px;
+  }
 
-    .stext h2 {
-        font-size: 17px;
-    }
+  .stext h2 {
+    font-size: 17px;
+  }
 
-    .ctn {
-        width: 100%;
-        padding-left: 40px;
-    }
+  .ctn {
+    width: 100%;
+    padding-left: 40px;
+  }
 
-    .essentials {
-        padding-top: 10px;
-    }
+  .essentials {
+    padding-top: 10px;
+  }
 
-    .essentials h2 {
-        padding: 0px 48px;
-        font-size: 18px;
-    }
+  .essentials h2 {
+    padding: 0px 48px;
+    font-size: 18px;
+  }
 
-    .eim {
-        padding-top: 50px;
-        width: 80%;
-    }
+  .eim {
+    padding-top: 50px;
+    width: 80%;
+  }
 
-    .etxt1 {
-        width: 0%;
-        top: 95px;
-    }
+  .etxt1 {
+    width: 0%;
+    top: 95px;
+  }
 
-    .etxt1 h5 {
-        font-size: 9px;
-    }
+  .etxt1 h5 {
+    font-size: 9px;
+  }
 
-    .etxt1 p {
-        font-size: 8px;
-        width: 121px;
-    }
+  .etxt1 p {
+    font-size: 8px;
+    width: 121px;
+  }
 
-    .etxt2 {
-        top: 220px;
-    }
+  .etxt2 {
+    top: 220px;
+  }
 
-    .etxt2 h5 {
-        font-size: 7px;
-    }
+  .etxt2 h5 {
+    font-size: 7px;
+  }
 
-    .etxt2 p {
-        width: 116px;
-        font-size: 7px;
-    }
+  .etxt2 p {
+    width: 116px;
+    font-size: 7px;
+  }
 
-    .etxt3 {
-        width: 220px;
-        top: 132px;
-        padding-left: 36px;
-    }
+  .etxt3 {
+    width: 220px;
+    top: 132px;
+    padding-left: 36px;
+  }
 
-    .etxt3 h5 {
-        font-size: 7px;
-        padding-left: 92px;
-    }
+  .etxt3 h5 {
+    font-size: 7px;
+    padding-left: 92px;
+  }
 
-    .etxt3 p {
-        font-size: 7px;
-        width: 185px;
-        padding-left: 92px;
-    }
+  .etxt3 p {
+    font-size: 7px;
+    width: 185px;
+    padding-left: 92px;
+  }
 
-    .social h2 {
-        font-size: 24px;
-        padding: 40px 20px 10px 10px;
-    }
+  .social h2 {
+    font-size: 24px;
+    padding: 40px 20px 10px 10px;
+  }
 
-    .social p {
-        font-size: 15px;
-        padding: 0px;
-    }
+  .social p {
+    font-size: 15px;
+    padding: 0px;
+  }
 
-    .ctxt h2 {
-        font-size: 23px;
-        padding-top: 50px;
-    }
+  .ctxt h2 {
+    font-size: 23px;
+    padding-top: 50px;
+  }
 
-    .ctxt p {
-        padding: 20px 0px 0px 0px;
-        font-size: 14px;
-    }
+  .ctxt p {
+    padding: 20px 0px 0px 0px;
+    font-size: 14px;
+  }
 
-    .s1 p {
-        padding-left: 2px;
-    }
+  .s1 p {
+    padding-left: 2px;
+  }
 
-    .s2 p {
-        padding-left: 2px;
-    }
+  .s2 p {
+    padding-left: 2px;
+  }
 
-    .s3 p {
-        padding-left: 2px;
-    }
+  .s3 p {
+    padding-left: 2px;
+  }
 
-    .s4 p {
-        padding-left: 3px;
-    }
+  .s4 p {
+    padding-left: 3px;
+  }
 
-    .disc {
-        padding: 145px 0px 0px;
-    }
+  .disc {
+    padding: 145px 0px 0px;
+  }
 
-    .ptext h2 {
-        font-size: 23px;
-        padding-left: 4px;
-    }
+  .ptext h2 {
+    font-size: 23px;
+    padding-left: 4px;
+  }
 
-    .ptext p {
-        font-size: 13px;
-        padding: 20px 0px 25px 3px;
-    }
+  .ptext p {
+    font-size: 13px;
+    padding: 20px 0px 25px 3px;
+  }
 
-    .c1 .c2 .c3 .c4{
-        padding-left: 4px;
-    }
+  .c1 .c2 .c3 .c4 {
+    padding-left: 4px;
+  }
 
-    .desc {
-        padding: 40px 0px 0px !important;
-    }
+  .desc {
+    padding: 40px 0px 0px !important;
+  }
 
-    .loop {
-        padding: 50px 0px 0px 15px;
-    }
+  .loop {
+    padding: 50px 0px 0px 15px;
+  }
 
-    .loop h2 {
-        padding-left: 4px;
-    }
+  .loop h2 {
+    padding-left: 4px;
+  }
 
-    .loop p {
-        font-size: 12px;
-        padding-left: 4px;
-    }
+  .loop p {
+    font-size: 12px;
+    padding-left: 4px;
+  }
 
-    .lp1 p {
-        font-size: 13px;
-        padding-left: 4px;
-    }
+  .lp1 p {
+    font-size: 13px;
+    padding-left: 4px;
+  }
 
-    .lp2 p {
-        padding-left: 4px;
-    }
+  .lp2 p {
+    padding-left: 4px;
+  }
 
-    .lp3 p {
-        padding-left: 4px;
-    }
+  .lp3 p {
+    padding-left: 4px;
+  }
 
-    .lp4 p {
-        padding-left: 4px;
-    }
+  .lp4 p {
+    padding-left: 4px;
+  }
 
-    .htext h2 {
-        padding-left: 4px;
-    }
+  .htext h2 {
+    padding-left: 4px;
+  }
 
-    .htext p {
-        font-size: 12px;
-        padding-left: 4px;
-    }
+  .htext p {
+    font-size: 12px;
+    padding-left: 4px;
+  }
 
-    .ht1 .ht2 .ht3 .ht4 p {
-        padding-left: 5px;
-    }
+  .ht1 .ht2 .ht3 .ht4 p {
+    padding-left: 5px;
+  }
 
-    .mtxt h2 {
-        font-size: 14px;
-    }
+  .mtxt h2 {
+    font-size: 14px;
+  }
 
-    .mtxt p {
-        font-size: 13px;
-    }
+  .mtxt p {
+    font-size: 13px;
+  }
 
-    .str img {
-        width: 63px;
-    }
+  .str img {
+    width: 63px;
+  }
 
-    .sp {
-        font-size: 9px;
-    }
+  .sp {
+    font-size: 9px;
+  }
 
-    .faq h2 {
-        font-size: 21px;
-    }
+  .faq h2 {
+    font-size: 21px;
+  }
 
-    .fp {
-        font-size: 9px;
-    }
+  .fp {
+    font-size: 9px;
+  }
 
-    .fp3 {
-        font-size: 8px;
-    }
+  .fp3 {
+    font-size: 8px;
+  }
 
-    .ftext h2 {
-        font-size: 19px;
-    }
+  .ftext h2 {
+    font-size: 19px;
+  }
 
-    .ftext p {
-        width: 98%;
-    }
+  .ftext p {
+    width: 98%;
+  }
 
-    .mixxer {
-        padding-left: 18px;
-    }
+  .mixxer {
+    padding-left: 18px;
+  }
 
-    .links {
-        padding-left: 18px;
-    }
+  .links {
+    padding-left: 18px;
+  }
 
-    .terms h5 {
-        padding: 40px 0px 0px 18px;
-    }
+  .terms h5 {
+    padding: 40px 0px 0px 18px;
+  }
 
-    .terms a {
-        padding-left: 18px;
-    }
+  .terms a {
+    padding-left: 18px;
+  }
 
-    .touch {
-        padding: 30px 0px 0px 0px 18px;
-    }
+  .touch {
+    padding: 30px 0px 0px 0px 18px;
+  }
 
-    .flimg {
-        padding-top: 0px;
-    }
+  .flimg {
+    padding-top: 0px;
+  }
 
-    .fli1 {
-        font-size: 13.5px;
-        width: 243px;
-    }
+  .fli1 {
+    font-size: 13.5px;
+    width: 243px;
+  }
 }
 /* media query ends */
