@@ -1041,9 +1041,9 @@
         font-family: MADE-Tommy-Soft-regular;
     }
 
-    .ftlnk img{
-        width: 27px !important;
-    }
+    /* .ftlnk img{
+        width: 27px;
+    } */
 
     .ftlnk1{
         color: #0B0A0A;
@@ -1052,8 +1052,8 @@
     }
 
     .uimg1{
-        width: 25px !important;
-        padding: 0px 10px 10px 0px;
+        width: 30px;
+        padding: 7px 10px 10px 0px;
     }
 
     /* Touch */
@@ -1689,26 +1689,24 @@
     
     /* footer bg imag */
     .fimg{
-        background-position: center;
-        margin-top: 50px;
+        background-size: 100% 100%;
     }
 
     .mixxer{
-        padding: 5% 15% 0% 15%;
+        padding: 15px 15px 0px 15px;
     }
 
     .fl{
-        width: 145px;
+        width: 175px;
     }
 
     .fli{
-        width: 501px;
-        font-size: 16px;
+        width: 70%;
+        font-size: 14.5px;
     }
 
     .fli1{
-        width: 276px;
-        padding-bottom: 30px;
+        font-size: 15px;
     }
 
     /* links */
@@ -1745,25 +1743,58 @@
 
     .terms a{
         padding: 0px 0px 0px 15px;
+        white-space: nowrap;
     }
 
     .trm a:hover {
         color: #655F5F;
     }
 
-    .trhd img{
-        padding-top: 10px;
-        width: 105px;
+    .trhd img {
+        padding: 10px 0px 0px 18px;
+        width: 165px;
+    }
+
+    .ftlnk {
+        font-size: 17px;
     }
 
     /* Touch */
-    .touch{
-        padding: 0% 0% 0% 15%;
+    .ft img {
+        width: 23px;
     }
 
-    .flimg{
-        padding-top: 10px;
+    .flnk2 h4 {
+        font-size: 11.5px;
     }
+
+    /* Terms page */
+    .nav.sticky .logo {
+        margin: 0px 35px 0px 43px;
+    }
+    
+    .nav img {
+        width: 175px;
+    }
+
+    .tl {
+        padding: 5px 0px 0px 0px;
+        margin: 0px 0px 0px 20px;
+    }
+
+    .tl ul a, tl ul {
+        font-size: 16px;
+        white-space: nowrap;
+    }
+
+    .rectline {
+        margin-left: 0px;
+    }
+
+    .tor {
+        margin-top: 65px;
+    }
+
 }
 
 /* media queries Navbar for mobiles large ≥576px */
@@ -2307,7 +2338,7 @@
 
     /* Terms */
     .terms h5{
-        padding: 5px 0px 0px 5px;
+        padding-top: 9px;
     }
 
     .terms a{
