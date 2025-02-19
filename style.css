@@ -2502,13 +2502,13 @@
 
   .etxt3 h5 {
     font-size: 13px;
-    padding-left: 85px;
+    padding-left: 0px;
   }
 
   .etxt3 p {
-    width: 246px;
+    width: 186px;
     font-size: 11px;
-    padding-left: 97px;
+    padding-left: 72px;
   }
 
   .ctxt {
