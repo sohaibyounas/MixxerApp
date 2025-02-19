@@ -1813,8 +1813,6 @@
   .tor1 {
     margin-top: 65px;
   }
-
-  /* Privacy Policies */
 }
 
 /* media queries Navbar for mobiles large ≥576px */
@@ -2323,6 +2321,7 @@
   .fli {
     width: 100%;
     font-size: 16px;
+    margin: 20px 0px !important;
   }
 
   .fli1 {
@@ -2347,6 +2346,10 @@
 
   .lkm img {
     width: 120px;
+  }
+
+  .lkm1 {
+    padding-top: 20px !important;
   }
 
   .lkm1 img {
@@ -2378,7 +2381,7 @@
 
   /* Touch */
   .touch {
-    padding: 0px 0px 0px 5px;
+    padding: 0px 0px 0px 13px;
   }
 
   .uimg2 img {
@@ -2392,7 +2395,7 @@
 }
 
 /* max-width Mobile L > 425px */
-@media (max-width: 426px) {
+@media screen and (max-width: 426px) {
   .navbar-toggler {
     max-width: 430px !important;
   }
@@ -2790,6 +2793,10 @@
     padding: 40px 0px 40px 40px;
 }
 
+.fli {
+  margin: 20px 0px !important;
+}
+
 /* terms page */
 .mixxer {
     padding: 30px 0px 0px 7px;
@@ -2800,8 +2807,12 @@
 /* max-width mobile M >376px */
 @media screen and (max-width: 376px) {
   .navbar .navbar-toggler {
-    padding-left: 17px;
-    margin: 0px 0px 0px 11px;
+    padding-left: 14px;
+    margin: 0px 0px 0px 9px;
+  }
+
+  .flogo {
+    margin-left: 0px;
   }
 
   .text {
@@ -2957,10 +2968,20 @@
     font-size: 14px;
     width: 247px;
   }
+
+  .touch {
+    padding: 20px 0px 0px 10px;
+}
+
 }
 
 /* Max-width Mobile S <= 320px */
 @media screen and (max-width: 320px) {
+  .navbar .navbar-toggler {
+    padding-left: 5px;
+    margin: 0px 0px 0px 9px;
+  }
+
   .navbar-toggler {
     margin: 0px;
   }
@@ -2970,7 +2991,7 @@
   }
 
   .text {
-    top: 50px;
+    top: 48px;
   }
 
   .text h1 {
