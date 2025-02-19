@@ -1210,6 +1210,7 @@
 .lst li a {
   text-decoration: none;
   color: #221f1f;
+  white-space: nowrap;
 }
 
 .rectlinee {
@@ -2374,10 +2375,6 @@
     padding: 0px 0px 0px 5px;
   }
 
-  .flimg {
-    padding-top: 10px;
-  }
-
   .uimg2 img {
     width: 30px;
   }
@@ -3158,10 +3155,6 @@
     padding-left: 5px;
   }
 
-  .mixxer {
-    padding: 30px 0px 0px 0px;
-}
-
   .mtxt h2 {
     font-size: 14px;
   }
@@ -3215,20 +3208,40 @@
   }
 
   .touch {
-    padding: 30px 0px 0px 0px 18px;
-  }
-
-  .flimg {
-    padding-top: 0px;
-  }
-
-  .fl {
-    padding-bottom: 10px;
+    padding-left: 20px;
   }
   
   .fli1 {
     font-size: 13.5px;
     width: 243px;
   }
+
+  .fli {
+    width: 89%;
+    font-size: 14px;
+  }
+
+  /* Terms page footer */
+  .terms {
+    padding: 0px 0px 0px 3px;
+  }
+
+  .trhd img {
+        padding: 0px 0px 20px 20px;
+    }
+
+  .Links{
+    padding-left: 16px !important;
+  }
+
+  .flimg {
+    padding-right: 0px;
+    gap: 20px !important;
+  }
+
+  .lkm1 img {
+    padding-left: 18px;
+  }
+
 }
 /* media query ends */
