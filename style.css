@@ -1213,6 +1213,33 @@
   margin-left: 64px;
 }
 
+/* side panel page navbar */
+.nmenu {
+  padding-right: 100px;
+}
+
+.nmenu a {
+  font-family: sf-prodisplay-bold;
+  font-size: 18px;
+  text-decoration: none;
+  color: #6D7880;
+  float: right;
+  margin-left: 20px;
+}
+
+.nmenu a:hover {
+  color: #7e6c54;
+}
+
+.nlogo{
+  top: 0;
+  position: absolute !important;
+  width: 220px !important;
+  margin: 8px 0px 0px 80px;
+}
+
+/* sidepanel page navbar ends */
+
 /* media queries for tablets ≤ 768px */
 @media screen and (max-width: 768px) {
   .navbar.navbarfit {
@@ -1813,6 +1840,22 @@
   .tor1 {
     margin-top: 65px;
   }
+
+  /* side panel page navbar */
+.nmenu {
+  padding-right: 45px;
+}
+
+.nmenu a {
+  margin-left: 20px;
+}
+
+.nlogo{
+  margin: 8px 0px 0px 45px;
+  width: 180px !important; 
+}
+/* sidepanel page navbar ends */
+
 }
 
 /* media queries Navbar for mobiles large ≥576px */
