@@ -1040,10 +1040,6 @@
   font-family: MADE-Tommy-Soft-regular;
 }
 
-/* .ftlnk img{
-        width: 27px;
-    } */
-
 .ftlnk1 {
   color: #0b0a0a;
   font-size: 19px;
@@ -1242,6 +1238,19 @@
 
   .navbar-toggler {
     margin: 0px 115px;
+  }
+
+  .menu {
+    padding-right: 0px;
+}
+
+  .nav.sticky{
+    padding-right: 20px;
+  }
+
+  .nav {
+    top: 0;
+    width: 92%;
   }
 
   .fnav {
@@ -1828,9 +1837,6 @@
     padding-right: 10px;
   }
 
-  .navbar{
-    background-color: #7E6C54;
-  }
   .text {
     left: 30px;
     top: 120px;
