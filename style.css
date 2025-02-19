@@ -81,6 +81,10 @@
   z-index: 1000;
 }
 
+.navbar-toggler{
+  margin: 0 84px;
+}
+
 .navbar.navbarfit {
   background-color: rgb(255, 255, 255);
   top: 0;
@@ -1263,10 +1267,6 @@
     font-family: sf-prodisplay-regular;
   }
 
-  .navbar-toggler {
-    margin: 0px 115px;
-  }
-
   .menu {
     padding-right: 0px;
 }
@@ -1387,8 +1387,8 @@
   }
 
   .etxt3 {
-    top: 190px;
-    width: 36%;
+    top: 34%;
+    width: 38%;
     padding-left: 10px;
   }
 
@@ -1855,8 +1855,130 @@
   margin: 8px 0px 0px 45px;
   width: 180px !important; 
 }
-/* sidepanel page navbar ends */
+}
 
+/* mdia queries >=704px */
+@media screen and (max-width: 704px) {
+  .etxt3 p {
+    width: 249px;
+    padding: 0px 0px 0px 30px;
+  }
+}
+
+/* mdia queries >=695px */
+@media screen and (max-width: 695px) {
+  .etxt3 p {
+    width: 249px;
+    padding: 0px 0px 0px 30px;
+  }
+}
+
+/* mdia queries >=680px */
+@media screen and (max-width: 680px) {
+  .etxt3 p {
+    width: 243px;
+    padding: 0px 0px 0px 38px;
+  }
+}
+
+/* mdia queries >=665px */
+@media screen and (max-width: 665px) {
+  .etxt3 p {
+    width: 234px;
+    padding: 0px 0px 0px 30px;
+  }
+}
+
+/* mdia queries >=640px */
+@media screen and (max-width: 640px) {
+  .text {
+    top: 130px;
+    padding-left: 45px;
+    padding: 0px 0px 0px 30px;
+}
+
+.text h1 {
+  font-size: 23px;
+  letter-spacing: 0px;
+}
+
+.text p {
+  margin-bottom: 10px;
+  max-width: 384px;
+  font-size: 18px;
+  letter-spacing: 0px;
+}
+
+.btn {
+  padding: 8px;
+  margin: 0px;
+  font-size: 14px;
+}
+
+.etxt3 {
+  top: 34%;
+  width: 38%;
+  padding-left: 10px;
+}
+
+.etxt3 h5 {
+  padding-left: 39px;
+  font-size: 18px;
+}
+
+.etxt3 p {
+  width: 230px;
+  font-size: 13px;
+  padding-left: 40px;
+  }
+}
+
+/* mdia queries >=630px */
+@media screen and (max-width: 630px) {
+  .etxt3 p {
+    width: 226px;
+    padding: 0px 0px 0px 30px;
+  }
+}
+
+/* mdia queries >=620px */
+@media screen and (max-width: 620px) {
+  .etxt3 p {
+    width: 218px;
+    padding: 0px 0px 0px 30px;
+  }
+}
+
+/* mdia queries >=600px */
+@media screen and (max-width: 600px) {
+  .etxt3 p {
+    width: 218px;
+    padding: 0px 0px 0px 30px;
+  }
+}
+
+/* mdia queries >=599px */
+@media screen and (max-width: 599px) {
+  .etxt3 p {
+    width: 211px;
+    padding: 0px 0px 0px 30px;
+  }
+}
+
+/* mdia queries >=581px */
+@media screen and (max-width: 581px) {
+  .etxt3 p {
+    width: 210px;
+    padding: 0px 0px 0px 30px;
+  }
+}
+
+/* mdia queries >=579px */
+@media screen and (max-width: 579px) {
+  .etxt3 p {
+    width: 209px;
+    padding: 0px 0px 0px 30px;
+  }
 }
 
 /* media queries Navbar for mobiles large ≥576px */
@@ -1874,10 +1996,6 @@
   .navbar.navbarfit .fbar {
     font-size: 25px;
   }
-
-  /* .navbar.navbarfit .flogo {
-    padding-right: 10px;
-  } */
 
   .text {
     left: 30px;
@@ -1923,7 +2041,7 @@
   }
 
   .txt p {
-    width: 522px;
+    width: 440px;
     padding: 0px;
   }
 
@@ -2446,7 +2564,113 @@
     font-size: 31px;
     padding-top: 30px;
   }
-  
+
+}
+
+/* mdia queries >=544px */
+@media screen and (max-width: 542px) {
+  .etxt3 p {
+    width: 199px;
+    padding: 0px 0px 0px 30px;
+  }
+}
+
+/* mdia queries >=524px */
+@media screen and (max-width: 524px) {
+  .etxt3 p {
+    width: 197px;
+    padding: 0px 0px 0px 30px;
+  }
+}
+
+/* mdia queries >=519px */
+@media screen and (max-width: 519px) {
+  .etxt3 p {
+    width: 191px;
+    padding: 0px 0px 0px 30px;
+  }
+}
+
+/* mdia queries >=506px */
+@media screen and (max-width: 506px) {
+  .navbar .navbar-toggler {
+    padding-left: 7px;
+    margin-left: 0px;
+}
+
+.text h1 {
+  font-size: 23px;
+  letter-spacing: 1px;
+}
+
+.text {
+    left: 0px;
+    top: 94px;
+}
+
+.text p {
+  margin-bottom: 7px;
+  max-width: 418px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.txt {
+  margin-top: 0px;
+  padding: 0px 0px 0px 20px;
+}
+
+.txt h3 {
+  padding-left: 0px;
+}
+
+.txt p {
+  width: 392px;
+  padding: 0px;
+}
+
+.btn {
+  font-size: 12px;
+}
+
+.store img {
+  width: 113px;
+}
+
+.stext h2 {
+  padding: 20px 0px 0px 30px;
+}
+
+.head {
+  padding: 20px 75px 0px 30px;
+}
+
+.ce {
+  width: 80% !important;
+  padding: 0px 0px 0px 65px;
+}
+
+.ctn img {
+  padding: 60px 20px 100px 30px;
+}
+
+.ctxt h2 {
+  padding: 40px 0px 0px 17px;
+}
+
+.ctxt p {
+  padding: 20px 64px 0px 19px;
+  font-size: 15.5px;
+}
+
+.s1, .s2 {
+  padding: 0px 76px 0px 30px;
+}
+
+.s3, .s4{
+  padding: 0px 76px 0px 30px;
+}
+
 }
 
 /* max-width Mobile L > 425px */
@@ -3326,7 +3550,7 @@
   }
 
   .trm h2 {
-    font-size: 27px;
+    font-size: 30px;
     padding-top: 30px;
 }
 
