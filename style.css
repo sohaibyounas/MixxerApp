@@ -1835,6 +1835,7 @@
   /* EULA page */
   .trm h2 {
     font-size: 31px;
+    padding-top: 30px;
   }
 
   .tor1 {
@@ -1867,16 +1868,16 @@
 
   .flogo {
     width: 135px !important;
-    margin-left: 12px;
+    margin-left: 22px;
   }
 
   .navbar.navbarfit .fbar {
     font-size: 25px;
   }
 
-  .navbar.navbarfit .flogo {
+  /* .navbar.navbarfit .flogo {
     padding-right: 10px;
-  }
+  } */
 
   .text {
     left: 30px;
@@ -2435,6 +2436,17 @@
   .flnk2 p {
     font-size: 14px;
   }
+
+  /* privacy page */
+  .trm {
+    padding-top: 20px;
+  }
+
+  .trm h2 {
+    font-size: 31px;
+    padding-top: 30px;
+  }
+  
 }
 
 /* max-width Mobile L > 425px */
@@ -3312,6 +3324,11 @@
   .lkm1 img {
     padding-left: 18px;
   }
+
+  .trm h2 {
+    font-size: 27px;
+    padding-top: 30px;
+}
 
 }
 /* media query ends */
