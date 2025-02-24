@@ -70,6 +70,14 @@
   width: 90%;
 }
 
+.nav.sticky {
+  background-color: rgb(254, 254, 254);
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
 .fbar {
   color: white;
   cursor: pointer;
@@ -81,6 +89,9 @@
   z-index: 1000;
   background-color: transparent;
   transition: background-color 0.3s ease-in-out;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
 }
 
 .navbar.active {
@@ -827,6 +838,11 @@
   transition: transform 0.2s ease-in-out;
 }
 
+.accordion-button:focus {
+  outline: 2px solid #7e6c54;
+  outline-offset: 2px;
+}
+
 .accordion-body {
   color: #221f1f;
   font-size: 14px;
@@ -1291,13 +1307,13 @@
     padding-right: 0px;
 }
 
-  .nav.sticky{
+  .nav .sticky{
     padding-right: 20px;
   }
 
   .nav {
     top: 0;
-    width: 92%;
+    width: 95%;
   }
 
   .fnav {
