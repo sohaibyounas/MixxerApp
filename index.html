@@ -15,9 +15,11 @@
 <!-- collapse navbar -->
   <div class="bgimg position-relative">
     <img src="./images/bg.png" alt="bgimg" />
-    <div class="navbar bg-brown d-lg-none d-md-none d-sm-block d-block justify-content-between position-fixed top-0 w-100">
+    <div class="navbar d-lg-none d-md-none d-sm-block d-block justify-content-between position-fixed top-0 w-100">
       <div class="d-flex justify-content-between navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-      <img src="./images/whitelogo.png" alt="whitelogo" class="flogo"/>
+      <a href="index.html">
+        <img src="./images/whitelogo.png" class="flogo" alt="Mixxer" />
+      </a>
       <i class="fa-solid fa-bars fbar" onclick="changeIcon(this)"></i>
     </div>
   </div>
@@ -534,9 +536,9 @@
          <div class="row">
          <!-- faq1 -->
          <div class="col-md-6">
-           <div class="accordion-item mb-2">
+           <div class="accordion-item">
              <h2 class="accordion-header">
-               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+               <button class="accordion-button faq-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" onclick="toggleFaqText(this)">
                  <span class="count">1</span>
                  <p class="fp">What is Mixxer and how can it enhance my social
                    experience by helping me discover and join meetups?</p>
@@ -561,7 +563,7 @@
                      <p class="fp">Are there any costs associated with using Mixxer?</p>
                  </button>
                </h2>
-               <div id="collapsetwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+               <div id="collapsetwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                  <div class="accordion-body">
                    <p class="fp3">Mixxer is completely free to use and offers all features! Users have the option to
                      upgrade to a Standard Plan ($4.99) or a Premium Plan ($9.99), depending on their
@@ -575,7 +577,7 @@
          <div class="row">
            <!-- faq3 -->
            <div class="col-md-6">
-             <div class="accordion-item mb-2">
+             <div class="accordion-item">
                <h2 class="accordion-header">
                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethree" aria-expanded="false" aria-controls="collapseTwo" style="border-top: 2px solid #ebebeb;">
                    <span class="count">3</span>
@@ -610,7 +612,7 @@
          <div class="row">
            <!-- faq5 -->
            <div class="col-md-6">
-             <div class="accordion-item mb-2">
+             <div class="accordion-item">
                <h2 class="accordion-header">
                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapseThree" style="border-top: 2px solid #ebebeb;">
                    <span class="count">5</span>
@@ -646,7 +648,7 @@
          <div class="row">
            <!-- faq7 -->
            <div class="col-md-6">
-             <div class="accordion-item mb-2">
+             <div class="accordion-item">
                <h2 class="accordion-header">
                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseThree" style="border-top: 2px solid #ebebeb;">
                    <span class="count">7</span>
@@ -683,7 +685,7 @@
          <div class="row">
            <!-- faq9 -->
            <div class="col-md-6">
-             <div class="accordion-item mb-2">
+             <div class="accordion-item">
                <h2 class="accordion-header">
                  <button class="accordion-button collapsed fnw9" type="button" data-bs-toggle="collapse" data-bs-target="#collapsenine" aria-expanded="false" aria-controls="collapseThree" style="border-top: 2px solid #ebebeb;">
                    <span class="count">9</span>

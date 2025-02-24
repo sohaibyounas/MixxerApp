@@ -79,19 +79,43 @@
 /*navbar/navbar-toggler/collapse nav */
 .navbar {
   z-index: 1000;
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar.active {
+  background-color: #7e6c54;
 }
 
 .navbar-toggler{
   margin: 0 84px;
 }
 
-.navbar.navbarfit {
+.navbar .navbarfit {
   background-color: rgb(255, 255, 255);
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
 }
+
+.navbarfit {
+  background-color: rgb(255, 255, 255);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbarfit .fbar {
+  color: #6c757d;
+  font-size: 25px;
+}
+
+.navbarfit .flogo {
+  content: url(./Images/logo.png);
+}
+
 .navbar.navbarfit .fbar {
   color: #6c757d;
   font-size: 25px;
@@ -117,10 +141,6 @@
 .nav.sticky .logo {
   content: url(./Images/logo.png);
   margin-left: 80px;
-}
-
-.nav img {
-  width: 200px;
 }
 
 .bar {
@@ -763,16 +783,15 @@
 
 .farea {
   padding-bottom: 100px;
-  gap: 10px;
 }
 
 /* text divs #1 */
 .count {
   background-color: #eeeae5;
   color: #000000;
-  padding: 5px 10px 5px 10px;
+  padding: 2px 8px;
   font-size: 20px;
-  border-radius: 6px;
+  border-radius: 4px;
   font-family: MADE-Tommy-Soft-regular;
 }
 
@@ -823,7 +842,7 @@
 /* faq1 */
 .fp {
   color: #7e6c54;
-  padding: 15px 0px 0px 10px;
+  padding: 10px 1px 0px 8px;
   font-size: 16px;
   font-family: MADE-Tommy-Soft-regular;
 }
@@ -833,7 +852,7 @@
   padding: 0;
   margin: 0;
   color: #221f1f;
-  font-size: 16px;
+  font-size: 14px;
   font-family: MADE-Tommy-Soft-regular;
 }
 
@@ -1257,6 +1276,7 @@
 
   .navbar-collapse {
     background-color: #7e6c54;
+    color: white;
     z-index: 1000;
     top: 52px;
   }
@@ -1865,14 +1885,6 @@
   }
 }
 
-/* mdia queries >=695px */
-@media screen and (max-width: 695px) {
-  .etxt3 p {
-    width: 249px;
-    padding: 0px 0px 0px 30px;
-  }
-}
-
 /* mdia queries >=680px */
 @media screen and (max-width: 680px) {
   .etxt3 p {
@@ -2255,7 +2267,7 @@
 
   /* c2 text */
   .c2 h2 {
-    font-size: 18p;
+    font-size: 18px;
     padding: 15px 0px 10px 16px;
   }
 
@@ -2269,37 +2281,19 @@
 
   /* image */
   .disc {
-    width: 70% !important;
-    padding: 90px 0px 30px 40px;
+    width: 80%;
+    padding: 90px 0px 0px;
   }
 
   /* loop */
   .desc {
-    width: 70% !important;
-    padding: 90px 0px 40px 40px;
+    width: 80%;
+    padding: 30px 0px 0px;
   }
 
   .loop {
     padding: 40px 0px 0px;
   }
-
-  .loop h2 {
-    font-size: 24px;
-  }
-
-  .loop p {
-    font-size: 14px;
-  }
-
-  /* loop 1 text */
-  .lt h2 {
-    font-size: 17px;
-  }
-
-  .lp1 p {
-    font-size: 14.5px;
-  }
-
   /* loop 3 text */
   .lp3 p {
     font-size: 14px;
@@ -2673,15 +2667,35 @@
 
 }
 
-/* max-width Mobile L > 425px */
+/* max-width Mobile  >= 425px */
 @media screen and (max-width: 426px) {
+  .navbar .navbarfit {
+    background-color: #7e6c54;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar .fbar{
+  font-size: 25px;
+}
   .navbar-toggler {
     max-width: 430px !important;
   }
 
   .navbar .navbar-toggler {
     padding-left: 0px;
-    margin-left: 0px;
+    margin-left: 5px;
+  }
+
+  .navbar-toggler {
+    margin: 0px;
+  }
+
+  .flogo {
+    margin-left: 12px;
   }
 
   .text h1 {
@@ -2697,7 +2711,7 @@
 
   .text {
     top: 92px;
-    left: 24px;
+    padding: 0px 0px 0px 17px;
   }
 
   .btn {
@@ -2710,13 +2724,13 @@
     width: 75px;
   }
 
-  .txt h3 {
-    padding-left: 12px;
-  }
+.txt {
+    margin-top: 0px;
+    padding: 0px 0px 0px 6px;
+}
 
   .txt p {
     width: 399px;
-    padding-left: 12px;
   }
 
   .head {
@@ -2962,10 +2976,6 @@
     padding: 5px 15px 0px 8px;
   }
 
-  .flogo {
-    margin-left: 24px;
-  }
-
   .lkm1 img {
     padding-left: 4px;
 }
@@ -3086,8 +3096,8 @@
 /* max-width mobile M >376px */
 @media screen and (max-width: 376px) {
   .navbar .navbar-toggler {
-    padding-left: 14px;
-    margin: 0px 0px 0px 9px;
+    padding-left: 9px;
+    margin: 0px 0px 0px 7px;
   }
 
   .flogo {
@@ -3095,9 +3105,14 @@
   }
 
   .text {
-    top: 64px;
+    top: 57px;
   }
 
+  .text p {
+    width: 83% !important;
+    margin-bottom: 4px;
+    font-size: 13px;
+  }
   .txt h3 {
     width: 156px;
   }
@@ -3107,8 +3122,8 @@
   }
 
   .txt p {
-    width: 350px;
-    padding: 0p;
+    width: 314px;
+    padding: 0px;
   }
 
   .stext h2 {
@@ -3177,10 +3192,9 @@
   }
 
   .ce {
-    width: 70% !important;
-    padding: 20px 0px 0px 0px;
-    filter: drop-shadow(0 0 6px #abb2c6);
-  }
+    width: 80% !important;
+    padding: 20px 0px 0px 20px;
+}
 
   .social h2 {
     font-size: 20px;
@@ -3188,7 +3202,7 @@
   }
 
   .bg-color {
-    margin: 30px 15px 30px 28px;
+    margin: 30px 12px 30px 16px;
   }
 
   .mtxt h2 {
@@ -3209,8 +3223,12 @@
     width: 78px;
   }
 
+  .str {
+    gap: 10px;
+}
+
   .sp {
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .faq h2 {

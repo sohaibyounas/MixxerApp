@@ -3,6 +3,16 @@ let changeIcon = function(icon) {
   icon.classList.toggle('fa-times')
 }
 
+// test navbar toggle icon
+document.addEventListener('DOMContentLoaded', function() { 
+  const navbar = document.querySelector('.navbar');
+  const togglebutton = document.querySelector('.navbar-toggler');
+  togglebutton.addEventListener('click', function() {
+    navbar.classList.toggle("active");
+    changeIcon(navbar);
+  });
+});;
+
 //  navbar toggling/collapse
 const nav = document.querySelector('.nav');
 const sticky = nav.offsetTop;
