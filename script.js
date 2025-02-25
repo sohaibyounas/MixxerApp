@@ -20,7 +20,7 @@ window.addEventListener('scroll', () => {
 });;
 
 
-// navba collapse
+// navbar collapse
 
 const navbarfit = navbar.offsetTop;
 window.addEventListener('scroll', () => {

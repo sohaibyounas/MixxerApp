@@ -123,7 +123,7 @@
 
 .nav.sticky .logo {
   content: url(./images/logo.png);
-  margin-left: 80px;
+  margin-left: 76px;
 }
 
 .bar {
@@ -1287,6 +1287,11 @@
   .nav {
     top: 0;
     width: 92%;
+    padding-right: 20px;
+  }
+
+  .nav img {
+    margin-left: 35px;
   }
 
   .fnav {
@@ -1823,7 +1828,7 @@
 
   /* Terms page */
   .nav.sticky .logo {
-    margin: 0px 35px 0px 43px;
+    margin: 0px 35px;
   }
 
   .nav img {
@@ -1905,9 +1910,17 @@
 
 /* media queries Navbar for mobiles large ≥576px */
 @media screen and (max-width: 576px) {
-  .navbar .navbar-toggler {
+  .navbar.navbar-toggler {
     padding-left: 18px;
     margin-left: 0px;
+  }
+
+  .navbar-toggler {
+    margin: 0px;
+}
+
+  .navbar.navbarfit .logo{
+    background-image: url(./images/logo.png);
   }
 
   .flogo {
@@ -1921,6 +1934,7 @@
 
   .text {
     top: 120px;
+    left: 0px;
   }
 
   .text h1 {
@@ -1957,13 +1971,8 @@
     padding-bottom: 0px;
   }
 
-  .txt h3 {
-    padding-left: 4px;
-  }
-
   .txt p {
-    width: 440px;
-    padding: 0px;
+    padding: 10px 0px;
   }
 
   .ce {
@@ -1993,7 +2002,7 @@
 
   /* Socializing */
   .stext h2 {
-    font-size: 24px;
+    font-size: 30px;
     padding: 20px 0px 0px 12px;
   }
 
@@ -2055,8 +2064,8 @@
   }
 
   .etxt3 {
-    top: 140px;
-    padding-left: 0px;
+    top: 135px;
+    padding-left: 15px;
   }
 
   .etxt3 h5 {
@@ -2065,7 +2074,7 @@
   }
 
   .etxt3 p {
-    width: 207px;
+    width: 204px;
     font-size: 12.5px;
     padding-left: 39px;
   }
@@ -2496,7 +2505,7 @@
 }
 
 .navbar .navbarfit .flogo{
- background-image: images/whitelogo.png;
+  background-image: url('images/whitelogo.png');
 }
 
 .navbar .fbar{
