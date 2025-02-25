@@ -20,15 +20,17 @@ window.addEventListener('scroll', () => {
 });;
 
 
-// navbar scrolling collapse
+// navba collapse
+
 const navbarfit = navbar.offsetTop;
 window.addEventListener('scroll', () => {
-if (window.pageYOffset > navbarfit) {
-navbar.classList.add('navbarfit');
-} else {
-navbar.classList.remove('navbarfit');
-}
+  if (window.pageYOffset > navbarfit) {
+  navbar.classList.add('navbarfit');
+  } else {
+  navbar.classList.remove('navbarfit');
+  }
 });;
+
 
 // Form Validations
 function handleSubmit(event) {
