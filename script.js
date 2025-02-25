@@ -1,17 +1,12 @@
-// change icon
-let changeIcon = function(icon) {
-  icon.classList.toggle('fa-times')
-}
+let menuIcon = document.querySelector(".fbar"); 
+let navbar = document.querySelector('.navbar');
 
-// test navbar toggle icon
-document.addEventListener('DOMContentLoaded', function() { 
-  const navbar = document.querySelector('.navbar');
-  const togglebutton = document.querySelector('.navbar-toggler');
-  togglebutton.addEventListener('click', function() {
-    navbar.classList.toggle("active");
-    changeIcon(navbar);
-  });
-});;
+document.addEventListener("click", function (event) {
+    if (menuIcon.contains(event.target)) {
+        menuIcon.classList.toggle("fa-times");
+        navbar.classList.toggle("active");
+    } 
+});
 
 //  navbar toggling/collapse
 const nav = document.querySelector('.nav');
@@ -24,7 +19,8 @@ window.addEventListener('scroll', () => {
   }
 });;
 
-const navbar = document.querySelector('.navbar');
+
+// navbar scrolling collapse
 const navbarfit = navbar.offsetTop;
 window.addEventListener('scroll', () => {
 if (window.pageYOffset > navbarfit) {

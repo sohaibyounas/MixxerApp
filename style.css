@@ -70,14 +70,6 @@
   width: 90%;
 }
 
-.nav.sticky {
-  background-color: rgb(254, 254, 254);
-  top: 0;
-  left: 0;
-  width: 100%;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-}
-
 .fbar {
   color: white;
   cursor: pointer;
@@ -89,9 +81,6 @@
   z-index: 1000;
   background-color: transparent;
   transition: background-color 0.3s ease-in-out;
-  position: -webkit-sticky; /* For Safari */
-  position: sticky;
-  top: 0;
 }
 
 .navbar.active {
@@ -109,24 +98,6 @@
   width: 100%;
   z-index: 1000;
 }
-
-.navbarfit {
-  background-color: rgb(255, 255, 255);
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-}
-
-.navbarfit .fbar {
-  color: #6c757d;
-  font-size: 25px;
-}
-
-.navbarfit .flogo {
-  content: url(./Images/logo.png);
-}
-
 .navbar.navbarfit .fbar {
   color: #6c757d;
   font-size: 25px;
@@ -838,11 +809,6 @@
   transition: transform 0.2s ease-in-out;
 }
 
-.accordion-button:focus {
-  outline: 2px solid #7e6c54;
-  outline-offset: 2px;
-}
-
 .accordion-body {
   color: #221f1f;
   font-size: 14px;
@@ -1194,10 +1160,6 @@
   margin-left: 93px;
 }
 
-.rectline2 {
-  margin-left: 50px;
-}
-
 /* tor details */
 .trm h2 {
   font-family: MADE-Tommy-Soft-regular;
@@ -1311,13 +1273,13 @@
     padding-right: 0px;
 }
 
-  .nav .sticky{
+  .nav.sticky{
     padding-right: 20px;
   }
 
   .nav {
     top: 0;
-    width: 95%;
+    width: 92%;
   }
 
   .fnav {
@@ -2030,7 +1992,6 @@
   }
 
   .text {
-    left: 30px;
     top: 120px;
   }
 
@@ -2287,7 +2248,7 @@
 
   /* c2 text */
   .c2 h2 {
-    font-size: 18px;
+    font-size: 18p;
     padding: 15px 0px 10px 16px;
   }
 
@@ -2301,19 +2262,37 @@
 
   /* image */
   .disc {
-    width: 80%;
-    padding: 90px 0px 0px;
+    width: 70% !important;
+    padding: 90px 0px 30px 40px;
   }
 
   /* loop */
   .desc {
-    width: 80%;
-    padding: 30px 0px 0px;
+    width: 70% !important;
+    padding: 90px 0px 40px 40px;
   }
 
   .loop {
     padding: 40px 0px 0px;
   }
+
+  .loop h2 {
+    font-size: 24px;
+  }
+
+  .loop p {
+    font-size: 14px;
+  }
+
+  /* loop 1 text */
+  .lt h2 {
+    font-size: 17px;
+  }
+
+  .lp1 p {
+    font-size: 14.5px;
+  }
+
   /* loop 3 text */
   .lp3 p {
     font-size: 14px;
@@ -2696,6 +2675,10 @@
     left: 0;
     width: 100%;
     z-index: 1000;
+}
+
+.navbar .navbarfit .flogo{
+ background-image: images/whitelogo.png;
 }
 
 .navbar .fbar{
@@ -3116,8 +3099,8 @@
 /* max-width mobile M >376px */
 @media screen and (max-width: 376px) {
   .navbar .navbar-toggler {
-    padding-left: 9px;
-    margin: 0px 0px 0px 7px;
+    padding-left: 14px;
+    margin: 0px 0px 0px 9px;
   }
 
   .flogo {
@@ -3125,14 +3108,9 @@
   }
 
   .text {
-    top: 57px;
+    top: 64px;
   }
 
-  .text p {
-    width: 83% !important;
-    margin-bottom: 4px;
-    font-size: 13px;
-  }
   .txt h3 {
     width: 156px;
   }
@@ -3212,9 +3190,10 @@
   }
 
   .ce {
-    width: 80% !important;
-    padding: 20px 0px 0px 20px;
-}
+    width: 70% !important;
+    padding: 20px 0px 0px 0px;
+    filter: drop-shadow(0 0 6px #abb2c6);
+  }
 
   .social h2 {
     font-size: 20px;
@@ -3222,7 +3201,7 @@
   }
 
   .bg-color {
-    margin: 30px 12px 30px 16px;
+    margin: 30px 15px 30px 28px;
   }
 
   .mtxt h2 {
@@ -3243,12 +3222,8 @@
     width: 78px;
   }
 
-  .str {
-    gap: 10px;
-}
-
   .sp {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .faq h2 {

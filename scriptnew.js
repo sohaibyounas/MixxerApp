@@ -9,7 +9,12 @@ window.addEventListener('scroll', () => {
 });;
 
 
-// change icon
-let changeIcon = function(icon) {
-    icon.classList.toggle('fa-times')
-}
+// icon change
+
+let menuIcon = document.querySelector(".fbar");
+let navabr =  document.querySelector(".navbar");
+
+menuIcon.addEventListener("click", function() {
+  menuIcon.classList.toggle("fa-times");
+  navbar.classList.toggle("active");
+});
