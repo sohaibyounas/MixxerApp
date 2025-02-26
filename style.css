@@ -2095,7 +2095,7 @@
 
   .social p {
     font-size: 18px;
-    padding: 10px 90px 0px 94px;
+    padding: 10px 75px 0px 75px;
   }
 
   /* phone img and text */
@@ -2206,17 +2206,12 @@
   }
 
   /* image */
-  .disc {
+  .disc, .ce, .desc, .himg {
     width: 70% !important;
     padding: 90px 0px 30px 40px;
   }
 
   /* loop */
-  .desc {
-    width: 70% !important;
-    padding: 90px 0px 40px 40px;
-  }
-
   .loop {
     padding: 40px 0px 0px;
   }
@@ -2250,7 +2245,7 @@
 
   /* Social Hub */
   .htext {
-    padding: 20px 0px 30px 0px;
+    padding: 60px 0px 30px 0px;
   }
 
   .htext h2 {
@@ -2317,7 +2312,7 @@
   }
 
   .str {
-    padding: 46px 0px 0px;
+    padding: 46px 0px 0px 20px;
     gap: 10px;
   }
 
@@ -2327,7 +2322,7 @@
 
   .sp {
     font-size: 16px;
-    padding: 10px 0px 0px;
+    margin: 0px 20px;
   }
 
   /* FAQ's */
