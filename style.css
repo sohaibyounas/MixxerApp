@@ -2529,14 +2529,15 @@
   }
 
   .text p {
-    width: 85% !important;
+    max-width: 272px !important;
     margin-bottom: 4px;
     font-size: 12px;
   }
 
   .text {
-    top: 92px;
-    padding: 0px 0px 0px 17px;
+    top: 90px;
+    padding: 0px;
+    left: 17px;
   }
 
   .btn {
@@ -2556,10 +2557,11 @@
 
   .txt p {
     width: 399px;
+    padding: 10px 10px 10px 0px;
   }
 
   .head {
-    padding: 20px 11px 0px 22px;
+    padding: 20px 11px 0px 17px;
   }
 
   .headtxt {
@@ -2658,7 +2660,8 @@
   }
 
   .social h2 {
-    font-size: 24px;
+    font-size: 34px;
+    padding: 50px 50px 10px 50px;
   }
 
   .ptext {
@@ -2885,7 +2888,7 @@
   }
 
   .stext h2 {
-    padding: 20px 0px 0px 25px;
+    padding: 20px 0px 0px 17px;
 }
 
   .himg {
@@ -3080,12 +3083,12 @@
 
   .fli1 {
     font-size: 14px;
-    width: 247px;
+    width: 100%;
   }
 
   .touch {
     padding: 20px 0px 0px 10px;
-}
+  }
 
 }
 
@@ -3101,11 +3104,11 @@
   }
 
   .flogo {
-    margin-left: 10px !important;
+    margin-left: 15px !important;
   }
 
   .text {
-    top: 48px;
+    padding: 0px;
   }
 
   .text h1 {
@@ -3121,9 +3124,13 @@
     font-size: 6px;
   }
 
+  .txt h3{
+    padding: 60px 0px 0px 15px;
+  }
+
   .txt p {
     width: 300px;
-    padding: 0px 0px 0px 15px;
+    padding: 0px 15px;
     font-size: 11px;
     letter-spacing: 1px;
   }
@@ -3196,13 +3203,12 @@
   }
 
   .social h2 {
-    font-size: 24px;
-    padding: 40px 20px 10px 10px;
+    font-size: 23px;
+    padding: 40px 20px 10px 21px;
   }
 
   .social p {
     font-size: 15px;
-    padding: 0px;
   }
 
   .ctxt h2 {
@@ -3213,6 +3219,11 @@
   .ctxt p {
     padding: 20px 0px 0px 0px;
     font-size: 14px;
+  }
+
+  .ce, .desc, .disc, .himg {
+    width: 80% !important;
+    padding: 20px 0px 0px 40px;
   }
 
   .s1 p {
@@ -3231,10 +3242,6 @@
     padding-left: 3px;
   }
 
-  .disc {
-    padding: 145px 0px 0px;
-  }
-
   .ptext h2 {
     font-size: 23px;
     padding-left: 4px;
@@ -3247,10 +3254,6 @@
 
   .c1 .c2 .c3 .c4 {
     padding-left: 4px;
-  }
-
-  .desc {
-    padding: 40px 0px 0px !important;
   }
 
   .loop {
@@ -3302,6 +3305,7 @@
 
   .mtxt p {
     font-size: 13px;
+    margin: 0px;
   }
 
   .str img {
@@ -3309,7 +3313,17 @@
   }
 
   .sp {
-    font-size: 9px;
+    font-size: 10px;
+    padding: 5px 0px;
+    width: 120px;
+  }
+
+  .str {
+    padding: 46px 0px 0px 14px;
+  }
+
+  .sp {
+    margin: 0px 15px;
   }
 
   .faq h2 {
@@ -3333,7 +3347,7 @@
   }
 
   .mixxer {
-    padding-left: 18px;
+    padding-left: 10px;
   }
 
   .links {
@@ -3387,6 +3401,10 @@
   .trm h2 {
     font-size: 30px;
     padding-top: 30px;
+}
+
+.uimg2 img {
+  padding-top: 5px;
 }
 
 }
