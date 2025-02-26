@@ -1883,7 +1883,11 @@
 /* mdia queries =640px */
 @media screen and (max-width: 640px) {
 .navbar-toggler {
-    margin: 0 37px;
+  margin: 0 37px;
+}
+
+.navbarfit .flogo{
+  content: url('./images/logo.png');
 }
 
 .text {
@@ -1924,8 +1928,7 @@
 }
 
   .navbarfit .flogo{
-    background-image: url('./images/whitelogo.png');
-    color: #7e6c54;
+    content: url('./images/logo.png');
   }
 
   .flogo {
@@ -1939,7 +1942,7 @@
 
   .text {
     top: 120px;
-    left: 0px;
+    left: 30px;
   }
 
   .text h1 {

@@ -40,5 +40,3 @@ function handleSubmit(event) {
   document.getElementById('contactForm').reset();
 }
 
-
-
