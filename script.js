@@ -1,3 +1,4 @@
+// toggle bar icon
 let menuIcon = document.querySelector(".fbar"); 
 let navbar = document.querySelector('.navbar');
 
@@ -8,7 +9,7 @@ document.addEventListener("click", function (event) {
     } 
 });
 
-//  navbar toggling/collapse
+//  navbar toggle/collapse
 const nav = document.querySelector('.nav');
 const sticky = nav.offsetTop;
 window.addEventListener('scroll', () => {

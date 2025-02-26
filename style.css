@@ -75,6 +75,7 @@
   color: white;
   cursor: pointer;
   transition: 0.3s;
+  font-size: 25px;
 }
 
 /*navbar/navbar-toggler/collapse nav */
@@ -99,7 +100,7 @@
   width: 100%;
   z-index: 1000;
 }
-.navbar .navbarfit .fbar {
+.navbarfit .fbar {
   color: #6c757d;
   font-size: 25px;
 }
@@ -183,6 +184,7 @@
   background-image: url(./images/ab-bg.png);
   background-size: cover;
 }
+
 .abimg {
   width: 370px !important;
   padding-top: 85px;
@@ -939,8 +941,7 @@
   width: 90% !important;
 }
 
-/* footer */
-/* bg imag */
+/* footer bg imag */
 .fimg {
   background-image: url(./images/footer-bg.png);
   background-size: 100% 100%;
@@ -1879,12 +1880,15 @@
 }
 }
 
-/* mdia queries >=640px */
+/* mdia queries =640px */
 @media screen and (max-width: 640px) {
+.navbar-toggler {
+    margin: 0 37px;
+}
+
 .text {
   top: 130px;
-   padding-left: 45px;
-  padding: 0px 0px 0px 30px;
+  padding: 0px;
 }
 
 .text h1 {
@@ -1919,16 +1923,17 @@
     margin: 0px;
 }
 
-  .navbar.navbarfit .logo{
-    background-image: url(./images/logo.png);
+  .navbarfit .flogo{
+    background-image: url('./images/whitelogo.png');
+    color: #7e6c54;
   }
 
   .flogo {
-    width: 135px !important;
-    margin-left: 22px;
+    margin-left: 18px;
   }
 
-  .navbar.navbarfit .fbar {
+  .navbarfit .fbar {
+    color: #7e6c54; 
     font-size: 25px;
   }
 
@@ -2429,7 +2434,6 @@
   .links h5 {
     color: #0b0a0a;
     font-size: 23px;
-    font-family: MADE-Tommy-Soft-regular;
   }
 
   .lkm img {
@@ -2490,7 +2494,6 @@
     font-size: 31px;
     padding-top: 30px;
   }
-
 }
 
 /* max-width Mobile  >= 425px */
@@ -2506,22 +2509,16 @@
 
 .navbar .navbarfit .flogo{
   background-image: url('images/whitelogo.png');
-}
+  }
 
-.navbar .fbar{
-  font-size: 25px;
-}
   .navbar-toggler {
     max-width: 430px !important;
+    margin: 0px;
   }
 
   .navbar .navbar-toggler {
     padding-left: 0px;
     margin-left: 5px;
-  }
-
-  .navbar-toggler {
-    margin: 0px;
   }
 
   .flogo {
