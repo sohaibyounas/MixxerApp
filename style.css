@@ -1040,7 +1040,6 @@
   text-decoration: none;
   align-items: center;
   color: #655f5f;
-  margin-right: 15px;
 }
 
 .trhd img {
@@ -1772,9 +1771,7 @@
   }
 
   .links h5 {
-    color: #0b0a0a;
     font-size: 21px;
-    font-family: MADE-Tommy-Soft-regular;
   }
 
   .lkm img {
@@ -1798,10 +1795,6 @@
   .terms a {
     padding: 0px 0px 0px 15px;
     white-space: nowrap;
-  }
-
-  .trm a:hover {
-    color: #655f5f;
   }
 
   .trhd img {
@@ -2422,7 +2415,7 @@
 
   /* links */
   .links {
-    padding-left: 15%;
+    padding-left: 15px;
   }
 
   .lnk a:hover {
@@ -2430,7 +2423,6 @@
   }
 
   .links h5 {
-    color: #0b0a0a;
     font-size: 23px;
   }
 
@@ -2458,10 +2450,6 @@
   /* Terms */
   .terms h5 {
     padding-top: 9px;
-  }
-
-  .trm a:hover {
-    color: #655f5f;
   }
 
   .trhd img {
@@ -2579,6 +2567,10 @@
     padding-left: 50px;
   }
 
+  .stext h2 {
+    font-size: 24px;
+}
+
   .essentials h2 {
     padding: 0px;
     font-size: 20px;
@@ -2625,14 +2617,14 @@
 
   .etxt3 h5 {
     font-size: 13px;
-    padding-left: 0px;
+    padding-left: 85px;
   }
 
   .etxt3 p {
-    width: 186px;
+    width: 209px;
     font-size: 11px;
-    padding-left: 72px;
-  }
+    padding: 0px 0px 0px 98px;
+}
 
   .ctxt {
     padding: 0px 0px 0px 17px;
@@ -2689,7 +2681,7 @@
   }
 
   .loop {
-    padding: 40px 0px 0px 15px;
+    padding: 50px 0px 0px 5px;
   }
 
   .lp1 {
@@ -2709,7 +2701,7 @@
   }
 
   .htext {
-    padding: 20px 0px 30px 15px;
+    padding: 50px 0px 30px 5px;
   }
 
   .ht1 {
@@ -2728,9 +2720,12 @@
     padding-left: 28px;
   }
 
+  .mtxt {
+    margin-left: 0px;
+}
+
   .mtxt h2 {
-    padding: 0px;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .mtxt p {
@@ -2739,11 +2734,11 @@
   }
 
   .mix {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .str {
-    gap: 0px;
+    padding: 0px;
   }
 
   .str img {
@@ -2751,11 +2746,12 @@
   }
 
   .get img {
-    padding: 60px 0px 0px 0px;
+    padding: 0px;
   }
 
   .sp {
     font-size: 14px;
+    margin: 0px 2px;
   }
 
   .faq h2 {
@@ -2778,16 +2774,16 @@
 
   .bg-color {
     background-color: #eeeae5;
-    margin: 50px 15px 30px 28px;
+    margin: 50px 0px 30px 0px;
   }
 
   .fassist {
     background-image: none;
-    padding: 0px 0px 0px 22px;
+    padding: 0px 0px 0px 17px;
   }
 
   .ftext {
-    padding: 25px 12px 0px 14px;
+    padding: 0px;
   }
 
   .ftext h2 {
@@ -2796,12 +2792,13 @@
   }
 
   .ftext p {
-    width: 92%;
-    font-size: 13px;
-  }
+    width: 93%;
+    font-size: 15px;
+    padding-top: 5px;
+}
 
   .form {
-    padding: 5px 15px 0px 8px;
+    padding: 5px 15px 0px 0px;
   }
 
   .lkm1 img {
@@ -2826,7 +2823,6 @@
 
   .fimg {
     background-position: center;
-    background-size: cover;
   }
 
   .fl {
@@ -2834,15 +2830,15 @@
   }
 
   .fli {
-    width: 89%;
+    width: 71%;
   }
 
   .links {
-    padding-left: 18px;
+    padding-left: 4px !important;
   }
 
   .terms {
-    padding: 20px 0px 0px 13px;
+    padding: 20px 0px 0px 4px;
   }
 
   .terms h5 {
@@ -2855,7 +2851,7 @@
 }
 
   .lkm img {
-    width: 120px;
+    width: 145px;
   }
 
   .terms a {
@@ -2870,8 +2866,21 @@
     padding: 0px 0px 20px 2px;
   }
 
+  .ftlnk {
+    font-size: 19px;
+}
+
   .touch {
-    padding: 20px 0px 0px 5px;
+    padding: 40px 0px 0px 6px;
+  }
+
+  .touch h5 {
+    font-size: 25px;
+}
+
+  .flimg {
+    padding-top: 10px;
+    gap: 25px !important;
   }
 
   .thimg {
@@ -2895,7 +2904,7 @@
     padding: 30px 0px 0px 55px;
 }
 
-   .disc {
+  .disc {
     width: 80% !important;
     padding: 90px 0px 30px 40px;
 }
@@ -2914,9 +2923,21 @@
   margin: 20px 0px !important;
 }
 
+.uimg2 img {
+ padding-top: 10px;
+}
+
+.ft {
+  padding-top: 20px !important;
+}
+
+.flnk2 h4, .flnk2 p {
+  padding-left: 10px;
+}
+
 /* terms page */
 .mixxer {
-    padding: 30px 0px 0px 7px;
+    padding: 30px 0px 0px 0px;
 }
 
 }
