@@ -2471,6 +2471,15 @@
     font-size: 14px;
   }
 
+  /* Side Bar  */
+  .tl {
+    height: 240px;
+    width: 240px;
+    padding: 40px 0px 0px 30px;
+    margin: 0px 0px 0px 150px;
+    border-radius: 5px;
+}
+
   /* privacy page */
   .trm {
     padding-top: 20px;
@@ -2928,6 +2937,7 @@
 }
 
 .ft {
+  /* gap: 12px !important; */
   padding-top: 20px !important;
 }
 
