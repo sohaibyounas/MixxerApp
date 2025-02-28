@@ -8,6 +8,7 @@ window.addEventListener('scroll', () => {
   }
 });;
 
+
 // icon change
 
 let menuIcon = document.querySelector(".fbar");

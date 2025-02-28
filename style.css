@@ -1928,11 +1928,6 @@
     margin-left: 18px;
   }
 
-  .fbar {
-    color: #7e6c54; 
-    font-size: 25px;
-  }
-
   .text {
     top: 120px;
     left: 30px;
@@ -2282,11 +2277,11 @@
 
   /* Get Started Mixxer */
   .bg-color {
-    margin: 50px 12px 0px 30px;
+    margin: 50px 0px 0px 0px;
   }
 
   .get img {
-    padding-top: 60px;
+    padding-top: 0px;
     width: 100%;
   }
 
@@ -2296,7 +2291,7 @@
   }
 
   .mtxt p {
-    padding-top: 10px;
+    padding-top: 0px;
     font-size: 18px;
   }
 
@@ -2305,7 +2300,7 @@
   }
 
   .str {
-    padding: 46px 0px 0px 20px;
+    padding: 41px 0px 0px 20px;
     gap: 10px;
   }
 
@@ -2347,8 +2342,7 @@
   }
 
   .ftext h2 {
-    width: 100%;
-    font-size: 34px;
+    padding-top: 0px;
   }
 
   .ftext p {
@@ -2795,7 +2789,7 @@
 
   .faq h2 {
     font-size: 30px;
-    padding: 5px 0px 30px 15px;
+    padding: 50px 0px 30px 15px;
   }
 
   .farea {
@@ -3020,11 +3014,11 @@
 
   .stext h2 {
     font-size: 20px;
-    padding: 20px 0px 0px 28px;
+    padding: 20px 0px 0px 23px;
   }
 
   .head {
-    padding: 20px 11px 0px 25px;
+    padding: 20px 11px 0px 20px;
   }
 
   .headtxt {
@@ -3084,23 +3078,22 @@
   }
 
   .ce {
-    width: 70% !important;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 0px 30px;
     filter: drop-shadow(0 0 6px #abb2c6);
   }
 
   .social h2 {
-    font-size: 20px;
+    font-size: 24px;
     padding: 50px 45px 0px 45px;
   }
 
   .bg-color {
-    margin: 30px 15px 30px 28px;
+    margin: 60px 0px 50px 0px;
   }
 
   .mtxt h2 {
     padding: 5px 0px;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .mix {
@@ -3108,8 +3101,9 @@
   }
 
   .mtxt p {
-    padding-top: 10px;
+    padding-top: 6px;
     font-size: 14px;
+    margin-left: 0px;
   }
 
   .str img {
@@ -3141,6 +3135,23 @@
     font-size: 11px;
   }
 
+  .fassist {
+    background-image: none;
+    padding: 0px 0px 0px 23px;
+}
+
+.mixxer {
+  padding: 30px 0px 0px 4px;
+}
+
+.terms {
+  padding: 20px 0px 0px 7px;
+}
+
+.links {
+  padding-left: 7px !important;
+}
+
   .buton {
     padding: 20px 0px 0px 0px;
   }
@@ -3163,25 +3174,34 @@
     margin-left: 10px !important;
 }
 
+.loop {
+  padding: 50px 0px 0px 12px;
+}
+
+.htext {
+  padding: 50px 0px 30px 12px;
+}
+
 }
 
 /* Max-width Mobile S <= 320px */
 @media screen and (max-width: 320px) {
   .navbar .navbar-toggler {
-    padding-left: 5px;
+    padding-left: 0px;
     margin: 0px 0px 0px 9px;
   }
 
-  .navbar-toggler {
-    margin: 0px;
-  }
+  .flogo {
+    margin-left: 13px;
+}
 
-  .text {
-    padding: 0px;
-  }
+.text {
+  padding: 0px 0px 0px 10px;
+}
 
   .text h1 {
     font-size: 12px;
+    letter-spacing: 2px;
   }
 
   .text p {
@@ -3192,6 +3212,10 @@
   .btn {
     font-size: 6px;
   }
+
+  .txt {
+    padding: 0px;
+}
 
   .txt h3{
     padding: 60px 0px 0px 15px;
@@ -3212,6 +3236,19 @@
     width: 100%;
     padding-left: 40px;
   }
+
+  .ctn img {
+    width: 90% !important;
+    padding: 40px 0px 40px 0px;
+}
+
+.stext h2 {
+  padding: 20px 0px 0px 25px;
+}
+
+.head {
+  padding: 20px 11px 0px 23px;
+}
 
   .essentials {
     padding-top: 10px;
@@ -3369,7 +3406,7 @@
   }
 
   .mtxt h2 {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .mtxt p {
@@ -3382,17 +3419,14 @@
   }
 
   .sp {
-    font-size: 10px;
+    font-size: 11px;
     padding: 5px 0px;
-    width: 120px;
-  }
+    width: 161px;
+    margin: 0px;
+}
 
   .str {
-    padding: 46px 0px 0px 14px;
-  }
-
-  .sp {
-    margin: 0px 15px;
+    padding: 30px 0px 0px 0px;
   }
 
   .faq h2 {
@@ -3403,10 +3437,6 @@
     font-size: 9px;
   }
 
-  .fp3 {
-    font-size: 8px;
-  }
-
   .ftext h2 {
     font-size: 19px;
   }
@@ -3415,14 +3445,29 @@
     width: 98%;
   }
 
+  .ftext {
+    padding: 0px 0px 0px 5px;
+}
+
+.form {
+  padding: 5px 15px 0px 5px;
+}
   /* footer */
+  .mixxer {
+    padding: 30px 0px 0px 3px;
+}
+
+.fl {
+  width: 50% !important;
+}
+
   .links {
-    padding-left: 18px;
+    padding-left: 12px !important;
   }
 
   .terms {
-    padding: 0px;
-  }
+    padding: 0px 0px 0px 12px;
+}
 
   .terms h5 {
     padding: 40px 0px 0px 0px;
@@ -3437,8 +3482,8 @@
   }
 
   .touch {
-    padding-left: 0px;
-  }
+    padding: 40px 0px 0px 13px;
+}
   
   .fli1 {
     font-size: 13.5px;
@@ -3479,7 +3524,15 @@
 }
 
 .dtl {
-  margin-left: 5px !important;
+  margin-left: 10px !important;
+}
+
+.elp {
+  font-size: 15px;
+}
+
+.elp11 {
+  font-size: 15px;
 }
 
 }
