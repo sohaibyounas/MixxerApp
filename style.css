@@ -1252,6 +1252,39 @@
   margin: 8px 0px 0px 80px;
 }
 
+/* Scroll Arrow */
+.scroll-arrow {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #7e6c54;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.scroll-arrow i {
+  color: white;
+  font-size: 26px;
+}
+
+.scroll-arrow:hover {
+  background-color: #7a6a53; /* Darker shade for hover effect */
+  transform: scale(1.1);
+}
+
+.scroll-arrow.up i {
+  transform: rotate(180deg); /* Rotates arrow to point up */
+}
+/* arrow toggle ends */
+
 /* media queries for tablets ≤ 768px */
 @media screen and (max-width: 768px) {
   .navbar.navbarfit {
