@@ -100,6 +100,7 @@
   width: 100%;
   z-index: 1000;
 }
+
 .navbarfit .fbar {
   color: #6c757d;
   font-size: 25px;
@@ -1928,7 +1929,7 @@
     margin-left: 18px;
   }
 
-  .navbarfit .fbar {
+  .fbar {
     color: #7e6c54; 
     font-size: 25px;
   }
@@ -3157,10 +3158,6 @@
 
   .navbar-toggler {
     margin: 0px;
-  }
-
-  .flogo {
-    margin-left: 15px !important;
   }
 
   .text {
