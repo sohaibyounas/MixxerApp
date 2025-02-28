@@ -1145,19 +1145,18 @@
 }
 
 .tl {
-  width: 300px;
-  padding: 20px;
+  width: 270px;
+  padding: 10px;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin: 0px 0px 0px 20px;
+  margin: 10px 0px 0px 20px;
 }
 
 .tl ul {
   font-family: MADE-Tommy-Soft-regular;
   font-size: 18px;
   color: #221f1f;
-  list-style-type: disc;
   padding-left: 20px;
   margin: 0;
 }
@@ -1814,7 +1813,8 @@
 
   /* Touch */
   .ft img {
-    width: 23px;
+    width: 27px;
+    padding-top: 10px;
   }
 
   .flnk2 h4 {
@@ -1832,17 +1832,16 @@
 
   .tl {
     padding: 5px 0px 0px 0px;
-    margin: 0px 0px 0px 20px;
+    margin: 35px 0px 0px 20px;
   }
 
-  .tl ul a,
-  tl ul {
+  .tl ul a, .tl ul {
     font-size: 16px;
     white-space: nowrap;
   }
 
   .rectline {
-    margin-left: 0px;
+    margin: 0px 10px 0px 0px;
   }
 
   .tor {
@@ -1861,7 +1860,7 @@
 
   /* side panel page navbar */
 .nmenu {
-  padding-right: 25px;
+  padding-right: 23px;
 }
 
 .nmenu a {
@@ -2976,6 +2975,10 @@
     padding: 30px 0px 0px 0px;
 }
 
+.dtl {
+  margin-left: 5px !important;
+}
+
 }
 
 /* max-width mobile M >376px */
@@ -3146,6 +3149,10 @@
   .touch {
     padding: 40px 0px 0px 10px;
   }
+
+  .dtl {
+    margin-left: 10px !important;
+}
 
 }
 
@@ -3455,5 +3462,16 @@
 .uimg2 img {
   padding-top: 5px;
 }
+
+.tl {
+  width: 230px;
+  margin: 20px 0px 0px 20px;
+  padding: 40px 0px 0px 20px;
+}
+
+.dtl {
+  margin-left: 5px !important;
+}
+
 }
 /* media query ends */
