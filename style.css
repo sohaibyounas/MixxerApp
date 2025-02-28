@@ -2863,6 +2863,10 @@
     width: 71%;
   }
 
+  .flnk2 {
+    padding-left: 0px;
+}
+
   .links {
     padding-left: 4px !important;
   }
@@ -3130,7 +3134,7 @@
 
   .fli {
     width: 98%;
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .fli1 {
@@ -3139,7 +3143,7 @@
   }
 
   .touch {
-    padding: 20px 0px 0px 10px;
+    padding: 40px 0px 0px 10px;
   }
 
 }
@@ -3398,24 +3402,29 @@
     width: 98%;
   }
 
-  .mixxer {
-    padding-left: 10px;
-  }
-
+  /* footer */
   .links {
     padding-left: 18px;
   }
 
+  .terms {
+    padding: 0px;
+  }
+
   .terms h5 {
-    padding: 40px 0px 0px 18px;
+    padding: 40px 0px 0px 0px;
   }
 
   .terms a {
-    padding-left: 18px;
+    padding-left: 0px;
+  }
+  
+  .lkm1 img {
+    padding-left: 0px;
   }
 
   .touch {
-    padding-left: 20px;
+    padding-left: 0px;
   }
   
   .fli1 {
@@ -3426,11 +3435,6 @@
   .fli {
     width: 89%;
     font-size: 14px;
-  }
-
-  /* Terms page footer */
-  .terms {
-    padding: 0px 0px 0px 3px;
   }
 
   .trhd img {
@@ -3446,10 +3450,6 @@
     gap: 20px !important;
   }
 
-  .lkm1 img {
-    padding-left: 18px;
-  }
-
   .trm h2 {
     font-size: 30px;
     padding-top: 30px;
@@ -3458,6 +3458,5 @@
 .uimg2 img {
   padding-top: 5px;
 }
-
 }
 /* media query ends */
