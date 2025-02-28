@@ -2415,7 +2415,7 @@
 
   /* links */
   .links {
-    padding-left: 15px;
+    padding-top: 15px;
   }
 
   .lnk a:hover {
@@ -2448,6 +2448,10 @@
   }
 
   /* Terms */
+  .terms {
+    padding-top: 30px;
+  }
+
   .terms h5 {
     padding-top: 9px;
   }
@@ -2462,8 +2466,22 @@
     padding: 0px 0px 0px 13px;
   }
 
+  .lkm {
+    padding-bottom: 10px;
+  }
+
+  .flimg {
+    gap: 25px !important;
+}
+
   .uimg2 img {
     width: 30px;
+    padding-top: 10px;
+    
+  }
+
+  .flnk2{
+    padding-left: 10px;
   }
 
   .flnk2 h4,
